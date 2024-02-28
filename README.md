@@ -1,38 +1,20 @@
-## OpenCV: Open Source Computer Vision Library
+# 测试结果
 
-### Keep OpenCV Free
+在 55MB 内存下，无 swap 分区条件下的 OpenCV4.8.1 回归测试性能测试结果
 
-OpenCV is raising funds to keep the library free for everyone, and we need the support of the entire community to do it. [Donate to OpenCV on IndieGoGo](http://igg.me/at/opencv5) before the campaign ends on December 16 to show your support.
-
-### Resources
-
-* Homepage: <https://opencv.org>
-  * Courses: <https://opencv.org/courses>
-* Docs: <https://docs.opencv.org/4.x/>
-* Q&A forum: <https://forum.opencv.org>
-  * previous forum (read only): <http://answers.opencv.org>
-* Issue tracking: <https://github.com/opencv/opencv/issues>
-* Additional OpenCV functionality: <https://github.com/opencv/opencv_contrib>
-
-
-### Contributing
-
-Please read the [contribution guidelines](https://github.com/opencv/opencv/wiki/How_to_contribute) before starting work on a pull request.
-
-#### Summary of the guidelines:
-
-* One pull request per issue;
-* Choose the right base branch;
-* Include tests and documentation;
-* Clean up "oops" commits before submitting;
-* Follow the [coding style guide](https://github.com/opencv/opencv/wiki/Coding_Style_Guide).
-
-### Additional Resources
-
-* [Submit your OpenCV-based project](https://form.jotform.com/233105358823151) for inclusion in Community Friday on opencv.org
-* [Subscribe to the OpenCV YouTube Channel](http://youtube.com/@opencvofficial) featuring OpenCV Live, an hour-long streaming show
-* [Follow OpenCV on LinkedIn](http://linkedin.com/company/opencv/) for daily posts showing the state-of-the-art in computer vision &AI
-* [Apply to be an OpenCV Volunteer](https://form.jotform.com/232745316792159) to help organize events and online campaigns as well as amplify them
-* [Follow OpenCV on Mastodon](http://mastodon.social/@opencv) in the Fediverse
-* [Follow OpenCV on Twitter](https://twitter.com/opencvlive)
-* [OpenCV.ai](https://opencv.ai): Computer Vision and AI development services from the OpenCV team.
+| 测试模块 | 通过率(%) | 耗时 | 性能模块 | 性能数据 | 耗时 |
+| --------- | ---------- | ---- | --------- | -------- | ---- |
+| opencv_test_core | 49.81 | NA | opencv_perf_core | NA | NA |
+| opencv_test_calib3d | 93.84 | NA | opencv_perf_calib3d | NA | NA |
+| opencv_test_dnn | 72.94 | NA | opencv_perf_dnn | NA | NA |
+| opencv_test_features2d | 68.91 | NA | opencv_perf_features2d | ... | NA |
+| opencv_test_flann | 100 | NA | \ | NA | NA |
+| opencv_test_highgui | 100 | NA | \ | NA | NA |
+| opencv_test_imgcodecs | 59.25 | NA | opencv_perf_imgcodecs | NA | NA |
+| opencv_test_imgproc | NA | NA | opencv_perf_imgproc | NA | NA |
+| opencv_test_ml | 100 | NA | \ | NA | NA |
+| opencv_test_objdetect | 95.74 | NA | opencv_perf_objdetect | 100 | NA |
+| opencv_test_photo | 87.5 | NA | opencv_perf_photo | 100 | NA |
+| opencv_test_stitching | 100 | NA | opencv_perf_stitching | 100 | 6h |
+| opencv_test_video | 71.42 | NA | opencv_perf_video | NA | NA |
+| opencv_test_videoio | 55.17 | NA | opencv_perf_videoio | 100 | NA |
