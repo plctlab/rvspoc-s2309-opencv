@@ -1,15 +1,19 @@
-# 上传lib.tar并解压
+# 参赛队名：银河护卫队
+# 运行环境配置
+* 上传lib.tar并解压
 ```
 scp -r lib.tar root@192.168.42.1:/root/
 tar -xvf lib.tar
 ```
-# 创建工具链的环境变量
+* 创建工具链的环境变量
 ```
 export RISCV_ROOT_PATH=$DUO_HOME/duo-sdk
 ```
-# 开启SWAP
+* 开启SWAP
 ```
 mkswap /dev/mmcblk0p3
+```
+```
 swapon /dev/mmcblk0p3
 ```
 然后运行 free -h 命令来查看swap是否已经启用 (1024M)
