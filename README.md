@@ -1,3 +1,18 @@
+# 上传lib.tar并解压
+```
+scp -r lib.tar root@192.168.42.1:/root/
+tar -xvf lib.tar
+```
+# 创建工具链的环境变量
+```
+export RISCV_ROOT_PATH=$DUO_HOME/duo-sdk
+```
+# 开启SWAP
+```
+mkswap /dev/mmcblk0p3
+swapon /dev/mmcblk0p3
+```
+然后运行 free -h 命令来查看swap是否已经启用 (1024M)
 # 测试结果
 
 在 55MB 内存下，无 swap 分区条件下的 OpenCV4.8.1 回归测试性能测试结果
