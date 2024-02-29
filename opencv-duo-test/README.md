@@ -1,5 +1,7 @@
 # 测试指南
 
+https://github.com/nihui/rvspoc-s2309-opencv/tree/rvspoc/opencv-duo-test
+
 ### 编译方法
 
 ```shell
@@ -25,6 +27,12 @@ $RISCV_ROOT_PATH/bin/riscv64-unknown-linux-musl-strip bin/*
 ```
 
 编译完成后，所有测试程序在 build/bin 中
+
+### milkv-duo 镜像
+
+https://github.com/nihui/rvspoc-s2309-opencv/releases/tag/milkv
+
+内存55M，大核频率1G，插usb默认出一个ttyACM一个msc
 
 ### 运行测试脚本
 
