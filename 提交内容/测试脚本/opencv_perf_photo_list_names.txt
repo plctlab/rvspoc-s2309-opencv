@@ -1,0 +1,6 @@
+OCL_Photo_DenoisingGrayscale
+OCL_Photo_DenoisingColored
+OCL_Photo_DISABLED_DenoisingGrayscaleMulti
+OCL_Photo_DISABLED_DenoisingColoredMulti
+HDR
+InpaintArea_InpaintingMethod_inpaint

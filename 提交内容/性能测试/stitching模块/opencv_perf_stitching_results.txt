@@ -1,0 +1,37 @@
+Thu Jan  1 04:19:31 UTC 1970
+OCL_stitch_a123
+0
+OCL_stitch_b12
+0
+OCL_stitch_boat
+0
+OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps
+0
+OCL_StitchingWarpersFixture_StitchingWarpers_Warp
+0
+bundleAdjuster_affine
+0
+FeaturesFinderVec_ParallelFeaturesFinder
+0
+FeaturesFinderVec_SerialFeaturesFinder
+0
+match_bestOf2Nearest
+0
+matchVector_bestOf2NearestVectorFeatures
+0
+match_affineBestOf2Nearest
+0
+matchVector_affineBestOf2NearestVectorFeatures
+0
+stitch_a123
+0
+stitchExposureCompensation_a123
+0
+stitchExposureCompMultiFeed_a123
+0
+stitch_b12
+0
+stitchDatasets_affine
+0
+Test end @
+Thu Jan  1 10:25:29 UTC 1970

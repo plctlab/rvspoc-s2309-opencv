@@ -1,0 +1,10 @@
+OCL_HOGFixture_HOG
+OCL_Cascade_Image_MinSize_CascadeClassifier
+EstimateAruco_ArucoFirst
+EstimateAruco_ArucoSecond
+EstimateLargeAruco_ArucoFHD
+Perf_Barcode_multi
+Perf_Barcode_single
+Perf_Objdetect_QRCode
+Perf_Objdetect_QRCode_Multi
+Perf_Objdetect_Not_QRCode
