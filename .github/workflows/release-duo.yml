@@ -1,0 +1,36 @@
+name: release
+on: push
+
+jobs:
+  devboard:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: setup-toolchain
+      run: |
+        wget -q https://sophon-file.sophon.cn/sophon-prod-s3/drive/23/03/07/16/host-tools.tar.gz
+        tar -xf host-tools.tar.gz
+
+    - name: build
+      run: |
+        mkdir build && cd build
+        export RISCV_ROOT_PATH=$GITHUB_WORKSPACE/host-tools/gcc/riscv64-linux-musl-x86_64
+        cmake -DCMAKE_TOOLCHAIN_FILE=../riscv64-unknown-linux-musl.toolchain.cmake \
+            -DCMAKE_INSTALL_PREFIX=install \
+            -DCMAKE_BUILD_TYPE=Release \
+            `cat ../options.txt` -DBUILD_opencv_world=OFF -DOPENCV_DISABLE_FILESYSTEM_SUPPORT=OFF \
+            -DWITH_OPENMP=OFF -DOPENCV_DISABLE_THREAD_SUPPORT=ON ..
+        make -j $(nproc)
+        $GITHUB_WORKSPACE/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-strip bin/*
+
+    - name: package
+      run: |
+        mkdir opencv-duo-test
+        cp -rf build/bin/* opencv-duo-test/
+        zip -9 -r opencv-duo-test.zip opencv-duo-test
+
+    - name: upload-zip
+      uses: actions/upload-artifact@v4
+      with:
+        name: opencv-duo-test
+        path: opencv-duo-test.zip
