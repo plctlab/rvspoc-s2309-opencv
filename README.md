@@ -46,3 +46,4 @@ swapon /dev/mmcblk0p3
 | opencv_test_stitching | 100 | NA | opencv_perf_stitching | 100 | 6h |
 | opencv_test_video | 71.42 | NA | opencv_perf_video | NA | NA |
 | opencv_test_videoio | 55.17 | NA | opencv_perf_videoio | 100 | NA |
+### 以上模块都可在duo上运行，但由于性能测试需要大量时间，无法在比赛结束前获得全部的测试结果
