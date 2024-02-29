@@ -1,0 +1,102 @@
+[root@milkv-duo]~# time sh core-perf.sh objdetect
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *EstimateAruco_ArucoFirst*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *EstimateAruco_ArucoSecond*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *EstimateLargeAruco_ArucoFHD*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Perf_Barcode_multi*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Perf_Barcode_single*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Perf_Objdetect_QRCode*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Perf_Objdetect_QRCode_Multi*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Perf_Objdetect_Not_QRCode*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+real    0m 3.65s
+user    0m 2.99s
+sys     0m 0.54s
+[root@milkv-duo]~# 
+

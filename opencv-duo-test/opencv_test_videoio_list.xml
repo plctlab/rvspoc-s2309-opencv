@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="481" name="AllTests">
+  <testsuite name="AudioOpenCheck" tests="4">
+    <testcase name="bad_arg_invalid_audio_stream" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_audio.cpp" line="288" />
+    <testcase name="bad_arg_invalid_audio_stream_video" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_audio.cpp" line="304" />
+    <testcase name="MSMF_bad_arg_invalid_audio_sample_per_second" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_audio.cpp" line="321" />
+    <testcase name="bad_arg_invalid_audio_sample_per_second" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_audio.cpp" line="337" />
+  </testsuite>
+  <testsuite name="DISABLED_videoio_camera" tests="10">
+    <testcase name="basic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="74" />
+    <testcase name="dshow_convert_rgb_persistency" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="88" />
+    <testcase name="v4l_read_mjpg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="107" />
+    <testcase name="msmf_read_yuyv" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="122" />
+    <testcase name="v4l_open_mjpg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="142" />
+    <testcase name="v4l_open_mjpg_1280x720" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="159" />
+    <testcase name="channel6" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="178" />
+    <testcase name="v4l_read_framesize" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="191" />
+    <testcase name="v4l_rgb_convert" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="226" />
+    <testcase name="waitAny_V4L" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_camera.cpp" line="263" />
+  </testsuite>
+  <testsuite name="videoio_builtin" tests="3">
+    <testcase name="basic_avi" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_container_avi.cpp" line="13" />
+    <testcase name="invalid_avi" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_container_avi.cpp" line="26" />
+    <testcase name="read_write_avi" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_container_avi.cpp" line="36" />
+  </testsuite>
+  <testsuite name="videoio_dynamic" tests="2">
+    <testcase name="basic_write" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_dynamic.cpp" line="18" />
+    <testcase name="write_invalid" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_dynamic.cpp" line="82" />
+  </testsuite>
+  <testsuite name="videoio_ffmpeg" tests="7">
+    <testcase name="image" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="85" />
+    <testcase name="parallel" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="549" />
+    <testcase name="ffmpeg_check_extra_data" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="741" />
+    <testcase name="open_with_property" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="758" />
+    <testcase name="create_with_property" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="780" />
+    <testcase name="create_with_property_badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="801" />
+    <testcase name="DISABLED_open_from_web" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="814" />
+  </testsuite>
+  <testsuite name="videoio_encapsulate_set_idr" tests="1">
+    <testcase name="write" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="408" />
+  </testsuite>
+  <testsuite name="videoio_gstreamer" tests="3">
+    <testcase name="unsupported_pipeline" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="95" />
+    <testcase name="gray16_writing" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="112" />
+    <testcase name="timeout_property" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="154" />
+  </testsuite>
+  <testsuite name="videoio_images" tests="7">
+    <testcase name="basic_read" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_images.cpp" line="89" />
+    <testcase name="basic_write" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_images.cpp" line="108" />
+    <testcase name="bad" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_images.cpp" line="128" />
+    <testcase name="seek" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_images.cpp" line="140" />
+    <testcase name="pattern_overflow" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_images.cpp" line="172" />
+    <testcase name="pattern_max" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_images.cpp" line="200" />
+    <testcase name="extract_pattern" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_images.cpp" line="230" />
+  </testsuite>
+  <testsuite name="videoio_mfx" tests="2">
+    <testcase name="read_invalid" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="9" />
+    <testcase name="write_invalid" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="22" />
+  </testsuite>
+  <testsuite name="DISABLED_videoio_micro" tests="1">
+    <testcase name="basic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_microphone.cpp" line="10" />
+  </testsuite>
+  <testsuite name="VideoIO_Plugins" tests="1">
+    <testcase name="query" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_plugins.cpp" line="81" />
+  </testsuite>
+  <testsuite name="Videoio" tests="1">
+    <testcase name="exceptions" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="528" />
+  </testsuite>
+  <testsuite name="Audio" tests="2">
+    <testcase name="audio/0" value_param="(&quot;test_audio.wav&quot;, 1, 132300, 0.0001, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_audio.cpp" line="130" />
+    <testcase name="audio/1" value_param="(&quot;test_audio.mp4&quot;, 1, 132522, 0.15, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_audio.cpp" line="130" />
+  </testsuite>
+  <testsuite name="Media" tests="1">
+    <testcase name="audio/0" value_param="(&quot;test_audio.mp4&quot;, 1, 0.15, 16, 240, 320, 90, 132299, 30, 30, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_audio.cpp" line="264" />
+  </testsuite>
+  <testsuite name="videoio/videoio_ffmpeg" tests="13">
+    <testcase name="write_big/0" value_param="(&quot;&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/1" value_param="(&quot;DX50&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/2" value_param="(&quot;FLV1&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/3" value_param="(&quot;H261&quot;, &quot;avi&quot;, 352x288)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/4" value_param="(&quot;H263&quot;, &quot;avi&quot;, 704x576)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/5" value_param="(&quot;I420&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/6" value_param="(&quot;MJPG&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/7" value_param="(&quot;mp4v&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/8" value_param="(&quot;MPEG&quot;, &quot;avi&quot;, 720x576)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/9" value_param="(&quot;XVID&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/10" value_param="(&quot;H264&quot;, &quot;mp4&quot;, 4096x2160)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/11" value_param="(&quot;FFV1&quot;, &quot;avi&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+    <testcase name="write_big/12" value_param="(&quot;FFV1&quot;, &quot;mkv&quot;, 4096x4096)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="21" />
+  </testsuite>
+  <testsuite name="videoio_read" tests="16">
+    <testcase name="threads/0" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 0, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/1" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 0, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/2" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/3" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/4" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 2, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/5" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 2, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/6" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 50, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/7" value_param="((&quot;video/big_buck_bunny.h264&quot;, 125, false), 50, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/8" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 0, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/9" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 0, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/10" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/11" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/12" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 2, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/13" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 2, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/14" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 50, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+    <testcase name="threads/15" value_param="((&quot;video/big_buck_bunny.mjpg.avi&quot;, 125, true), 50, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="107" />
+  </testsuite>
+  <testsuite name="videoio_container" tests="4">
+    <testcase name="read/0" value_param="(FFMPEG, &quot;video/big_buck_bunny&quot;, &quot;h264&quot;, &quot;h264&quot;, &quot;h264&quot;, &quot;I420&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="155" />
+    <testcase name="read/1" value_param="(FFMPEG, &quot;video/big_buck_bunny&quot;, &quot;h265&quot;, &quot;h265&quot;, &quot;hevc&quot;, &quot;I420&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="155" />
+    <testcase name="read/2" value_param="(FFMPEG, &quot;video/big_buck_bunny&quot;, &quot;mjpg.avi&quot;, &quot;mjpg&quot;, &quot;MJPG&quot;, &quot;I420&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="155" />
+    <testcase name="read/3" value_param="(FFMPEG, &quot;video/sample_322x242_15frames.yuv420p.libx264&quot;, &quot;mp4&quot;, &quot;h264&quot;, &quot;h264&quot;, &quot;I420&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="155" />
+  </testsuite>
+  <testsuite name="videoio_container_get" tests="3">
+    <testcase name="read/0" value_param="(FFMPEG, &quot;video/big_buck_bunny.mp4&quot;, 384, 672, 125, 483, 24)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="241" />
+    <testcase name="read/1" value_param="(FFMPEG, &quot;video/big_buck_bunny.mjpg.avi&quot;, 384, 672, 125, 2713, 24)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="241" />
+    <testcase name="read/2" value_param="(FFMPEG, &quot;video/sample_322x242_15frames.yuv420p.libx264.mp4&quot;, 242, 322, 15, 542, 25)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="241" />
+  </testsuite>
+  <testsuite name="videoio_encapsulate" tests="20">
+    <testcase name="write/0" value_param="(&quot;video/big_buck_bunny.h264&quot;, &quot;avi&quot;, 125, 125)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/1" value_param="(&quot;video/big_buck_bunny.h265&quot;, &quot;mp4&quot;, 125, 125)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/2" value_param="(&quot;video/big_buck_bunny.wmv&quot;, &quot;wmv&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/3" value_param="(&quot;video/big_buck_bunny.mp4&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/4" value_param="(&quot;video/big_buck_bunny.mjpg.avi&quot;, &quot;mp4&quot;, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/5" value_param="(&quot;video/big_buck_bunny.mov&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/6" value_param="(&quot;video/big_buck_bunny.avi&quot;, &quot;mp4&quot;, 125, 125)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/7" value_param="(&quot;video/big_buck_bunny.mpg&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/8" value_param="(&quot;video/VID00003-20100701-2204.wmv&quot;, &quot;wmv&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/9" value_param="(&quot;video/VID00003-20100701-2204.mpg&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/10" value_param="(&quot;video/VID00003-20100701-2204.avi&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/11" value_param="(&quot;video/VID00003-20100701-2204.3GP&quot;, &quot;mp4&quot;, 51, 52)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/12" value_param="(&quot;video/sample_sorenson.avi&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/13" value_param="(&quot;video/sample_322x242_15frames.yuv420p.libxvid.mp4&quot;, &quot;mp4&quot;, 3, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/14" value_param="(&quot;video/sample_322x242_15frames.yuv420p.mpeg2video.mp4&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/15" value_param="(&quot;video/sample_322x242_15frames.yuv420p.mjpeg.mp4&quot;, &quot;mp4&quot;, 0, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/16" value_param="(&quot;video/sample_322x242_15frames.yuv420p.libx264.mp4&quot;, &quot;avi&quot;, 15, 15)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/17" value_param="(&quot;../cv/tracking/faceocc2/data/faceocc2.webm&quot;, &quot;webm&quot;, 128, 129)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/18" value_param="(&quot;../cv/video/1920x1080.avi&quot;, &quot;mp4&quot;, 12, 13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+    <testcase name="write/19" value_param="(&quot;../cv/video/768x576.avi&quot;, &quot;avi&quot;, 15, 16)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="301" />
+  </testsuite>
+  <testsuite name="videoio_skip" tests="2">
+    <testcase name="DISABLED_read/0" value_param="(&quot;video/big_buck_bunny.mp4&quot;, &quot;&quot;, 125)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="493" />
+    <testcase name="DISABLED_read/1" value_param="(&quot;video/big_buck_bunny.mp4&quot;, &quot;avdiscard;nonkey&quot;, 11)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="493" />
+  </testsuite>
+  <testsuite name="videoio/ffmpeg_cap_properties" tests="1">
+    <testcase name="can_read_property/0" value_param="(&quot;video/big_buck_bunny.avi&quot;, { (47, 5851), (5, 24), (4, 384), (3, 672) })" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="648" />
+  </testsuite>
+  <testsuite name="videoio/ffmpeg_get_fourcc" tests="11">
+    <testcase name="check_short_codecs/0" value_param="(&quot;../cv/tracking/faceocc2/data/faceocc2.webm&quot;, &quot;VP80&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/1" value_param="(&quot;video/big_buck_bunny.h265&quot;, &quot;hevc&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/2" value_param="(&quot;video/big_buck_bunny.h264&quot;, &quot;h264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/3" value_param="(&quot;video/sample_322x242_15frames.yuv420p.libvpx-vp9.mp4&quot;, &quot;VP90&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/4" value_param="(&quot;video/sample_322x242_15frames.yuv420p.libaom-av1.mp4&quot;, &quot;AV01&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/5" value_param="(&quot;video/big_buck_bunny.mp4&quot;, &quot;FMP4&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/6" value_param="(&quot;video/sample_322x242_15frames.yuv420p.mpeg2video.mp4&quot;, &quot;mpg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/7" value_param="(&quot;video/sample_322x242_15frames.yuv420p.mjpeg.mp4&quot;, &quot;MJPG&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/8" value_param="(&quot;video/sample_322x242_15frames.yuv420p.libxvid.mp4&quot;, &quot;FMP4&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/9" value_param="(&quot;video/sample_322x242_15frames.yuv420p.libx265.mp4&quot;, &quot;hevc&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+    <testcase name="check_short_codecs/10" value_param="(&quot;video/sample_322x242_15frames.yuv420p.libx264.mp4&quot;, &quot;h264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="686" />
+  </testsuite>
+  <testsuite name="videoio_ffmpeg_16bit" tests="4">
+    <testcase name="basic/0" value_param="(&quot;FFV1&quot;, &quot;avi&quot;, false, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="830" />
+    <testcase name="basic/1" value_param="(&quot;FFV1&quot;, &quot;mkv&quot;, false, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="830" />
+    <testcase name="basic/2" value_param="(&quot;FFV1&quot;, &quot;avi&quot;, true, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="830" />
+    <testcase name="basic/3" value_param="(&quot;FFV1&quot;, &quot;mkv&quot;, true, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_ffmpeg.cpp" line="830" />
+  </testsuite>
+  <testsuite name="videoio/videoio_gstreamer" tests="23">
+    <testcase name="read_check/0" value_param="(&quot;video/x-raw, format=BGR&quot;, 640x480, 640x480, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/1" value_param="(&quot;video/x-raw, format=BGRA&quot;, 640x480, 640x480, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/2" value_param="(&quot;video/x-raw, format=RGBA&quot;, 640x480, 640x480, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/3" value_param="(&quot;video/x-raw, format=BGRx&quot;, 640x480, 640x480, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/4" value_param="(&quot;video/x-raw, format=RGBx&quot;, 640x480, 640x480, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/5" value_param="(&quot;video/x-raw, format=GRAY8&quot;, 640x480, 640x480, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/6" value_param="(&quot;video/x-raw, format=UYVY&quot;, 640x480, 640x480, 107)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/7" value_param="(&quot;video/x-raw, format=YUY2&quot;, 640x480, 640x480, 115)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/8" value_param="(&quot;video/x-raw, format=YVYU&quot;, 640x480, 640x480, 117)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/9" value_param="(&quot;video/x-raw, format=NV12&quot;, 640x480, 640x720, 90)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/10" value_param="(&quot;video/x-raw, format=NV21&quot;, 640x480, 640x720, 92)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/11" value_param="(&quot;video/x-raw, format=YV12&quot;, 640x480, 640x720, 98)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/12" value_param="(&quot;video/x-raw, format=I420&quot;, 640x480, 640x720, 100)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/13" value_param="(&quot;video/x-bayer&quot;, 640x480, 640x480, 48)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/14" value_param="(&quot;jpegenc ! image/jpeg&quot;, 640x480, 640x480, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/15" value_param="(&quot;video/x-raw, format=BGR&quot;, 322x242, 322x242, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/16" value_param="(&quot;video/x-raw, format=GRAY8&quot;, 322x242, 322x242, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/17" value_param="(&quot;video/x-raw, format=NV12&quot;, 322x242, 322x363, 90)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/18" value_param="(&quot;video/x-raw, format=NV21&quot;, 322x242, 322x363, 92)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/19" value_param="(&quot;video/x-raw, format=YV12&quot;, 322x242, 322x363, 98)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/20" value_param="(&quot;video/x-raw, format=I420&quot;, 322x242, 322x363, 100)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/21" value_param="(&quot;video/x-raw, format=GRAY16_LE&quot;, 640x480, 640x480, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+    <testcase name="read_check/22" value_param="(&quot;video/x-raw, format=GRAY16_BE&quot;, 640x480, 640x480, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="12" />
+  </testsuite>
+  <testsuite name="videoio/gstreamer_bunny" tests="4">
+    <testcase name="manual_seek/0" value_param="&quot;mov&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="185" />
+    <testcase name="manual_seek/1" value_param="&quot;mp4&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="185" />
+    <testcase name="manual_seek/2" value_param="&quot;avi&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="185" />
+    <testcase name="manual_seek/3" value_param="&quot;mjpg.avi&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_gstreamer.cpp" line="185" />
+  </testsuite>
+  <testsuite name="videoio/videoio_mfx" tests="36">
+    <testcase name="read_write_raw/640x480x1xmpeg2" value_param="(640x480, 1, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x1x264" value_param="(640x480, 1, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x1x265" value_param="(640x480, 1, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x30xmpeg2" value_param="(640x480, 30, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x30x264" value_param="(640x480, 30, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x30x265" value_param="(640x480, 30, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x100xmpeg2" value_param="(640x480, 100, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x100x264" value_param="(640x480, 100, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/640x480x100x265" value_param="(640x480, 100, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x1xmpeg2" value_param="(638x478, 1, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x1x264" value_param="(638x478, 1, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x1x265" value_param="(638x478, 1, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x30xmpeg2" value_param="(638x478, 30, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x30x264" value_param="(638x478, 30, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x30x265" value_param="(638x478, 30, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x100xmpeg2" value_param="(638x478, 100, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x100x264" value_param="(638x478, 100, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/638x478x100x265" value_param="(638x478, 100, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x1xmpeg2" value_param="(636x476, 1, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x1x264" value_param="(636x476, 1, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x1x265" value_param="(636x476, 1, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x30xmpeg2" value_param="(636x476, 30, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x30x264" value_param="(636x476, 30, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x30x265" value_param="(636x476, 30, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x100xmpeg2" value_param="(636x476, 100, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x100x264" value_param="(636x476, 100, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/636x476x100x265" value_param="(636x476, 100, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x1xmpeg2" value_param="(1920x1080, 1, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x1x264" value_param="(1920x1080, 1, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x1x265" value_param="(1920x1080, 1, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x30xmpeg2" value_param="(1920x1080, 30, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x30x264" value_param="(1920x1080, 30, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x30x265" value_param="(1920x1080, 30, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x100xmpeg2" value_param="(1920x1080, 100, 0x2c7ec0 pointing to &quot;.mpeg2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x100x264" value_param="(1920x1080, 100, 0x2c7ec8 pointing to &quot;.264&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+    <testcase name="read_write_raw/1920x1080x100x265" value_param="(1920x1080, 100, 0x2c7ed0 pointing to &quot;.265&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_mfx.cpp" line="89" />
+  </testsuite>
+  <testsuite name="videoio/VideoCaptureAPITests" tests="4">
+    <testcase name="mp4_orientation_meta_auto/0" value_param="FFMPEG" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_orientation.cpp" line="14" />
+    <testcase name="mp4_orientation_meta_auto/1" value_param="UnknownVideoAPI(1200)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_orientation.cpp" line="14" />
+    <testcase name="mp4_orientation_no_rotation/0" value_param="FFMPEG" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_orientation.cpp" line="14" />
+    <testcase name="mp4_orientation_no_rotation/1" value_param="UnknownVideoAPI(1200)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_orientation.cpp" line="14" />
+  </testsuite>
+  <testsuite name="videoio/videoio_bunny" tests="72">
+    <testcase name="read_position/0" value_param="(&quot;wmv&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/1" value_param="(&quot;wmv&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/2" value_param="(&quot;wmv&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/3" value_param="(&quot;mov&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/4" value_param="(&quot;mov&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/5" value_param="(&quot;mov&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/6" value_param="(&quot;mp4&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/7" value_param="(&quot;mp4&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/8" value_param="(&quot;mp4&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/9" value_param="(&quot;mpg&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/10" value_param="(&quot;mpg&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/11" value_param="(&quot;mpg&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/12" value_param="(&quot;avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/13" value_param="(&quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/14" value_param="(&quot;avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/15" value_param="(&quot;h264&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/16" value_param="(&quot;h264&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/17" value_param="(&quot;h264&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/18" value_param="(&quot;h265&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/19" value_param="(&quot;h265&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/20" value_param="(&quot;h265&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/21" value_param="(&quot;mjpg.avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/22" value_param="(&quot;mjpg.avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="read_position/23" value_param="(&quot;mjpg.avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/0" value_param="(&quot;wmv&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/1" value_param="(&quot;wmv&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/2" value_param="(&quot;wmv&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/3" value_param="(&quot;mov&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/4" value_param="(&quot;mov&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/5" value_param="(&quot;mov&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/6" value_param="(&quot;mp4&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/7" value_param="(&quot;mp4&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/8" value_param="(&quot;mp4&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/9" value_param="(&quot;mpg&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/10" value_param="(&quot;mpg&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/11" value_param="(&quot;mpg&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/12" value_param="(&quot;avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/13" value_param="(&quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/14" value_param="(&quot;avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/15" value_param="(&quot;h264&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/16" value_param="(&quot;h264&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/17" value_param="(&quot;h264&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/18" value_param="(&quot;h265&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/19" value_param="(&quot;h265&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/20" value_param="(&quot;h265&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/21" value_param="(&quot;mjpg.avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/22" value_param="(&quot;mjpg.avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_count/23" value_param="(&quot;mjpg.avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/0" value_param="(&quot;wmv&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/1" value_param="(&quot;wmv&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/2" value_param="(&quot;wmv&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/3" value_param="(&quot;mov&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/4" value_param="(&quot;mov&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/5" value_param="(&quot;mov&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/6" value_param="(&quot;mp4&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/7" value_param="(&quot;mp4&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/8" value_param="(&quot;mp4&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/9" value_param="(&quot;mpg&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/10" value_param="(&quot;mpg&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/11" value_param="(&quot;mpg&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/12" value_param="(&quot;avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/13" value_param="(&quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/14" value_param="(&quot;avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/15" value_param="(&quot;h264&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/16" value_param="(&quot;h264&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/17" value_param="(&quot;h264&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/18" value_param="(&quot;h265&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/19" value_param="(&quot;h265&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/20" value_param="(&quot;h265&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/21" value_param="(&quot;mjpg.avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/22" value_param="(&quot;mjpg.avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+    <testcase name="frame_timestamp/23" value_param="(&quot;mjpg.avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="371" />
+  </testsuite>
+  <testsuite name="videoio/videoio_synthetic" tests="32">
+    <testcase name="write_read_position/0" value_param="(640x480, FOURCC(XVID), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/1" value_param="(640x480, FOURCC(MPEG), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/2" value_param="(640x480, FOURCC(IYUV), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/3" value_param="(640x480, FOURCC(MJPG), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/4" value_param="(640x480, FOURCC(XVID), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/5" value_param="(640x480, FOURCC(MPEG), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/6" value_param="(640x480, FOURCC(MJPG), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/7" value_param="(640x480, FOURCC(FFV1), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/8" value_param="(640x480, FOURCC(FFV1), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/9" value_param="(640x480, FOURCC(MPEG), .avi, GSTREAMER, 28dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/10" value_param="(640x480, FOURCC(MJPG), .avi, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/11" value_param="(640x480, FOURCC(H264), .avi, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/12" value_param="(640x480, FOURCC(MPEG), .mkv, GSTREAMER, 28dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/13" value_param="(640x480, FOURCC(MJPG), .mkv, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/14" value_param="(640x480, FOURCC(H264), .mkv, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/15" value_param="(640x480, FOURCC(MJPG), .avi, CV_MJPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/16" value_param="(976x768, FOURCC(XVID), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/17" value_param="(976x768, FOURCC(MPEG), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/18" value_param="(976x768, FOURCC(IYUV), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/19" value_param="(976x768, FOURCC(MJPG), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/20" value_param="(976x768, FOURCC(XVID), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/21" value_param="(976x768, FOURCC(MPEG), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/22" value_param="(976x768, FOURCC(MJPG), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/23" value_param="(976x768, FOURCC(FFV1), .avi, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/24" value_param="(976x768, FOURCC(FFV1), .mkv, FFMPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/25" value_param="(976x768, FOURCC(MPEG), .avi, GSTREAMER, 28dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/26" value_param="(976x768, FOURCC(MJPG), .avi, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/27" value_param="(976x768, FOURCC(H264), .avi, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/28" value_param="(976x768, FOURCC(MPEG), .mkv, GSTREAMER, 28dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/29" value_param="(976x768, FOURCC(MJPG), .mkv, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/30" value_param="(976x768, FOURCC(H264), .mkv, GSTREAMER, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+    <testcase name="write_read_position/31" value_param="(976x768, FOURCC(MJPG), .avi, CV_MJPEG, 30dB)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="438" />
+  </testsuite>
+  <testsuite name="videoio/Videoio_Writer" tests="18">
+    <testcase name="write_nothing/0" value_param="(FOURCC(XVID), &quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/1" value_param="(FOURCC(MPEG), &quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/2" value_param="(FOURCC(IYUV), &quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/3" value_param="(FOURCC(MJPG), &quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/4" value_param="(FOURCC(XVID), &quot;mkv&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/5" value_param="(FOURCC(MPEG), &quot;mkv&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/6" value_param="(FOURCC(MJPG), &quot;mkv&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/7" value_param="(FOURCC(FFV1), &quot;avi&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/8" value_param="(FOURCC(FFV1), &quot;mkv&quot;, FFMPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/9" value_param="(FOURCC(MPEG), &quot;avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/10" value_param="(FOURCC(MJPG), &quot;avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/11" value_param="(FOURCC(H264), &quot;avi&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/12" value_param="(FOURCC(MPEG), &quot;mkv&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/13" value_param="(FOURCC(MJPG), &quot;mkv&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/14" value_param="(FOURCC(H264), &quot;mkv&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/15" value_param="(FOURCC(MJPG), &quot;avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/16" value_param="(FOURCC(), &quot;appsrc ! videoconvert ! video/x-raw, format=(string)NV12 ! filesink location=test.nv12&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+    <testcase name="write_nothing/17" value_param="(FOURCC(), &quot;appsrc ! videoconvert ! video/x-raw, format=(string)I420 ! matroskamux ! filesink location=test.mkv&quot;, GSTREAMER)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="488" />
+  </testsuite>
+  <testsuite name="videoio/Videoio_Writer_bad_fourcc" tests="1">
+    <testcase name="nocrash/0" value_param="(FOURCC(aaaa), &quot;avi&quot;, CV_MJPEG)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="550" />
+  </testsuite>
+  <testsuite name="videoio/safe_capture" tests="4">
+    <testcase name="frames_independency/0" value_param="FFMPEG" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="608" />
+    <testcase name="frames_independency/1" value_param="GSTREAMER" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="608" />
+    <testcase name="frames_independency/2" value_param="UnknownVideoAPI(1400)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="608" />
+    <testcase name="frames_independency/3" value_param="UnknownVideoAPI(1200)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="608" />
+  </testsuite>
+  <testsuite name="videoio/videocapture_acceleration" tests="112">
+    <testcase name="read/0" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/1" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/2" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/3" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/4" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/5" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/6" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/7" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, FFMPEG, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/8" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/9" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/10" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/11" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/12" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/13" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/14" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/15" value_param="(sample_322x242_15frames.yuv420p.libxvid.mp4, GSTREAMER, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/16" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/17" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/18" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/19" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/20" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/21" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/22" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/23" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, FFMPEG, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/24" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/25" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/26" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/27" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/28" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/29" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/30" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/31" value_param="(sample_322x242_15frames.yuv420p.mjpeg.mp4, GSTREAMER, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/32" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/33" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/34" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/35" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/36" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/37" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/38" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/39" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, FFMPEG, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/40" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/41" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/42" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/43" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/44" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/45" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/46" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/47" value_param="(sample_322x242_15frames.yuv420p.mpeg2video.mp4, GSTREAMER, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/48" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/49" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/50" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/51" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/52" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/53" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/54" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/55" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, FFMPEG, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/56" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/57" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/58" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/59" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/60" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/61" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/62" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/63" value_param="(sample_322x242_15frames.yuv420p.libx264.mp4, GSTREAMER, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/64" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/65" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/66" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/67" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/68" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/69" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/70" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/71" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, FFMPEG, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/72" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/73" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/74" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/75" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/76" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/77" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/78" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/79" value_param="(sample_322x242_15frames.yuv420p.libx265.mp4, GSTREAMER, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/80" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/81" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/82" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/83" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/84" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/85" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/86" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/87" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, FFMPEG, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/88" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/89" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/90" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/91" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/92" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/93" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/94" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/95" value_param="(sample_322x242_15frames.yuv420p.libvpx-vp9.mp4, GSTREAMER, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/96" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/97" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/98" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/99" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/100" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/101" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/102" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/103" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, FFMPEG, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/104" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/105" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/106" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/107" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/108" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/109" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/110" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+    <testcase name="read/111" value_param="(sample_322x242_15frames.yuv420p.libaom-av1.mp4, GSTREAMER, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="657" />
+  </testsuite>
+  <testsuite name="videoio/videowriter_acceleration" tests="56">
+    <testcase name="write/0" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/1" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/2" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/3" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/4" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/5" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/6" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/7" value_param="(FOURCC(MPEG), .mp4, FFMPEG, 29dB, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/8" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/9" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/10" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/11" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/12" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/13" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/14" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/15" value_param="(FOURCC(H264), .mp4, FFMPEG, 29dB, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/16" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/17" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/18" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/19" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/20" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/21" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/22" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/23" value_param="(FOURCC(HEVC), .mp4, FFMPEG, 29dB, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/24" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/25" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/26" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/27" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/28" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/29" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/30" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/31" value_param="(FOURCC(MJPG), .avi, FFMPEG, 29dB, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/32" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/33" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/34" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/35" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/36" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/37" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/38" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/39" value_param="(FOURCC(XVID), .avi, FFMPEG, 29dB, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/40" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/41" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/42" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/43" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/44" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/45" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/46" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/47" value_param="(FOURCC(MPEG), .mkv, GSTREAMER, 29dB, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/48" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/49" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, NONE, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/50" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/51" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, ANY, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/52" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/53" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, MFX, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/54" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+    <testcase name="write/55" value_param="(FOURCC(H264), .mkv, GSTREAMER, 29dB, VAAPI, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/test/test_video_io.cpp" line="843" />
+  </testsuite>
+</testsuites>

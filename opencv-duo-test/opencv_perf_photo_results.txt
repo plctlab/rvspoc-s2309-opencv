@@ -1,0 +1,7 @@
+Thu Jan  1 01:45:26 UTC 1970
+HDR
+0
+InpaintArea_InpaintingMethod_inpaint
+0
+Test end @
+Thu Jan  1 01:45:26 UTC 1970

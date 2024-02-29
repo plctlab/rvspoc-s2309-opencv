@@ -1,0 +1,9 @@
+Thu Jan  1 01:49:33 UTC 1970
+VideoCapture_Camera
+0
+VideoCapture_Reading_ReadFile
+0
+VideoWriter_Writing_WriteFrame
+0
+Test end @
+Thu Jan  1 01:49:34 UTC 1970

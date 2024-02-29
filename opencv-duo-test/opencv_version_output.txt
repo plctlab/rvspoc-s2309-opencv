@@ -1,0 +1,3 @@
+[root@milkv-duo]~# ./opencv_version 
+4.9.0-dev
+[root@milkv-duo]~# 

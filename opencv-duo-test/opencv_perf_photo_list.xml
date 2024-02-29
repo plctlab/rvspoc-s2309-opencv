@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="9" name="AllTests">
+  <testsuite name="HDR" tests="3">
+    <testcase name="Mertens" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_hdr.cpp" line="36" />
+    <testcase name="Debevec" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_hdr.cpp" line="45" />
+    <testcase name="Robertson" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_hdr.cpp" line="54" />
+  </testsuite>
+  <testsuite name="InpaintArea_InpaintingMethod_inpaint" tests="6">
+    <testcase name="inpaint/0" value_param="(24x24, INPAINT_NS)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_inpaint.cpp" line="11" />
+    <testcase name="inpaint/1" value_param="(24x24, INPAINT_TELEA)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_inpaint.cpp" line="11" />
+    <testcase name="inpaint/2" value_param="(32x32, INPAINT_NS)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_inpaint.cpp" line="11" />
+    <testcase name="inpaint/3" value_param="(32x32, INPAINT_TELEA)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_inpaint.cpp" line="11" />
+    <testcase name="inpaint/4" value_param="(64x64, INPAINT_NS)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_inpaint.cpp" line="11" />
+    <testcase name="inpaint/5" value_param="(64x64, INPAINT_TELEA)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/perf/perf_inpaint.cpp" line="11" />
+  </testsuite>
+</testsuites>

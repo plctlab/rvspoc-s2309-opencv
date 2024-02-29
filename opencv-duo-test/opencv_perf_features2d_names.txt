@@ -1,0 +1,7 @@
+Norm_Destination_CrossCheck_batchDistance_8U
+Norm_CrossCheck_batchDistance_Dest_32S
+Source_CrossCheck_batchDistance_L2
+Norm_CrossCheck_batchDistance_32F
+feature2d_detect
+feature2d_extract
+feature2d_detectAndExtract

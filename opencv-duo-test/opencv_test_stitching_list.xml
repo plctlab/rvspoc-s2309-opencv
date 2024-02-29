@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" name="AllTests">
+  <testsuite name="MultiBandBlender" tests="1">
+    <testcase name="CanBlendTwoImages" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_blenders.cpp" line="46" />
+  </testsuite>
+  <testsuite name="ExposureCompensate" tests="1">
+    <testcase name="SimilarityThreshold" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_exposure_compensate.cpp" line="21" />
+  </testsuite>
+  <testsuite name="ParallelFeaturesFinder" tests="1">
+    <testcase name="IsSameWithSerial" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_matchers.cpp" line="85" />
+  </testsuite>
+  <testsuite name="RangeMatcher" tests="1">
+    <testcase name="MatchesRangeOnly" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_matchers.cpp" line="117" />
+  </testsuite>
+  <testsuite name="ReprojectionTest" tests="12">
+    <testcase name="PlaneWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="35" />
+    <testcase name="AffineWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="43" />
+    <testcase name="CylindricalWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="51" />
+    <testcase name="SphericalWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="59" />
+    <testcase name="FisheyeWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="67" />
+    <testcase name="StereographicWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="75" />
+    <testcase name="CompressedRectilinearWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="83" />
+    <testcase name="CompressedRectilinearPortraitWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="91" />
+    <testcase name="PaniniWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="99" />
+    <testcase name="PaniniPortraitWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="107" />
+    <testcase name="MercatorWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="115" />
+    <testcase name="TransverseMercatorWarper" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_reprojection.cpp" line="123" />
+  </testsuite>
+  <testsuite name="ImageStitcher" tests="1">
+    <testcase name="setTransform" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_stitcher.cpp" line="9" />
+  </testsuite>
+  <testsuite name="WaveCorrection" tests="1">
+    <testcase name="AutoWaveCorrection" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/test/test_wave_correction.cpp" line="24" />
+  </testsuite>
+</testsuites>

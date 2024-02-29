@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="53" name="AllTests">
+  <testsuite name="bundleAdjuster_affine" tests="2">
+    <testcase name="affine/0" value_param="(&quot;orb&quot;, &quot;affinePartial&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_estimators.cpp" line="19" />
+    <testcase name="affine/1" value_param="(&quot;orb&quot;, &quot;affine&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_estimators.cpp" line="19" />
+  </testsuite>
+  <testsuite name="FeaturesFinderVec_ParallelFeaturesFinder" tests="3">
+    <testcase name="ParallelFeaturesFinder/0" value_param="1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="26" />
+    <testcase name="ParallelFeaturesFinder/1" value_param="5" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="26" />
+    <testcase name="ParallelFeaturesFinder/2" value_param="20" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="26" />
+  </testsuite>
+  <testsuite name="FeaturesFinderVec_SerialFeaturesFinder" tests="3">
+    <testcase name="SerialFeaturesFinder/0" value_param="1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="42" />
+    <testcase name="SerialFeaturesFinder/1" value_param="5" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="42" />
+    <testcase name="SerialFeaturesFinder/2" value_param="20" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="42" />
+  </testsuite>
+  <testsuite name="match_bestOf2Nearest" tests="1">
+    <testcase name="bestOf2Nearest/0" value_param="&quot;orb&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="59" />
+  </testsuite>
+  <testsuite name="matchVector_bestOf2NearestVectorFeatures" tests="3">
+    <testcase name="bestOf2NearestVectorFeatures/0" value_param="(&quot;orb&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="107" />
+    <testcase name="bestOf2NearestVectorFeatures/1" value_param="(&quot;orb&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="107" />
+    <testcase name="bestOf2NearestVectorFeatures/2" value_param="(&quot;orb&quot;, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="107" />
+  </testsuite>
+  <testsuite name="match_affineBestOf2Nearest" tests="1">
+    <testcase name="affineBestOf2Nearest/0" value_param="&quot;orb&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="173" />
+  </testsuite>
+  <testsuite name="matchVector_affineBestOf2NearestVectorFeatures" tests="3">
+    <testcase name="affineBestOf2NearestVectorFeatures/0" value_param="(&quot;orb&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="227" />
+    <testcase name="affineBestOf2NearestVectorFeatures/1" value_param="(&quot;orb&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="227" />
+    <testcase name="affineBestOf2NearestVectorFeatures/2" value_param="(&quot;orb&quot;, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_matchers.cpp" line="227" />
+  </testsuite>
+  <testsuite name="stitch_a123" tests="2">
+    <testcase name="a123/0" value_param="&quot;orb&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="30" />
+    <testcase name="a123/1" value_param="&quot;akaze&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="30" />
+  </testsuite>
+  <testsuite name="stitchExposureCompensation_a123" tests="5">
+    <testcase name="a123/0" value_param="32" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="66" />
+    <testcase name="a123/1" value_param="16" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="66" />
+    <testcase name="a123/2" value_param="12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="66" />
+    <testcase name="a123/3" value_param="10" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="66" />
+    <testcase name="a123/4" value_param="8" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="66" />
+  </testsuite>
+  <testsuite name="stitchExposureCompMultiFeed_a123" tests="20">
+    <testcase name="a123/0" value_param="(&quot;gain&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/1" value_param="(&quot;gain&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/2" value_param="(&quot;gain&quot;, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/3" value_param="(&quot;gain&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/4" value_param="(&quot;gain&quot;, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/5" value_param="(&quot;channels&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/6" value_param="(&quot;channels&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/7" value_param="(&quot;channels&quot;, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/8" value_param="(&quot;channels&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/9" value_param="(&quot;channels&quot;, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/10" value_param="(&quot;blocks_gain&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/11" value_param="(&quot;blocks_gain&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/12" value_param="(&quot;blocks_gain&quot;, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/13" value_param="(&quot;blocks_gain&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/14" value_param="(&quot;blocks_gain&quot;, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/15" value_param="(&quot;blocks_channels&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/16" value_param="(&quot;blocks_channels&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/17" value_param="(&quot;blocks_channels&quot;, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/18" value_param="(&quot;blocks_channels&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+    <testcase name="a123/19" value_param="(&quot;blocks_channels&quot;, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="98" />
+  </testsuite>
+  <testsuite name="stitch_b12" tests="2">
+    <testcase name="b12/0" value_param="&quot;orb&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="141" />
+    <testcase name="b12/1" value_param="&quot;akaze&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="141" />
+  </testsuite>
+  <testsuite name="stitchDatasets_affine" tests="8">
+    <testcase name="affine/0" value_param="(&quot;s&quot;, &quot;orb&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+    <testcase name="affine/1" value_param="(&quot;s&quot;, &quot;akaze&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+    <testcase name="affine/2" value_param="(&quot;budapest&quot;, &quot;orb&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+    <testcase name="affine/3" value_param="(&quot;budapest&quot;, &quot;akaze&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+    <testcase name="affine/4" value_param="(&quot;newspaper&quot;, &quot;orb&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+    <testcase name="affine/5" value_param="(&quot;newspaper&quot;, &quot;akaze&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+    <testcase name="affine/6" value_param="(&quot;prague&quot;, &quot;orb&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+    <testcase name="affine/7" value_param="(&quot;prague&quot;, &quot;akaze&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/stitching/perf/perf_stich.cpp" line="176" />
+  </testsuite>
+</testsuites>

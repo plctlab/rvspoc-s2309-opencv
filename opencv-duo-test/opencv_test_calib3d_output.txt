@@ -1,0 +1,732 @@
+[root@milkv-duo]~# time sh core-test.sh calib3d
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *EstimateAffine2D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_Affine3f*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_EstimateAffine3D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *EstimateAffinePartial2D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_CalibrateHandEye*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_CalibrateRobotWorldHandEye*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_CalibrateCamera_CPP*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (5 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_CalibrationMatrixValues_CPP*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ProjectPoints_CPP*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_StereoCalibrate_CPP*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (5 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_StereoCalibrate*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_Triangulate*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *CV_RecoverPoseTest*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_Rodrigues_CPP*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *cameraCalibrationTiltTest*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ChessboardDetector*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ChessboardDetector2*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ChessboardDetector3*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (5 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_CirclesPatternDetector*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_AsymmetricCirclesPatternDetector*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_AsymmetricCirclesPatternDetectorWithClustering*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_CirclesPatternDetectorWithClustering*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ComposeRT*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ChessboardSubPixDetector*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_CornerSubPix*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_DecomposeProjectionMatrix*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_FilterDecomposeHomography*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *fisheyeTest*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_Rodrigues*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_FindFundamentalMat*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ConvertHomogeneoous*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ComputeEpilines*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_FindEssentialMat*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_Homography*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_DecomposeHomography*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_ReprojectImageTo3D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_SolveP3P*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_SolvePnPRansac*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_SolvePnP*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *AP3P*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_StereoBM*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_StereoSGBM*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_StereoSGBM_HH4*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_EstimateTranslation3D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_DefaultNewCameraMatrix*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_GetOptimalNewCameraMatrixNoDistortion*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_UndistortPoints*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_InitUndistortRectifyMap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *DISABLED_Calib3d_InitInverseRectificationMap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_UndistortImgproc*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_InitUndistortMap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Imgproc_undistort*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_initUndistortRectifyMap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_initInverseRectificationMap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_Undistort*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *UndistortPointsTest*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *usac_Homography*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *usac_Fundamental*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *usac_P3P*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *usac_Affine2D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *usac_testUsacParams*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *usac_solvePnPRansac*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d/EstimateAffine2D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d/EstimateAffinePartial2D*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d_StereoBM_BufferBM*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+Note: Google Test filter = *Calib3d/usac_Essential*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+real    0m 45.81s
+user    0m 40.81s
+sys     0m 4.05s
+[root@milkv-duo]~# 
+

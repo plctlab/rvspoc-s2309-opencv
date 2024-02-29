@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="42" name="AllTests">
+  <testsuite name="DenseOpticalFlow_DIS" tests="3">
+    <testcase name="ReferenceAccuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_accuracy.cpp" line="101" />
+    <testcase name="InvalidImgSize_CoarsestLevelLessThanZero" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_accuracy.cpp" line="124" />
+    <testcase name="InvalidImgSize_CoarsestLevelLessThanFinestLevel" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_accuracy.cpp" line="137" />
+  </testsuite>
+  <testsuite name="DenseOpticalFlow_VariationalRefinement" tests="1">
+    <testcase name="ReferenceAccuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_accuracy.cpp" line="152" />
+  </testsuite>
+  <testsuite name="Video_Acc" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_accum.cpp" line="244" />
+  </testsuite>
+  <testsuite name="Video_AccSquared" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_accum.cpp" line="245" />
+  </testsuite>
+  <testsuite name="Video_AccProduct" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_accum.cpp" line="246" />
+  </testsuite>
+  <testsuite name="Video_RunningAvg" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_accum.cpp" line="247" />
+  </testsuite>
+  <testsuite name="Video_CAMShift" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_camshift.cpp" line="434" />
+  </testsuite>
+  <testsuite name="Video_MeanShift" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_camshift.cpp" line="435" />
+  </testsuite>
+  <testsuite name="Video_ECC_Test_Compute" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_ecc.cpp" line="494" />
+    <testcase name="bug_14657" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_ecc.cpp" line="504" />
+  </testsuite>
+  <testsuite name="Video_ECC_Translation" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_ecc.cpp" line="516" />
+  </testsuite>
+  <testsuite name="Video_ECC_Euclidean" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_ecc.cpp" line="517" />
+  </testsuite>
+  <testsuite name="Video_ECC_Affine" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_ecc.cpp" line="518" />
+  </testsuite>
+  <testsuite name="Video_ECC_Homography" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_ecc.cpp" line="519" />
+  </testsuite>
+  <testsuite name="Video_ECC_Mask" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_ecc.cpp" line="520" />
+  </testsuite>
+  <testsuite name="Video_RigidFlow" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_estimaterigid.cpp" line="182" />
+  </testsuite>
+  <testsuite name="Video_Kalman" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_kalman.cpp" line="110" />
+  </testsuite>
+  <testsuite name="Video_OpticalFlowPyrLK" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_optflowpyrlk.cpp" line="218" />
+    <testcase name="submat" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_optflowpyrlk.cpp" line="220" />
+  </testsuite>
+  <testsuite name="GOTURN" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="114" />
+  </testsuite>
+  <testsuite name="DaSiamRPN" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="126" />
+  </testsuite>
+  <testsuite name="NanoTrack" tests="2">
+    <testcase name="accuracy_NanoTrack_V1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="139" />
+    <testcase name="accuracy_NanoTrack_V2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="151" />
+  </testsuite>
+  <testsuite name="vittrack" tests="1">
+    <testcase name="accuracy_vittrack" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="163" />
+  </testsuite>
+  <testsuite name="FullSet/DenseOpticalFlow_DIS" tests="2">
+    <testcase name="MultithreadReproducibility/0" value_param="(127x61)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_reproducibility.cpp" line="50" />
+    <testcase name="MultithreadReproducibility/1" value_param="(320x240)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_reproducibility.cpp" line="50" />
+  </testsuite>
+  <testsuite name="FullSet/DenseOpticalFlow_VariationalRefinement" tests="2">
+    <testcase name="MultithreadReproducibility/0" value_param="(127x61)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_reproducibility.cpp" line="106" />
+    <testcase name="MultithreadReproducibility/1" value_param="(320x240)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_OF_reproducibility.cpp" line="106" />
+  </testsuite>
+  <testsuite name="Tracking/DistanceAndOverlap" tests="12">
+    <testcase name="MIL/0" value_param="(&quot;david&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="MIL/1" value_param="(&quot;dudek&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="MIL/2" value_param="(&quot;faceocc2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="Shifted_Data_MIL/0" value_param="(&quot;david&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="Shifted_Data_MIL/1" value_param="(&quot;dudek&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="Shifted_Data_MIL/2" value_param="(&quot;faceocc2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="Scaled_Data_MIL/0" value_param="(&quot;david&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="Scaled_Data_MIL/1" value_param="(&quot;dudek&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="Scaled_Data_MIL/2" value_param="(&quot;faceocc2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="GOTURN/0" value_param="(&quot;david&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="GOTURN/1" value_param="(&quot;dudek&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+    <testcase name="GOTURN/2" value_param="(&quot;faceocc2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/video/test/test_trackers.cpp" line="33" />
+  </testsuite>
+</testsuites>

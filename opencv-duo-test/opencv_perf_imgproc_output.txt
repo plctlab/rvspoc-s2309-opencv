@@ -1,0 +1,1451 @@
+[root@milkv-duo]~# time sh core-perf.sh imgproc
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *PerfHoughCircles*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *PerfHoughCircles2*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *PerfHoughCircles4f*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Transform*
+[==========] Running 28 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 28 tests from Size_MatType_Mat_Transform
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/0, where GetParam() = (640x480, 8UC3)
+[ PERFSTAT ]    (samples=10   mean=54.97   median=54.53   min=54.49   stddev=0.87 (1.6%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/0 (587 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/1, where GetParam() = (640x480, 8SC3)
+[ PERFSTAT ]    (samples=10   mean=27.90   median=27.87   min=27.86   stddev=0.06 (0.2%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/1 (316 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/2, where GetParam() = (640x480, 16UC3)
+[ PERFSTAT ]    (samples=10   mean=58.41   median=57.88   min=57.85   stddev=1.06 (1.8%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/2 (632 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/3, where GetParam() = (640x480, 16SC3)
+[ PERFSTAT ]    (samples=10   mean=14.08   median=14.09   min=14.05   stddev=0.03 (0.2%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/3 (189 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/4, where GetParam() = (640x480, 32SC3)
+[ PERFSTAT ]    (samples=10   mean=10.99   median=10.99   min=10.94   stddev=0.04 (0.4%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/4 (157 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/5, where GetParam() = (640x480, 32FC3)
+[ PERFSTAT ]    (samples=10   mean=41.01   median=40.76   min=40.73   stddev=0.73 (1.8%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/5 (460 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/6, where GetParam() = (640x480, 64FC3)
+[ PERFSTAT ]    (samples=13   mean=12.53   median=12.44   min=12.43   stddev=0.26 (2.0%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/6 (243 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/7, where GetParam() = (1280x720, 8UC3)
+[ PERFSTAT ]    (samples=10   mean=164.30   median=163.70   min=163.49   stddev=1.05 (0.6%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/7 (1750 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/8, where GetParam() = (1280x720, 8SC3)
+[ PERFSTAT ]    (samples=10   mean=84.35   median=83.59   min=83.57   stddev=1.73 (2.1%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/8 (950 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/9, where GetParam() = (1280x720, 16UC3)
+[ PERFSTAT ]    (samples=10   mean=174.56   median=173.75   min=173.54   stddev=1.18 (0.7%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/9 (1886 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/10, where GetParam() = (1280x720, 16SC3)
+[ PERFSTAT ]    (samples=10   mean=42.53   median=42.20   min=42.15   stddev=1.01 (2.4%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/10 (564 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/11, where GetParam() = (1280x720, 32SC3)
+[ PERFSTAT ]    (samples=10   mean=33.15   median=32.92   min=32.89   stddev=0.69 (2.1%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/11 (469 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/12, where GetParam() = (1280x720, 32FC3)
+[ PERFSTAT ]    (samples=10   mean=122.81   median=122.37   min=122.24   stddev=0.83 (0.7%))
+[       OK ] Size_MatType_Mat_Transform.Mat_Transform/12 (1375 ms)
+[ RUN      ] Size_MatType_Mat_Transform.Mat_Transform/13, where GetParam() = (1280x720, 64FC3)
+Killed
+[ERROR:0@0.015] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_EqualizeHistFixture_EqualizeHist*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_CalcHistFixture_CalcHist*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_CalcBackProjFixture_CalcBackProj*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_CopyMakeBorderFixture_CopyMakeBorder*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_CornerMinEigenValFixture_CornerMinEigenVal*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_CornerHarrisFixture_CornerHarris*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_PreCornerDetectFixture_PreCornerDetect*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_IntegralFixture_Integral1*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_IntegralFixture_Integral2*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_ThreshFixture_Threshold*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_CLAHEFixture_CLAHE*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *OCL_CannyFixture_Canny*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_Accumulate*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.001] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_AccumulateMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_AccumulateDouble*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_AccumulateDoubleMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_Square*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_SquareMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_SquareDouble*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_SquareDoubleMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_Product*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_ProductMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_ProductDouble*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_ProductDoubleMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_Weighted*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_WeightedMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_WeightedDouble*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Accumulate_WeightedDoubleMask*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestBilateralFilter_BilateralFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_kSize_medianBlur*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BorderType3x3_gaussianBlur3x3*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BorderType3x3_blur3x3*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BorderType_blur16x16*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BorderType3x3_box3x3*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_ksize_BorderType_box_CV8U_CV16U*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BorderType3x3_box3x3_inplace*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.001] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BorderType_gaussianBlur5x5*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.001] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BorderType_blur5x5*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_BlendLinear*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_stackblur3x3*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_stackblur101x101*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Img_Aperture_L2_thresholds_canny*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestFindContours_findContours*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestFindContoursFF_findContours*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestBoundingRect_BoundingRect*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Img_BlockSize_ApertureSize_k_BorderType_cornerHarris*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Img_BlockSize_ApertureSize_BorderType_cornerEigenValsAndVecs*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Img_BlockSize_ApertureSize_BorderType_cornerMinEigenVal*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_CvtMode_cvtColor8u*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_CvtMode16U_DISABLED_cvtColor_16u*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_CvtMode32F_DISABLED_cvtColor_32f*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_CvtMode_Bayer_cvtColorBayer8u*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_CvtMode2_cvtColorYUV420*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_CvtMode3_cvtColorRGB2YUV420p*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *EdgeAwareDemosaicingTest_demosaicingEA*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *DistanceTransform_Test_distanceTransform*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *DistanceTransform_NeedLabels_Test_distanceTransform_NeedLabels*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestFilter2d_Filter2d*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestFilter2d_DISABLED_Filter2d_ovx*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Image_KernelSize_GaborFilter2d*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_Source_Fl_floodFill1*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Image_MaxCorners_QualityLevel_MinDistance_BlockSize_gradientSize_UseHarris_goodFeaturesToTrack*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Image_MaxCorners_QualityLevel_MinDistance_BlockSize_gradientSize_UseHarris_goodFeaturesToTrackWithQuality*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_Source_calcHist1d*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_Source_calcHist2d*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_Source_calcHist3d*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatSize_equalizeHist*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Dim_Cmpmethod_compareHist*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Sz_ClipLimit_CLAHE*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Image_RhoStep_ThetaStep_Threshold_HoughLines*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Image_RhoStep_ThetaStep_Threshold_HoughLines3f*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_OutMatDepth_integral*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.001] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_OutMatDepth_integral_sqsum*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_OutMatDepthArray_DISABLED_integral_sqsum_full*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_OutMatDepth_integral_sqsum_tilted*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestIntelligentScissorsMB_buildMap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *ImgSize_TmplSize_Method_matchTemplateSmall*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *ImgSize_TmplSize_Method_matchTemplateBig*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MomentsFixture_val_Moments1*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_erode*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dilate*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *CreateHanningWindowFixture_CreateHanningWindow*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_pyrDown*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_DISABLED_pyrDown_ovx*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_pyrUp*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_buildPyramid*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestRemap_Remap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.001] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_Size_Size_resizeUpLinear*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_SizePair_resizeUpLinearNonExact*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_Size_Size_resizeDownLinear*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_SizePair_resizeDownLinearNonExact*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_Size_Scale_ResizeAreaFast*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_Size_Scale_Area_ResizeArea*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_Size_Scale_NN_ResizeNN*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *MatInfo_Size_Scale_NN_ResizeNNExact*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border3x3_sobelFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border3x3ROI_sobelFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border5x5_sobelFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border5x5ROI_sobelFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border3x3_scharrFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border3x3ROI_scharrFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border3x3_scharrViaSobelFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_dx_dy_Border3x3ROI_scharrViaSobelFilter*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_Ksize_BorderType_spatialGradient*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_MatType_ThreshType_threshold*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_Only_threshold_otsu*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *Size_AdaptThreshType_AdaptThreshMethod_BlockSize_Delta_adaptiveThreshold*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestWarpAffine_WarpAffine*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestWarpAffine_DISABLED_WarpAffine_ovx*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestWarpPerspective_WarpPerspective*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestWarpPerspective_DISABLED_WarpPerspective_ovx*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestWarpPerspectiveNear_t_WarpPerspectiveNear*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (3 ms total)
+[  PASSED  ] 0 tests.
+[ERROR:0@0.000] global persistence.cpp:519 open Can't open file: 'core.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.9.0-dev
+OpenCV VCS version: c955564cb3-dirty
+Build type: Release
+Compiler: /home/nihui/osd/host-tools/gcc/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+CPU features: RVV
+Note: Google Test filter = *TestRemap_remap*
+[==========] Running 0 tests from 0 test cases.
+[==========] 0 tests from 0 test cases ran. (4 ms total)
+[  PASSED  ] 0 tests.
+real    1m 3.12s
+user    0m 53.59s
+sys     0m 7.25s
+[root@milkv-duo]~# 
+

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="127" name="AllTests">
+  <testsuite name="EstimateAruco_ArucoFirst" tests="2">
+    <testcase name="ArucoFirst/0" value_param="(false, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="168" />
+    <testcase name="ArucoFirst/1" value_param="(true, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="168" />
+  </testsuite>
+  <testsuite name="EstimateAruco_ArucoSecond" tests="2">
+    <testcase name="ArucoSecond/0" value_param="(false, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="200" />
+    <testcase name="ArucoSecond/1" value_param="(true, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="200" />
+  </testsuite>
+  <testsuite name="EstimateLargeAruco_ArucoFHD" tests="15">
+    <testcase name="ArucoFHD/0" value_param="(0 0 0, (1440, 1))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/1" value_param="(0 0 0, (480, 3))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/2" value_param="(0 0 0, (144, 10))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/3" value_param="(1 0 32, (1440, 1))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/4" value_param="(1 0 32, (480, 3))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/5" value_param="(1 0 32, (144, 10))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/6" value_param="(1 0.015 32, (1440, 1))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/7" value_param="(1 0.015 32, (480, 3))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/8" value_param="(1 0.015 32, (144, 10))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/9" value_param="(1 0 16, (1440, 1))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/10" value_param="(1 0 16, (480, 3))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/11" value_param="(1 0 16, (144, 10))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/12" value_param="(1 0.0069 16, (1440, 1))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/13" value_param="(1 0.0069 16, (480, 3))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+    <testcase name="ArucoFHD/14" value_param="(1 0.0069 16, (144, 10))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_aruco.cpp" line="252" />
+  </testsuite>
+  <testsuite name="Perf_Barcode_multi" tests="6">
+    <testcase name="detect/0" value_param="(&quot;4_barcodes.jpg&quot;, 2041x2722)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="13" />
+    <testcase name="detect/1" value_param="(&quot;4_barcodes.jpg&quot;, 1361x1815)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="13" />
+    <testcase name="detect/2" value_param="(&quot;4_barcodes.jpg&quot;, 680x907)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="13" />
+    <testcase name="detect_decode/0" value_param="(&quot;4_barcodes.jpg&quot;, 2041x2722)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="13" />
+    <testcase name="detect_decode/1" value_param="(&quot;4_barcodes.jpg&quot;, 1361x1815)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="13" />
+    <testcase name="detect_decode/2" value_param="(&quot;4_barcodes.jpg&quot;, 680x907)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="13" />
+  </testsuite>
+  <testsuite name="Perf_Barcode_single" tests="18">
+    <testcase name="detect/0" value_param="(&quot;book.jpg&quot;, 480x360)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/1" value_param="(&quot;book.jpg&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/2" value_param="(&quot;book.jpg&quot;, 800x600)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/3" value_param="(&quot;bottle_1.jpg&quot;, 480x360)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/4" value_param="(&quot;bottle_1.jpg&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/5" value_param="(&quot;bottle_1.jpg&quot;, 800x600)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/6" value_param="(&quot;bottle_2.jpg&quot;, 480x360)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/7" value_param="(&quot;bottle_2.jpg&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect/8" value_param="(&quot;bottle_2.jpg&quot;, 800x600)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/0" value_param="(&quot;book.jpg&quot;, 480x360)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/1" value_param="(&quot;book.jpg&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/2" value_param="(&quot;book.jpg&quot;, 800x600)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/3" value_param="(&quot;bottle_1.jpg&quot;, 480x360)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/4" value_param="(&quot;bottle_1.jpg&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/5" value_param="(&quot;bottle_1.jpg&quot;, 800x600)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/6" value_param="(&quot;bottle_2.jpg&quot;, 480x360)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/7" value_param="(&quot;bottle_2.jpg&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+    <testcase name="detect_decode/8" value_param="(&quot;bottle_2.jpg&quot;, 800x600)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_barcode.cpp" line="59" />
+  </testsuite>
+  <testsuite name="Perf_Objdetect_QRCode" tests="28">
+    <testcase name="detect/0" value_param="&quot;version_1_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/1" value_param="&quot;version_1_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/2" value_param="&quot;version_1_right.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/3" value_param="&quot;version_1_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/4" value_param="&quot;version_1_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/5" value_param="&quot;version_5_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/6" value_param="&quot;version_5_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/7" value_param="&quot;version_5_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/8" value_param="&quot;version_5_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/9" value_param="&quot;russian.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/10" value_param="&quot;kanji.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/11" value_param="&quot;link_github_ocv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/12" value_param="&quot;link_ocv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="detect/13" value_param="&quot;link_wiki_cv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/0" value_param="&quot;version_1_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/1" value_param="&quot;version_1_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/2" value_param="&quot;version_1_right.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/3" value_param="&quot;version_1_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/4" value_param="&quot;version_1_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/5" value_param="&quot;version_5_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/6" value_param="&quot;version_5_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/7" value_param="&quot;version_5_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/8" value_param="&quot;version_5_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/9" value_param="&quot;russian.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/10" value_param="&quot;kanji.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/11" value_param="&quot;link_github_ocv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/12" value_param="&quot;link_ocv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+    <testcase name="decode/13" value_param="&quot;link_wiki_cv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="15" />
+  </testsuite>
+  <testsuite name="Perf_Objdetect_QRCode_Multi" tests="32">
+    <testcase name="detectMulti/0" value_param="(&quot;2_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/1" value_param="(&quot;2_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/2" value_param="(&quot;3_close_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/3" value_param="(&quot;3_close_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/4" value_param="(&quot;3_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/5" value_param="(&quot;3_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/6" value_param="(&quot;4_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/7" value_param="(&quot;4_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/8" value_param="(&quot;5_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/9" value_param="(&quot;5_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/10" value_param="(&quot;6_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/11" value_param="(&quot;6_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/12" value_param="(&quot;7_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/13" value_param="(&quot;7_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/14" value_param="(&quot;8_close_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="detectMulti/15" value_param="(&quot;8_close_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/0" value_param="(&quot;2_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/1" value_param="(&quot;2_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/2" value_param="(&quot;3_close_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/3" value_param="(&quot;3_close_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/4" value_param="(&quot;3_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/5" value_param="(&quot;3_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/6" value_param="(&quot;4_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/7" value_param="(&quot;4_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/8" value_param="(&quot;5_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/9" value_param="(&quot;5_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/10" value_param="(&quot;6_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/11" value_param="(&quot;6_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/12" value_param="(&quot;7_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/13" value_param="(&quot;7_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/14" value_param="(&quot;8_close_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+    <testcase name="decodeMulti/15" value_param="(&quot;8_close_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="59" />
+  </testsuite>
+  <testsuite name="Perf_Objdetect_Not_QRCode" tests="24">
+    <testcase name="detect/0" value_param="(&quot;zero&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/1" value_param="(&quot;zero&quot;, 1280x720)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/2" value_param="(&quot;zero&quot;, 1920x1080)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/3" value_param="(&quot;zero&quot;, 3840x2160)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/4" value_param="(&quot;random&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/5" value_param="(&quot;random&quot;, 1280x720)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/6" value_param="(&quot;random&quot;, 1920x1080)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/7" value_param="(&quot;random&quot;, 3840x2160)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/8" value_param="(&quot;chessboard&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/9" value_param="(&quot;chessboard&quot;, 1280x720)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/10" value_param="(&quot;chessboard&quot;, 1920x1080)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="detect/11" value_param="(&quot;chessboard&quot;, 3840x2160)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/0" value_param="(&quot;zero&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/1" value_param="(&quot;zero&quot;, 1280x720)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/2" value_param="(&quot;zero&quot;, 1920x1080)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/3" value_param="(&quot;zero&quot;, 3840x2160)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/4" value_param="(&quot;random&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/5" value_param="(&quot;random&quot;, 1280x720)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/6" value_param="(&quot;random&quot;, 1920x1080)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/7" value_param="(&quot;random&quot;, 3840x2160)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/8" value_param="(&quot;chessboard&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/9" value_param="(&quot;chessboard&quot;, 1280x720)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/10" value_param="(&quot;chessboard&quot;, 1920x1080)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+    <testcase name="decode/11" value_param="(&quot;chessboard&quot;, 3840x2160)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/perf/perf_qrcode_pipeline.cpp" line="134" />
+  </testsuite>
+</testsuites>

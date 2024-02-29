@@ -1,0 +1,10 @@
+Imgcodecs_Bmp
+Imgcodecs
+Imgcodecs_Image
+ImgCodecs
+Imgcodecs_Params
+All/Imgcodecs_FileMode
+GDAL/Imgcodecs_FileMode
+All/Imgcodecs_ExtSize
+Imgcodecs_Resize
+imgcodecs/Imgcodecs_Image

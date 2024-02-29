@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="18" name="AllTests">
+  <testsuite name="VideoCapture_Camera" tests="1">
+    <testcase name="waitAny_V4L" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_camera.impl.hpp" line="19" />
+  </testsuite>
+  <testsuite name="VideoCapture_Reading_ReadFile" tests="5">
+    <testcase name="ReadFile/0" value_param="&quot;highgui/video/big_buck_bunny.avi&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_input.cpp" line="26" />
+    <testcase name="ReadFile/1" value_param="&quot;highgui/video/big_buck_bunny.mov&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_input.cpp" line="26" />
+    <testcase name="ReadFile/2" value_param="&quot;highgui/video/big_buck_bunny.mp4&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_input.cpp" line="26" />
+    <testcase name="ReadFile/3" value_param="&quot;highgui/video/big_buck_bunny.mpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_input.cpp" line="26" />
+    <testcase name="ReadFile/4" value_param="&quot;highgui/video/big_buck_bunny.wmv&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_input.cpp" line="26" />
+  </testsuite>
+  <testsuite name="VideoWriter_Writing_WriteFrame" tests="12">
+    <testcase name="WriteFrame/0" value_param="(&quot;python/images/QCIF_00.bmp&quot;, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/1" value_param="(&quot;python/images/QCIF_00.bmp&quot;, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/2" value_param="(&quot;python/images/QCIF_01.bmp&quot;, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/3" value_param="(&quot;python/images/QCIF_01.bmp&quot;, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/4" value_param="(&quot;python/images/QCIF_02.bmp&quot;, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/5" value_param="(&quot;python/images/QCIF_02.bmp&quot;, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/6" value_param="(&quot;python/images/QCIF_03.bmp&quot;, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/7" value_param="(&quot;python/images/QCIF_03.bmp&quot;, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/8" value_param="(&quot;python/images/QCIF_04.bmp&quot;, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/9" value_param="(&quot;python/images/QCIF_04.bmp&quot;, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/10" value_param="(&quot;python/images/QCIF_05.bmp&quot;, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+    <testcase name="WriteFrame/11" value_param="(&quot;python/images/QCIF_05.bmp&quot;, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/videoio/perf/perf_output.cpp" line="22" />
+  </testsuite>
+</testsuites>

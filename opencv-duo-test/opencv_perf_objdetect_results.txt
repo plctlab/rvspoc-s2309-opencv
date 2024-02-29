@@ -1,0 +1,19 @@
+Thu Jan  1 01:44:25 UTC 1970
+EstimateAruco_ArucoFirst
+0
+EstimateAruco_ArucoSecond
+0
+EstimateLargeAruco_ArucoFHD
+0
+Perf_Barcode_multi
+0
+Perf_Barcode_single
+0
+Perf_Objdetect_QRCode
+0
+Perf_Objdetect_QRCode_Multi
+0
+Perf_Objdetect_Not_QRCode
+0
+Test end @
+Thu Jan  1 01:44:29 UTC 1970

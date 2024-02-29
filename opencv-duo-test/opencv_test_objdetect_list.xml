@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="158" name="AllTests">
+  <testsuite name="CV_InvertedArucoDetectionPerspective" tests="1">
+    <testcase name="algorithmic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="508" />
+  </testsuite>
+  <testsuite name="CV_AprilTagDetectionPerspective" tests="1">
+    <testcase name="algorithmic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="513" />
+  </testsuite>
+  <testsuite name="CV_Aruco3DetectionPerspective" tests="1">
+    <testcase name="algorithmic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="518" />
+  </testsuite>
+  <testsuite name="CV_ArucoDetectionSimple" tests="1">
+    <testcase name="algorithmic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="523" />
+  </testsuite>
+  <testsuite name="CV_ArucoDetectionPerspective" tests="1">
+    <testcase name="algorithmic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="528" />
+  </testsuite>
+  <testsuite name="CV_ArucoDetectionMarkerSize" tests="1">
+    <testcase name="algorithmic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="533" />
+  </testsuite>
+  <testsuite name="CV_ArucoBitCorrection" tests="1">
+    <testcase name="algorithmic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="538" />
+  </testsuite>
+  <testsuite name="CV_ArucoDetectMarkers" tests="3">
+    <testcase name="regression_3192" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="543" />
+    <testcase name="regression_2492" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="573" />
+    <testcase name="regression_contour_24220" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="617" />
+  </testsuite>
+  <testsuite name="BarcodeDetector_base" tests="1">
+    <testcase name="invalid" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_barcode.cpp" line="129" />
+  </testsuite>
+  <testsuite name="CV_ArucoBoardPose" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_boarddetection.cpp" line="205" />
+    <testcase name="CheckNegativeZ" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_boarddetection.cpp" line="228" />
+  </testsuite>
+  <testsuite name="CV_Aruco3BoardPose" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_boarddetection.cpp" line="211" />
+  </testsuite>
+  <testsuite name="CV_ArucoRefine" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_boarddetection.cpp" line="218" />
+  </testsuite>
+  <testsuite name="CV_Aruco3Refine" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_boarddetection.cpp" line="223" />
+  </testsuite>
+  <testsuite name="CV_ArucoGenerateBoard" tests="1">
+    <testcase name="regression_1226" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_boarddetection.cpp" line="306" />
+  </testsuite>
+  <testsuite name="CV_ArucoDictionary" tests="1">
+    <testcase name="extendDictionary" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_boarddetection.cpp" line="321" />
+  </testsuite>
+  <testsuite name="Objdetect_HOGDetectorReadWrite" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_cascadeandhog.cpp" line="498" />
+  </testsuite>
+  <testsuite name="Objdetect_CascadeDetector" tests="2">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_cascadeandhog.cpp" line="522" />
+    <testcase name="small_img" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_cascadeandhog.cpp" line="1338" />
+  </testsuite>
+  <testsuite name="Objdetect_HOGDetector" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_cascadeandhog.cpp" line="523" />
+  </testsuite>
+  <testsuite name="Objdetect_HOGDetector_Strict" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_cascadeandhog.cpp" line="1308" />
+  </testsuite>
+  <testsuite name="CV_CharucoDetection" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="484" />
+    <testcase name="accuracy_legacyPattern" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="490" />
+  </testsuite>
+  <testsuite name="CV_CharucoPoseEstimation" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="496" />
+    <testcase name="accuracy_legacyPattern" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="502" />
+  </testsuite>
+  <testsuite name="CV_CharucoDiamondDetection" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="508" />
+  </testsuite>
+  <testsuite name="CV_CharucoBoardCreation" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="513" />
+  </testsuite>
+  <testsuite name="Charuco" tests="6">
+    <testcase name="testCharucoCornersCollinear_true" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="518" />
+    <testcase name="testCharucoCornersCollinear_false" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="553" />
+    <testcase name="testBoardSubpixelCoords" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="584" />
+    <testcase name="issue_14014" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="633" />
+    <testcase name="testmatchImagePoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="666" />
+    <testcase name="testSeveralBoardsWithCustomIds" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="772" />
+  </testsuite>
+  <testsuite name="Objdetect_face_detection" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_face.cpp" line="64" />
+  </testsuite>
+  <testsuite name="Objdetect_face_recognition" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_face.cpp" line="147" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_decodeMulti" tests="1">
+    <testcase name="decode_regression_16491" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="374" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_detect" tests="2">
+    <testcase name="detect_regression_20882" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="446" />
+    <testcase name="detect_regression_21287" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="476" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_basic" tests="1">
+    <testcase name="not_found_qrcode" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="464" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_detect_flipped" tests="1">
+    <testcase name="regression_23249" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="494" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_decode" tests="2">
+    <testcase name="decode_regression_21929" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="525" />
+    <testcase name="decode_regression_version_25" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="549" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_detectAndDecode" tests="1">
+    <testcase name="utf8_output" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="600" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Encode_Decode" tests="3">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="221" />
+    <testcase name="regression_issue22029" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="461" />
+    <testcase name="auto_version_pick" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="540" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Encode_Kanji" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="320" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Encode_Decode_Structured_Append" tests="1">
+    <testcase name="DISABLED_regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="362" />
+  </testsuite>
+  <testsuite name="CV_ArucoDetectMarkers/ArucoThreading" tests="4">
+    <testcase name="number_of_threads_does_not_change_results/0" value_param="0" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="658" />
+    <testcase name="number_of_threads_does_not_change_results/1" value_param="1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="658" />
+    <testcase name="number_of_threads_does_not_change_results/2" value_param="2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="658" />
+    <testcase name="number_of_threads_does_not_change_results/3" value_param="3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_arucodetection.cpp" line="658" />
+  </testsuite>
+  <testsuite name="BarcodeDetector_main" tests="4">
+    <testcase name="interface/0" value_param="&quot;multiple/4_barcodes.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_barcode.cpp" line="68" />
+    <testcase name="interface/1" value_param="&quot;single/book.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_barcode.cpp" line="68" />
+    <testcase name="interface/2" value_param="&quot;single/bottle_1.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_barcode.cpp" line="68" />
+    <testcase name="interface/3" value_param="&quot;single/bottle_2.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_barcode.cpp" line="68" />
+  </testsuite>
+  <testsuite name="CharucoDraw" tests="7">
+    <testcase name="testDrawDetected/0" value_param="8" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="693" />
+    <testcase name="testDrawDetected/1" value_param="9" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="693" />
+    <testcase name="testDrawDetected/2" value_param="10" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="693" />
+    <testcase name="testDrawDetected/3" value_param="11" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="693" />
+    <testcase name="testDrawDetected/4" value_param="12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="693" />
+    <testcase name="testDrawDetected/5" value_param="13" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="693" />
+    <testcase name="testDrawDetected/6" value_param="14" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="693" />
+  </testsuite>
+  <testsuite name="CharucoBoard" tests="8">
+    <testcase name="testWrongSizeDetection/0" value_param="3x2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+    <testcase name="testWrongSizeDetection/1" value_param="3x2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+    <testcase name="testWrongSizeDetection/2" value_param="6x2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+    <testcase name="testWrongSizeDetection/3" value_param="2x6" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+    <testcase name="testWrongSizeDetection/4" value_param="3x4" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+    <testcase name="testWrongSizeDetection/5" value_param="4x3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+    <testcase name="testWrongSizeDetection/6" value_param="7x3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+    <testcase name="testWrongSizeDetection/7" value_param="3x7" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_charucodetection.cpp" line="745" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode" tests="29">
+    <testcase name="regression/0" value_param="&quot;version_1_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/1" value_param="&quot;version_1_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/2" value_param="&quot;version_1_right.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/3" value_param="&quot;version_1_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/4" value_param="&quot;version_1_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/5" value_param="&quot;version_2_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/6" value_param="&quot;version_2_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/7" value_param="&quot;version_2_right.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/8" value_param="&quot;version_2_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/9" value_param="&quot;version_2_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/10" value_param="&quot;version_3_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/11" value_param="&quot;version_3_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/12" value_param="&quot;version_3_right.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/13" value_param="&quot;version_3_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/14" value_param="&quot;version_3_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/15" value_param="&quot;version_4_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/16" value_param="&quot;version_4_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/17" value_param="&quot;version_4_right.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/18" value_param="&quot;version_4_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/19" value_param="&quot;version_4_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/20" value_param="&quot;version_5_down.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/21" value_param="&quot;version_5_left.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/22" value_param="&quot;version_5_up.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/23" value_param="&quot;version_5_top.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/24" value_param="&quot;russian.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/25" value_param="&quot;kanji.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/26" value_param="&quot;link_github_ocv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/27" value_param="&quot;link_ocv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+    <testcase name="regression/28" value_param="&quot;link_wiki_cv.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="241" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Close" tests="4">
+    <testcase name="regression/0" value_param="&quot;close_1.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="263" />
+    <testcase name="regression/1" value_param="&quot;close_2.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="263" />
+    <testcase name="regression/2" value_param="&quot;close_3.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="263" />
+    <testcase name="regression/3" value_param="&quot;close_4.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="263" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Monitor" tests="5">
+    <testcase name="regression/0" value_param="&quot;monitor_1.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="290" />
+    <testcase name="regression/1" value_param="&quot;monitor_2.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="290" />
+    <testcase name="regression/2" value_param="&quot;monitor_3.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="290" />
+    <testcase name="regression/3" value_param="&quot;monitor_4.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="290" />
+    <testcase name="regression/4" value_param="&quot;monitor_5.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="290" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Curved" tests="6">
+    <testcase name="regression/0" value_param="&quot;curved_1.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="317" />
+    <testcase name="regression/1" value_param="&quot;curved_2.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="317" />
+    <testcase name="regression/2" value_param="&quot;curved_3.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="317" />
+    <testcase name="regression/3" value_param="&quot;curved_5.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="317" />
+    <testcase name="regression/4" value_param="&quot;curved_7.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="317" />
+    <testcase name="regression/5" value_param="&quot;curved_8.jpg&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="317" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Multi" tests="16">
+    <testcase name="regression/0" value_param="(&quot;2_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/1" value_param="(&quot;2_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/2" value_param="(&quot;3_close_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/3" value_param="(&quot;3_close_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/4" value_param="(&quot;3_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/5" value_param="(&quot;3_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/6" value_param="(&quot;4_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/7" value_param="(&quot;4_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/8" value_param="(&quot;5_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/9" value_param="(&quot;5_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/10" value_param="(&quot;6_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/11" value_param="(&quot;6_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/12" value_param="(&quot;7_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/13" value_param="(&quot;7_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/14" value_param="(&quot;8_close_qrcodes.png&quot;, &quot;contours_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+    <testcase name="regression/15" value_param="(&quot;8_close_qrcodes.png&quot;, &quot;aruco_based&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="339" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_detectMulti" tests="2">
+    <testcase name="detect_regression_16961/0" value_param="&quot;contours_based&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="393" />
+    <testcase name="detect_regression_16961/1" value_param="&quot;aruco_based&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="393" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_detectAndDecodeMulti" tests="4">
+    <testcase name="check_output_parameters_type_19363/0" value_param="&quot;contours_based&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="416" />
+    <testcase name="check_output_parameters_type_19363/1" value_param="&quot;aruco_based&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="416" />
+    <testcase name="decode_9_qrcodes_version7/0" value_param="&quot;contours_based&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="416" />
+    <testcase name="decode_9_qrcodes_version7/1" value_param="&quot;aruco_based&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode.cpp" line="416" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Encode" tests="9">
+    <testcase name="regression/0" value_param="&quot;version1_mode1.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/1" value_param="&quot;version1_mode2.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/2" value_param="&quot;version1_mode4.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/3" value_param="&quot;version2_mode1.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/4" value_param="&quot;version2_mode2.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/5" value_param="&quot;version2_mode4.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/6" value_param="&quot;version3_mode2.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/7" value_param="&quot;version3_mode4.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+    <testcase name="regression/8" value_param="&quot;version4_mode4.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="131" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Encode_ECI" tests="5">
+    <testcase name="regression/0" value_param="&quot;version1_mode7.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="174" />
+    <testcase name="regression/1" value_param="&quot;version2_mode7.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="174" />
+    <testcase name="regression/2" value_param="&quot;version3_mode7.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="174" />
+    <testcase name="regression/3" value_param="&quot;version4_mode7.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="174" />
+    <testcase name="regression/4" value_param="&quot;version5_mode7.png&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="174" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_Encode_Decode_Structured_Append_Parameterized" tests="3">
+    <testcase name="regression_22205/0" value_param="QRCodeEncoder::EncodeMode::MODE_NUMERIC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="440" />
+    <testcase name="regression_22205/1" value_param="QRCodeEncoder::EncodeMode::MODE_ALPHANUMERIC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="440" />
+    <testcase name="regression_22205/2" value_param="QRCodeEncoder::EncodeMode::MODE_BYTE" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="440" />
+  </testsuite>
+  <testsuite name="Objdetect_QRCode_decoding" tests="2">
+    <testcase name="error_correction/0" value_param="(&quot;err_correct_1M.png&quot;, &quot;New&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="560" />
+    <testcase name="error_correction/1" value_param="(&quot;err_correct_2L.png&quot;, &quot;Version 2 QR Code Test Image&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/objdetect/test/test_qrcode_encode.cpp" line="560" />
+  </testsuite>
+</testsuites>
