@@ -1,0 +1,47 @@
+Thu Jan  1 01:34:53 UTC 1970
+Conv
+0
+Conv_1x1
+0
+Conv_3x3S1D1
+0
+Conv_Depthwise
+0
+Conv1D
+0
+Conv3D
+0
+Layer_Einsum
+0
+Gemm
+0
+MatMul
+0
+Layer_NaryEltwise
+0
+Layer_Slice
+0
+Layer_Scatter
+0
+Layer_ScatterND
+0
+Layer_LayerNorm
+0
+Layer_LayerNormExpanded
+0
+Layer_GatherElements
+0
+Layer_InstanceNorm
+0
+Layer_Attention
+0
+Layer_FullyConnected
+0
+Layer_Softmax
+0
+DNNTestNetwork
+0
+Layer_LSTM
+0
+Test end @
+Thu Jan  1 01:35:03 UTC 1970

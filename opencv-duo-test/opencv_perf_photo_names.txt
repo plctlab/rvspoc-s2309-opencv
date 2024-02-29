@@ -1,0 +1,2 @@
+HDR
+InpaintArea_InpaintingMethod_inpaint

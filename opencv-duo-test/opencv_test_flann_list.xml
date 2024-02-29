@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" name="AllTests">
+  <testsuite name="Flann_LshTable" tests="2">
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/flann/test/test_lshtable_badarg.cpp" line="91" />
+    <testcase name="bad_any_cast" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/flann/test/test_lshtable_badarg.cpp" line="93" />
+  </testsuite>
+</testsuites>

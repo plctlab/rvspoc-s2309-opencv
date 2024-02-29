@@ -1,0 +1,5 @@
+Thu Jan  1 00:40:32 UTC 1970
+Highgui_GUI
+0
+Test end @
+Thu Jan  1 00:40:33 UTC 1970

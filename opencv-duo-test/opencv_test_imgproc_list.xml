@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="841" name="AllTests">
+  <testsuite name="Imgproc_ApproxPoly" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_approxpoly.cpp" line="357" />
+    <testcase name="bad_epsilon" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_approxpoly.cpp" line="361" />
+  </testsuite>
+  <testsuite name="Imgproc_BilateralFilter" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_bilateral_filter.cpp" line="286" />
+  </testsuite>
+  <testsuite name="Imgproc_BoundingRect" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_boundingrect.cpp" line="141" />
+  </testsuite>
+  <testsuite name="Imgproc_Canny" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="315" />
+    <testcase name="accuracy_deriv" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="316" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorGray" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1833" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorYCrCb" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1834" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorHSV" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1835" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorHLS" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1836" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorXYZ" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1837" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorLab" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1838" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorLuv" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1839" />
+    <testcase name="Overflow_21112" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1843" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorRGB" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1840" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorBayer" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1841" />
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1858" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorBayerVNG" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1880" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorBayerVNG_Strict" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="1970" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorLab_Full" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2103" />
+    <testcase name="bitExactness" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2639" />
+  </testsuite>
+  <testsuite name="Imgproc_ColorLuv_Full" tests="1">
+    <testcase name="bitExactness" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2723" />
+  </testsuite>
+  <testsuite name="Imgproc_cvtColor_BE" tests="43">
+    <testcase name="COLOR_BGR2YUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2841" />
+    <testcase name="COLOR_RGB2YUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2842" />
+    <testcase name="COLOR_YUV2BGR" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2843" />
+    <testcase name="COLOR_YUV2RGB" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2844" />
+    <testcase name="COLOR_YUV2RGB_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2847" />
+    <testcase name="COLOR_YUV2BGR_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2848" />
+    <testcase name="COLOR_YUV2RGB_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2849" />
+    <testcase name="COLOR_YUV2BGR_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2850" />
+    <testcase name="COLOR_YUV2RGBA_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2851" />
+    <testcase name="COLOR_YUV2BGRA_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2852" />
+    <testcase name="COLOR_YUV2RGBA_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2853" />
+    <testcase name="COLOR_YUV2BGRA_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2854" />
+    <testcase name="COLOR_YUV2RGB_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2855" />
+    <testcase name="COLOR_YUV2BGR_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2856" />
+    <testcase name="COLOR_YUV2RGB_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2857" />
+    <testcase name="COLOR_YUV2BGR_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2858" />
+    <testcase name="COLOR_YUV2RGBA_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2859" />
+    <testcase name="COLOR_YUV2BGRA_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2860" />
+    <testcase name="COLOR_YUV2RGBA_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2861" />
+    <testcase name="COLOR_YUV2BGRA_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2862" />
+    <testcase name="COLOR_YUV2GRAY_420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2863" />
+    <testcase name="COLOR_YUV2RGB_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2865" />
+    <testcase name="COLOR_YUV2BGR_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2866" />
+    <testcase name="COLOR_YUV2RGBA_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2867" />
+    <testcase name="COLOR_YUV2BGRA_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2868" />
+    <testcase name="COLOR_YUV2RGB_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2870" />
+    <testcase name="COLOR_YUV2BGR_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2871" />
+    <testcase name="COLOR_YUV2RGB_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2872" />
+    <testcase name="COLOR_YUV2BGR_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2873" />
+    <testcase name="COLOR_YUV2RGBA_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2874" />
+    <testcase name="COLOR_YUV2BGRA_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2875" />
+    <testcase name="COLOR_YUV2RGBA_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2876" />
+    <testcase name="COLOR_YUV2BGRA_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2877" />
+    <testcase name="COLOR_YUV2GRAY_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2878" />
+    <testcase name="COLOR_YUV2GRAY_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2879" />
+    <testcase name="COLOR_RGB2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2881" />
+    <testcase name="COLOR_BGR2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2882" />
+    <testcase name="COLOR_RGBA2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2883" />
+    <testcase name="COLOR_BGRA2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2884" />
+    <testcase name="COLOR_RGB2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2886" />
+    <testcase name="COLOR_BGR2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2887" />
+    <testcase name="COLOR_RGBA2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2888" />
+    <testcase name="COLOR_BGRA2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="2889" />
+  </testsuite>
+  <testsuite name="ImgProc_BayerEdgeAwareDemosaicing" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="3026" />
+  </testsuite>
+  <testsuite name="ImgProc_Bayer2RGBA" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="3081" />
+  </testsuite>
+  <testsuite name="ImgProc_BGR2RGBA" tests="2">
+    <testcase name="regression_8696" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="3132" />
+    <testcase name="3ch24ch" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="3143" />
+  </testsuite>
+  <testsuite name="ImgProc_RGB2YUV" tests="1">
+    <testcase name="regression_13668" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="3157" />
+  </testsuite>
+  <testsuite name="ImgProc_cvtColorTwoPlane" tests="1">
+    <testcase name="y_plane_padding_differs_from_uv_plane_padding_17036" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="3167" />
+  </testsuite>
+  <testsuite name="ImgProc_RGB2Lab" tests="1">
+    <testcase name="NaN_21111" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_color.cpp" line="3197" />
+  </testsuite>
+  <testsuite name="Imgproc_ConnectedComponents" tests="12">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="137" />
+    <testcase name="grana_buffer_overflow" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="139" />
+    <testcase name="parallel_wu_labels" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="204" />
+    <testcase name="missing_background_pixels" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="227" />
+    <testcase name="spaghetti_bbdt_sauf_stats" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="241" />
+    <testcase name="chessboard_even" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="361" />
+    <testcase name="chessboard_odd" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="449" />
+    <testcase name="maxlabels_8conn_even" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="534" />
+    <testcase name="maxlabels_8conn_odd" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="620" />
+    <testcase name="single_row" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="703" />
+    <testcase name="single_column" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="747" />
+    <testcase name="4conn_regression_21366" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_connectedcomponents.cpp" line="792" />
+  </testsuite>
+  <testsuite name="Imgproc_FindContours" tests="4">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_contours.cpp" line="411" />
+    <testcase name="hilbert" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_contours.cpp" line="444" />
+    <testcase name="border" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_contours.cpp" line="471" />
+    <testcase name="regression_4363_shared_nbd" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_contours.cpp" line="488" />
+  </testsuite>
+  <testsuite name="Imgproc_PointPolygonTest" tests="1">
+    <testcase name="regression_10222" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_contours.cpp" line="537" />
+  </testsuite>
+  <testsuite name="Imgproc_minEnclosingCircle" tests="2">
+    <testcase name="basic_test" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="1091" />
+    <testcase name="regression_16051" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="1153" />
+  </testsuite>
+  <testsuite name="Imgproc_ConvexHull" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2054" />
+    <testcase name="overflow" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2280" />
+  </testsuite>
+  <testsuite name="Imgproc_MinAreaRect" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2055" />
+  </testsuite>
+  <testsuite name="Imgproc_MinTriangle" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2056" />
+  </testsuite>
+  <testsuite name="Imgproc_MinCircle" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2057" />
+  </testsuite>
+  <testsuite name="Imgproc_MinCircle2" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2058" />
+  </testsuite>
+  <testsuite name="Imgproc_ContourPerimeter" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2059" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipse" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2060" />
+    <testcase name="parallel" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2061" />
+    <testcase name="small" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2065" />
+  </testsuite>
+  <testsuite name="Imgproc_FitLine" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2062" />
+    <testcase name="regression_15083" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2124" />
+    <testcase name="regression_4903" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2140" />
+  </testsuite>
+  <testsuite name="Imgproc_ContourMoments" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2063" />
+  </testsuite>
+  <testsuite name="Imgproc_ContourPerimeterSlice" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2064" />
+  </testsuite>
+  <testsuite name="Imgproc_ConvexityDefects" tests="1">
+    <testcase name="ordering_4539" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2164" />
+  </testsuite>
+  <testsuite name="Imgproc_minAreaRect" tests="3">
+    <testcase name="reproducer_18157" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2332" />
+    <testcase name="reproducer_19769_lightweight" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2387" />
+    <testcase name="reproducer_19769" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2405" />
+  </testsuite>
+  <testsuite name="Imgproc_minEnclosingTriangle" tests="3">
+    <testcase name="regression_17585" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2460" />
+    <testcase name="regression_20890" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2470" />
+    <testcase name="regression_mat_with_diff_channels" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2481" />
+  </testsuite>
+  <testsuite name="Imgproc_CornerSubPix" tests="1">
+    <testcase name="out_of_image_corners" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cornersubpix.cpp" line="46" />
+  </testsuite>
+  <testsuite name="cvtColorUYVY" tests="1">
+    <testcase name="size_issue_21035" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="880" />
+  </testsuite>
+  <testsuite name="Imgproc_DistanceTransform" tests="7">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="285" />
+    <testcase name="wide_image_22732" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="306" />
+    <testcase name="large_square_22732" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="315" />
+    <testcase name="max_distance_3x3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="372" />
+    <testcase name="max_distance_5x5" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="383" />
+    <testcase name="max_distance_5x5_labels" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="394" />
+    <testcase name="precise_long_dist" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="405" />
+  </testsuite>
+  <testsuite name="BigData_Imgproc_DistanceTransform" tests="4">
+    <testcase name="DISABLED_large_image_12218" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="287" />
+    <testcase name="DISABLED_issue_23895_3x3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="348" />
+    <testcase name="DISABLED_issue_23895_5x5" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="356" />
+    <testcase name="DISABLED_issue_23895_5x5_labels" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_distancetransform.cpp" line="364" />
+  </testsuite>
+  <testsuite name="Drawing" tests="15">
+    <testcase name="cpp_regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="429" />
+    <testcase name="far_regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="430" />
+    <testcase name="fillconvexpoly_clipping" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="464" />
+    <testcase name="utf8_support" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="543" />
+    <testcase name="_914" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="546" />
+    <testcase name="polylines_empty" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="567" />
+    <testcase name="polylines" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="576" />
+    <testcase name="longline" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="587" />
+    <testcase name="putText_no_garbage" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="613" />
+    <testcase name="line" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="628" />
+    <testcase name="regression_16308" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="635" />
+    <testcase name="fillpoly_circle" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="645" />
+    <testcase name="fillpoly_fully" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="683" />
+    <testcase name="circle_overflow" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="916" />
+    <testcase name="circle_memory_access" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="924" />
+  </testsuite>
+  <testsuite name="Imgproc_EMD" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_emd.cpp" line="90" />
+  </testsuite>
+  <testsuite name="Imgproc_Erode" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1851" />
+  </testsuite>
+  <testsuite name="Imgproc_Dilate" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1852" />
+  </testsuite>
+  <testsuite name="Imgproc_MorphologyEx" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1853" />
+  </testsuite>
+  <testsuite name="Imgproc_Filter2D" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1854" />
+    <testcase name="dftFilter2d_regression_10683" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2147" />
+    <testcase name="dftFilter2d_regression_13179" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2223" />
+  </testsuite>
+  <testsuite name="Imgproc_Sobel" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1855" />
+    <testcase name="borderTypes" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2058" />
+    <testcase name="s16_regression_13506" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2295" />
+  </testsuite>
+  <testsuite name="Imgproc_SpatialGradient" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1856" />
+  </testsuite>
+  <testsuite name="Imgproc_Laplace" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1857" />
+  </testsuite>
+  <testsuite name="Imgproc_Blur" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1858" />
+    <testcase name="borderTypes" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1971" />
+  </testsuite>
+  <testsuite name="Imgproc_GaussianBlur" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1859" />
+    <testcase name="borderTypes" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2003" />
+    <testcase name="regression_11303" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2358" />
+  </testsuite>
+  <testsuite name="Imgproc_MedianBlur" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1860" />
+    <testcase name="hires_regression_13409" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2284" />
+  </testsuite>
+  <testsuite name="Imgproc_PyramidDown" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1861" />
+  </testsuite>
+  <testsuite name="Imgproc_PyramidUp" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1862" />
+  </testsuite>
+  <testsuite name="Imgproc_MinEigenVal" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1863" />
+  </testsuite>
+  <testsuite name="Imgproc_EigenValsVecs" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1864" />
+  </testsuite>
+  <testsuite name="Imgproc_PreCornerDetect" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1865" />
+  </testsuite>
+  <testsuite name="Imgproc_Integral" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1866" />
+  </testsuite>
+  <testsuite name="Imgproc_Filtering" tests="1">
+    <testcase name="supportedFormats" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="1969" />
+  </testsuite>
+  <testsuite name="Imgproc_Morphology" tests="1">
+    <testcase name="iterated" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2024" />
+  </testsuite>
+  <testsuite name="Imgproc_MorphEx" tests="2">
+    <testcase name="hitmiss_regression_8957" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2108" />
+    <testcase name="hitmiss_zero_kernel" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2132" />
+  </testsuite>
+  <testsuite name="Imgproc_Pyrdown" tests="1">
+    <testcase name="issue_12961" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2318" />
+  </testsuite>
+  <testsuite name="Imgproc" tests="2">
+    <testcase name="filter_empty_src_16857" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2328" />
+    <testcase name="morphologyEx_small_input_22893" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_filter.cpp" line="2369" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipse_Issue_4515" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse.cpp" line="35" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipse_Issue_6544" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse.cpp" line="53" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipse_Issue_10270" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse.cpp" line="69" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipse_JavaCase" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse.cpp" line="87" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseAMS_Issue_1" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_ams.cpp" line="11" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseAMS_Issue_2" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_ams.cpp" line="79" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseAMS_Issue_3" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_ams.cpp" line="118" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseAMS_Issue_4" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_ams.cpp" line="166" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseAMS_Issue_5" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_ams.cpp" line="236" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseAMS_Issue_6" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_ams.cpp" line="304" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseAMS_Issue_7" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_ams.cpp" line="372" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseDirect_Issue_1" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_direct.cpp" line="11" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseDirect_Issue_2" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_direct.cpp" line="79" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseDirect_Issue_3" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_direct.cpp" line="118" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseDirect_Issue_4" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_direct.cpp" line="166" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseDirect_Issue_5" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_direct.cpp" line="236" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseDirect_Issue_6" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_direct.cpp" line="304" />
+  </testsuite>
+  <testsuite name="Imgproc_FitEllipseDirect_Issue_7" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_fitellipse_direct.cpp" line="372" />
+  </testsuite>
+  <testsuite name="Imgproc_FloodFill" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_floodfill.cpp" line="528" />
+    <testcase name="maskValue" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_floodfill.cpp" line="530" />
+  </testsuite>
+  <testsuite name="Imgproc_GoodFeatureToT" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_goodfeaturetotrack.cpp" line="522" />
+  </testsuite>
+  <testsuite name="Imgproc_GrabCut" tests="2">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_grabcut.cpp" line="144" />
+    <testcase name="repeatability" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_grabcut.cpp" line="146" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_Calc" tests="5">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1918" />
+    <testcase name="calcHist_regression_11544" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1930" />
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1960" />
+    <testcase name="IPP_ranges_with_equal_exponent_21595" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1996" />
+    <testcase name="IPP_ranges_with_nonequal_exponent_21595" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="2012" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_Query" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1919" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_Compare" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1921" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_Threshold" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1922" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_Normalize" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1923" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_MinMaxVal" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1924" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_CalcBackProject" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1926" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_CalcBackProjectPatch" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1927" />
+  </testsuite>
+  <testsuite name="Imgproc_Hist_BayesianProb" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_histograms.cpp" line="1928" />
+  </testsuite>
+  <testsuite name="HoughLinesPointSet" tests="1">
+    <testcase name="regression_21029" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="302" />
+  </testsuite>
+  <testsuite name="HoughLines" tests="1">
+    <testcase name="regression_21983" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="332" />
+  </testsuite>
+  <testsuite name="Imgproc_UMat" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgproc_umat.cpp" line="82" />
+  </testsuite>
+  <testsuite name="Imgproc_cvWarpAffine" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1144" />
+  </testsuite>
+  <testsuite name="Imgproc_fitLine_vector_3d" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1162" />
+  </testsuite>
+  <testsuite name="Imgproc_fitLine_vector_2d" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1180" />
+  </testsuite>
+  <testsuite name="Imgproc_fitLine_Mat_2dC2" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1199" />
+  </testsuite>
+  <testsuite name="Imgproc_fitLine_Mat_2dC1" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1209" />
+  </testsuite>
+  <testsuite name="Imgproc_fitLine_Mat_3dC3" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1219" />
+  </testsuite>
+  <testsuite name="Imgproc_fitLine_Mat_3dC1" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1229" />
+  </testsuite>
+  <testsuite name="Imgproc_resize_area" tests="3">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1239" />
+    <testcase name="regression_half_round" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1276" />
+    <testcase name="regression_quarter_round" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1295" />
+  </testsuite>
+  <testsuite name="Imgproc_Resize" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1317" />
+  </testsuite>
+  <testsuite name="Imgproc_ResizeExact" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1318" />
+  </testsuite>
+  <testsuite name="Imgproc_WarpAffine" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1319" />
+  </testsuite>
+  <testsuite name="Imgproc_WarpPerspective" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1320" />
+  </testsuite>
+  <testsuite name="Imgproc_Remap" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1321" />
+    <testcase name="DISABLED_memleak" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1509" />
+    <testcase name="issue_23562" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1661" />
+  </testsuite>
+  <testsuite name="Imgproc_GetRectSubPix" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1322" />
+  </testsuite>
+  <testsuite name="Imgproc_GetQuadSubPix" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1323" />
+  </testsuite>
+  <testsuite name="Resize" tests="3">
+    <testcase name="Area_half" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1372" />
+    <testcase name="lanczos4_regression_16192" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1412" />
+    <testcase name="nearest_regression_15075" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1425" />
+  </testsuite>
+  <testsuite name="Imgproc_Warp" tests="2">
+    <testcase name="multichannel" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1440" />
+    <testcase name="regression_19566" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1476" />
+  </testsuite>
+  <testsuite name="Imgproc_GetAffineTransform" tests="1">
+    <testcase name="singularity" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1495" />
+  </testsuite>
+  <testsuite name="Imgproc_linearPolar" tests="1">
+    <testcase name="identity" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1534" />
+  </testsuite>
+  <testsuite name="Imgproc_logPolar" tests="1">
+    <testcase name="identity" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1574" />
+  </testsuite>
+  <testsuite name="Imgproc_warpPolar" tests="1">
+    <testcase name="identity" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp.cpp" line="1614" />
+  </testsuite>
+  <testsuite name="Imgproc_Resize_Test" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp_strict.cpp" line="1291" />
+  </testsuite>
+  <testsuite name="Imgproc_Remap_Test" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp_strict.cpp" line="1292" />
+  </testsuite>
+  <testsuite name="Imgproc_WarpAffine_Test" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp_strict.cpp" line="1293" />
+  </testsuite>
+  <testsuite name="Imgproc_WarpPerspective_Test" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_imgwarp_strict.cpp" line="1294" />
+  </testsuite>
+  <testsuite name="Imgproc_IntelligentScissorsMB" tests="15">
+    <testcase name="rect" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="211" />
+    <testcase name="lines" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="237" />
+    <testcase name="circles" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="253" />
+    <testcase name="circles_gradient" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="271" />
+    <testcase name="grayscale" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="287" />
+    <testcase name="check_features_grayscale_1_0_0_zerro_crossing_with_limit" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="304" />
+    <testcase name="check_features_grayscale_1_0_0_canny" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="323" />
+    <testcase name="check_features_grayscale_0_1_0" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="342" />
+    <testcase name="check_features_grayscale_0_0_1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="360" />
+    <testcase name="color" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="378" />
+    <testcase name="color_canny" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="395" />
+    <testcase name="color_custom_features_invalid" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="414" />
+    <testcase name="color_custom_features_edge" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="420" />
+    <testcase name="color_custom_features_all" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="442" />
+    <testcase name="color_custom_features_edge_magnitude" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intelligent_scissors.cpp" line="469" />
+  </testsuite>
+  <testsuite name="Imgproc_IntersectConvexConvex" tests="9">
+    <testcase name="no_intersection" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="10" />
+    <testcase name="no_intersection_with_1_vertex_on_edge_1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="46" />
+    <testcase name="no_intersection_with_1_vertex_on_edge_2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="68" />
+    <testcase name="intersection_with_1_vertex_on_edge" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="90" />
+    <testcase name="intersection_with_2_vertices_on_edge" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="118" />
+    <testcase name="intersection_1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="146" />
+    <testcase name="intersection_2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="174" />
+    <testcase name="intersection_3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="202" />
+    <testcase name="intersection_4" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersectconvexconvex.cpp" line="231" />
+  </testsuite>
+  <testsuite name="Imgproc_RotatedRectangleIntersection" tests="20">
+    <testcase name="accuracy_1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="77" />
+    <testcase name="accuracy_2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="90" />
+    <testcase name="accuracy_3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="109" />
+    <testcase name="accuracy_4" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="127" />
+    <testcase name="accuracy_5" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="146" />
+    <testcase name="accuracy_6" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="169" />
+    <testcase name="accuracy_7" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="188" />
+    <testcase name="accuracy_8" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="207" />
+    <testcase name="accuracy_9" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="220" />
+    <testcase name="accuracy_10" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="237" />
+    <testcase name="accuracy_11" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="257" />
+    <testcase name="accuracy_12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="277" />
+    <testcase name="accuracy_13" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="295" />
+    <testcase name="accuracy_14" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="313" />
+    <testcase name="regression_12221_1" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="335" />
+    <testcase name="regression_12221_2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="352" />
+    <testcase name="accuracy_21659" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="369" />
+    <testcase name="regression_18520" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="447" />
+    <testcase name="regression_19824" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="472" />
+    <testcase name="accuracy_23546" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_intersection.cpp" line="489" />
+  </testsuite>
+  <testsuite name="Imgproc_LSD_ADV" tests="4">
+    <testcase name="whiteNoise" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="116" />
+    <testcase name="constColor" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="129" />
+    <testcase name="lines" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="142" />
+    <testcase name="rotatedRect" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="156" />
+  </testsuite>
+  <testsuite name="Imgproc_LSD_STD" tests="4">
+    <testcase name="whiteNoise" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="169" />
+    <testcase name="constColor" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="182" />
+    <testcase name="lines" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="195" />
+    <testcase name="rotatedRect" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="209" />
+  </testsuite>
+  <testsuite name="Imgproc_LSD_NONE" tests="4">
+    <testcase name="whiteNoise" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="222" />
+    <testcase name="constColor" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="235" />
+    <testcase name="lines" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="248" />
+    <testcase name="rotatedRect" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="262" />
+  </testsuite>
+  <testsuite name="Imgproc_LSD_Common" tests="5">
+    <testcase name="supportsVec4iResult" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="275" />
+    <testcase name="drawSegmentsVec4f" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="307" />
+    <testcase name="drawSegmentsVec4i" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="338" />
+    <testcase name="compareSegmentsVec4f" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="369" />
+    <testcase name="compareSegmentsVec4i" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_lsd.cpp" line="387" />
+  </testsuite>
+  <testsuite name="Imgproc_Moments" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_moments.cpp" line="409" />
+  </testsuite>
+  <testsuite name="OCL_Imgproc_Moments" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_moments.cpp" line="410" />
+  </testsuite>
+  <testsuite name="Imgproc_HuMoments" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_moments.cpp" line="411" />
+  </testsuite>
+  <testsuite name="Imgproc_ContourMoment" tests="1">
+    <testcase name="small" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_moments.cpp" line="441" />
+  </testsuite>
+  <testsuite name="Imgproc_PhaseCorrelatorTest" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_pc.cpp" line="83" />
+    <testcase name="accuracy_real_img" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_pc.cpp" line="85" />
+    <testcase name="accuracy_1d_odd_fft" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_pc.cpp" line="106" />
+  </testsuite>
+  <testsuite name="Imgproc_DivSpectrums" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_pc.cpp" line="395" />
+  </testsuite>
+  <testsuite name="Imgproc_PyrUp" tests="2">
+    <testcase name="pyrUp_regression_22184" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_pyramid.cpp" line="9" />
+    <testcase name="pyrUp_regression_22194" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_pyramid.cpp" line="19" />
+  </testsuite>
+  <testsuite name="Resize_Bitexact" tests="2">
+    <testcase name="Linear8U" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_resize_bitexact.cpp" line="21" />
+    <testcase name="Nearest8U" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_resize_bitexact.cpp" line="191" />
+  </testsuite>
+  <testsuite name="GaussianBlur_Bitexact" tests="6">
+    <testcase name="Linear8U" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_smooth_bitexact.cpp" line="146" />
+    <testcase name="Linear16U" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_smooth_bitexact.cpp" line="184" />
+    <testcase name="regression_15015" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_smooth_bitexact.cpp" line="215" />
+    <testcase name="overflow_20121" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_smooth_bitexact.cpp" line="223" />
+    <testcase name="regression_9863" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_smooth_bitexact.cpp" line="244" />
+    <testcase name="overflow_20792" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_smooth_bitexact.cpp" line="252" />
+  </testsuite>
+  <testsuite name="Imgproc_Subdiv2D_getTriangleList" tests="1">
+    <testcase name="regression_5788" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_subdivision2d.cpp" line="9" />
+  </testsuite>
+  <testsuite name="Imgproc_MatchTemplate" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatch.cpp" line="335" />
+    <testcase name="bug_9597" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatch.cpp" line="339" />
+  </testsuite>
+  <testsuite name="Imgproc_Threshold" tests="6">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_thresh.cpp" line="488" />
+    <testcase name="accuracyOtsu" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_thresh.cpp" line="489" />
+    <testcase name="regression_THRESH_TOZERO_IPP_16085" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_thresh.cpp" line="505" />
+    <testcase name="regression_THRESH_TOZERO_IPP_21258" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_thresh.cpp" line="514" />
+    <testcase name="regression_THRESH_TOZERO_IPP_21258_Min" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_thresh.cpp" line="524" />
+    <testcase name="regression_THRESH_TOZERO_IPP_21258_Max" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_thresh.cpp" line="534" />
+  </testsuite>
+  <testsuite name="BigData_Imgproc_Threshold" tests="1">
+    <testcase name="DISABLED_huge" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_thresh.cpp" line="491" />
+  </testsuite>
+  <testsuite name="ImgProc/CannyVX" tests="28">
+    <testcase name="Accuracy/0" value_param="(ImagePath(&quot;shared/baboon.png&quot;), ApertureSize(3), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/1" value_param="(ImagePath(&quot;shared/baboon.png&quot;), ApertureSize(3), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/2" value_param="(ImagePath(&quot;shared/baboon.png&quot;), ApertureSize(5), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/3" value_param="(ImagePath(&quot;shared/baboon.png&quot;), ApertureSize(5), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/4" value_param="(ImagePath(&quot;shared/fruits.png&quot;), ApertureSize(3), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/5" value_param="(ImagePath(&quot;shared/fruits.png&quot;), ApertureSize(3), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/6" value_param="(ImagePath(&quot;shared/fruits.png&quot;), ApertureSize(5), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/7" value_param="(ImagePath(&quot;shared/fruits.png&quot;), ApertureSize(5), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/8" value_param="(ImagePath(&quot;shared/lena.png&quot;), ApertureSize(3), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/9" value_param="(ImagePath(&quot;shared/lena.png&quot;), ApertureSize(3), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/10" value_param="(ImagePath(&quot;shared/lena.png&quot;), ApertureSize(5), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/11" value_param="(ImagePath(&quot;shared/lena.png&quot;), ApertureSize(5), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/12" value_param="(ImagePath(&quot;shared/pic1.png&quot;), ApertureSize(3), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/13" value_param="(ImagePath(&quot;shared/pic1.png&quot;), ApertureSize(3), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/14" value_param="(ImagePath(&quot;shared/pic1.png&quot;), ApertureSize(5), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/15" value_param="(ImagePath(&quot;shared/pic1.png&quot;), ApertureSize(5), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/16" value_param="(ImagePath(&quot;shared/pic3.png&quot;), ApertureSize(3), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/17" value_param="(ImagePath(&quot;shared/pic3.png&quot;), ApertureSize(3), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/18" value_param="(ImagePath(&quot;shared/pic3.png&quot;), ApertureSize(5), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/19" value_param="(ImagePath(&quot;shared/pic3.png&quot;), ApertureSize(5), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/20" value_param="(ImagePath(&quot;shared/pic5.png&quot;), ApertureSize(3), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/21" value_param="(ImagePath(&quot;shared/pic5.png&quot;), ApertureSize(3), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/22" value_param="(ImagePath(&quot;shared/pic5.png&quot;), ApertureSize(5), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/23" value_param="(ImagePath(&quot;shared/pic5.png&quot;), ApertureSize(5), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/24" value_param="(ImagePath(&quot;shared/pic6.png&quot;), ApertureSize(3), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/25" value_param="(ImagePath(&quot;shared/pic6.png&quot;), ApertureSize(3), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/26" value_param="(ImagePath(&quot;shared/pic6.png&quot;), ApertureSize(5), L2gradient(false))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+    <testcase name="Accuracy/27" value_param="(ImagePath(&quot;shared/pic6.png&quot;), ApertureSize(5), L2gradient(true))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_canny.cpp" line="364" />
+  </testsuite>
+  <testsuite name="Imgproc/ConvexityDefects_regression_5908" tests="22">
+    <testcase name="simple/0" value_param="(false, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/1" value_param="(false, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/2" value_param="(false, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/3" value_param="(false, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/4" value_param="(false, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/5" value_param="(false, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/6" value_param="(false, 6)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/7" value_param="(false, 7)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/8" value_param="(false, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/9" value_param="(false, 9)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/10" value_param="(false, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/11" value_param="(true, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/12" value_param="(true, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/13" value_param="(true, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/14" value_param="(true, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/15" value_param="(true, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/16" value_param="(true, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/17" value_param="(true, 6)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/18" value_param="(true, 7)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/19" value_param="(true, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/20" value_param="(true, 9)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+    <testcase name="simple/21" value_param="(true, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_convhull.cpp" line="2107" />
+  </testsuite>
+  <testsuite name="cvt420/Imgproc_ColorYUV" tests="50">
+    <testcase name="accuracy/0" value_param="COLOR_YUV2RGB_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/1" value_param="COLOR_YUV2BGR_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/2" value_param="COLOR_YUV2RGB_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/3" value_param="COLOR_YUV2BGR_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/4" value_param="COLOR_YUV2RGBA_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/5" value_param="COLOR_YUV2BGRA_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/6" value_param="COLOR_YUV2RGBA_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/7" value_param="COLOR_YUV2BGRA_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/8" value_param="COLOR_YUV2RGB_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/9" value_param="COLOR_YUV2BGR_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/10" value_param="COLOR_YUV2RGB_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/11" value_param="COLOR_YUV2BGR_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/12" value_param="COLOR_YUV2RGBA_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/13" value_param="COLOR_YUV2BGRA_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/14" value_param="COLOR_YUV2RGBA_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/15" value_param="COLOR_YUV2BGRA_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/16" value_param="COLOR_YUV2GRAY_420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/17" value_param="COLOR_RGB2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/18" value_param="COLOR_BGR2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/19" value_param="COLOR_RGBA2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/20" value_param="COLOR_BGRA2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/21" value_param="COLOR_RGB2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/22" value_param="COLOR_BGR2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/23" value_param="COLOR_RGBA2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/24" value_param="COLOR_BGRA2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/0" value_param="COLOR_YUV2RGB_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/1" value_param="COLOR_YUV2BGR_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/2" value_param="COLOR_YUV2RGB_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/3" value_param="COLOR_YUV2BGR_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/4" value_param="COLOR_YUV2RGBA_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/5" value_param="COLOR_YUV2BGRA_NV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/6" value_param="COLOR_YUV2RGBA_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/7" value_param="COLOR_YUV2BGRA_NV21" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/8" value_param="COLOR_YUV2RGB_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/9" value_param="COLOR_YUV2BGR_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/10" value_param="COLOR_YUV2RGB_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/11" value_param="COLOR_YUV2BGR_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/12" value_param="COLOR_YUV2RGBA_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/13" value_param="COLOR_YUV2BGRA_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/14" value_param="COLOR_YUV2RGBA_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/15" value_param="COLOR_YUV2BGRA_IYUV" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/16" value_param="COLOR_YUV2GRAY_420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/17" value_param="COLOR_RGB2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/18" value_param="COLOR_BGR2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/19" value_param="COLOR_RGBA2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/20" value_param="COLOR_BGRA2YUV_YV12" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/21" value_param="COLOR_RGB2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/22" value_param="COLOR_BGR2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/23" value_param="COLOR_RGBA2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/24" value_param="COLOR_BGRA2YUV_I420" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+  </testsuite>
+  <testsuite name="cvt422/Imgproc_ColorYUV" tests="54">
+    <testcase name="accuracy/0" value_param="COLOR_YUV2RGB_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/1" value_param="COLOR_YUV2BGR_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/2" value_param="COLOR_YUV2RGBA_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/3" value_param="COLOR_YUV2BGRA_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/4" value_param="COLOR_YUV2RGB_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/5" value_param="COLOR_YUV2BGR_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/6" value_param="COLOR_YUV2RGB_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/7" value_param="COLOR_YUV2BGR_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/8" value_param="COLOR_YUV2RGBA_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/9" value_param="COLOR_YUV2BGRA_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/10" value_param="COLOR_YUV2RGBA_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/11" value_param="COLOR_YUV2BGRA_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/12" value_param="COLOR_YUV2GRAY_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/13" value_param="COLOR_YUV2GRAY_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/14" value_param="COLOR_RGB2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/15" value_param="COLOR_BGR2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/16" value_param="COLOR_RGBA2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/17" value_param="COLOR_BGRA2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/18" value_param="COLOR_RGB2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/19" value_param="COLOR_BGR2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/20" value_param="COLOR_RGB2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/21" value_param="COLOR_BGR2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/22" value_param="COLOR_RGBA2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/23" value_param="COLOR_BGRA2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/24" value_param="COLOR_RGBA2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/25" value_param="COLOR_BGRA2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="accuracy/26" value_param="COLOR_RGB2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/0" value_param="COLOR_YUV2RGB_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/1" value_param="COLOR_YUV2BGR_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/2" value_param="COLOR_YUV2RGBA_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/3" value_param="COLOR_YUV2BGRA_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/4" value_param="COLOR_YUV2RGB_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/5" value_param="COLOR_YUV2BGR_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/6" value_param="COLOR_YUV2RGB_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/7" value_param="COLOR_YUV2BGR_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/8" value_param="COLOR_YUV2RGBA_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/9" value_param="COLOR_YUV2BGRA_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/10" value_param="COLOR_YUV2RGBA_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/11" value_param="COLOR_YUV2BGRA_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/12" value_param="COLOR_YUV2GRAY_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/13" value_param="COLOR_YUV2GRAY_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/14" value_param="COLOR_RGB2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/15" value_param="COLOR_BGR2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/16" value_param="COLOR_RGBA2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/17" value_param="COLOR_BGRA2YUV_UYVY" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/18" value_param="COLOR_RGB2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/19" value_param="COLOR_BGR2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/20" value_param="COLOR_RGB2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/21" value_param="COLOR_BGR2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/22" value_param="COLOR_RGBA2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/23" value_param="COLOR_BGRA2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/24" value_param="COLOR_RGBA2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/25" value_param="COLOR_BGRA2YUV_YVYU" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+    <testcase name="roi_accuracy/26" value_param="COLOR_RGB2YUV_YUY2" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_cvtyuv.cpp" line="760" />
+  </testsuite>
+  <testsuite name="FillPolyTest/FillPolyFully" tests="18">
+    <testcase name="DISABLED_fillpoly_fully/0" value_param="(256, 256, 0, 0, [0, 0], 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/1" value_param="(256, 256, 0, 0, [0, 0], 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/2" value_param="(256, 256, 0, 0, [0, 0], 16)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/3" value_param="(256, 256, 0, 0, [10, 10], 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/4" value_param="(256, 256, 0, 0, [10, 10], 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/5" value_param="(256, 256, 0, 0, [10, 10], 16)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/6" value_param="(256, 256, 0, 1, [0, 0], 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/7" value_param="(256, 256, 0, 1, [0, 0], 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/8" value_param="(256, 256, 0, 1, [0, 0], 16)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/9" value_param="(256, 256, 0, 1, [10, 10], 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/10" value_param="(256, 256, 0, 1, [10, 10], 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/11" value_param="(256, 256, 0, 1, [10, 10], 16)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/12" value_param="(256, 256, 0, 2, [0, 0], 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/13" value_param="(256, 256, 0, 2, [0, 0], 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/14" value_param="(256, 256, 0, 2, [0, 0], 16)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/15" value_param="(256, 256, 0, 2, [10, 10], 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/16" value_param="(256, 256, 0, 2, [10, 10], 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+    <testcase name="DISABLED_fillpoly_fully/17" value_param="(256, 256, 0, 2, [10, 10], 16)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_drawing.cpp" line="867" />
+  </testsuite>
+  <testsuite name="ImgProc/HoughCirclesTestFixture" tests="2">
+    <testcase name="regression/0" value_param="(&quot;imgproc/stuff.jpg&quot;, 20, 20, 30, 20, 200)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="156" />
+    <testcase name="regression4f/0" value_param="(&quot;imgproc/stuff.jpg&quot;, 20, 20, 30, 20, 200)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="156" />
+  </testsuite>
+  <testsuite name="HoughGradient/HoughCirclesTest" tests="3">
+    <testcase name="DefaultMaxRadius/0" value_param="3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="190" />
+    <testcase name="CentersOnly/0" value_param="3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="190" />
+    <testcase name="ManySmallCircles/0" value_param="3" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="190" />
+  </testsuite>
+  <testsuite name="HoughGradientAlt/HoughCirclesTest" tests="3">
+    <testcase name="DefaultMaxRadius/0" value_param="4" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="190" />
+    <testcase name="CentersOnly/0" value_param="4" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="190" />
+    <testcase name="ManySmallCircles/0" value_param="4" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghcircles.cpp" line="190" />
+  </testsuite>
+  <testsuite name="ImgProc/StandartHoughLinesTest" tests="48">
+    <testcase name="regression/0" value_param="(&quot;shared/pic5.png&quot;, 1, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/1" value_param="(&quot;shared/pic5.png&quot;, 1, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/2" value_param="(&quot;shared/pic5.png&quot;, 1, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/3" value_param="(&quot;shared/pic5.png&quot;, 1, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/4" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/5" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/6" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/7" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/8" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/9" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/10" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/11" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/12" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/13" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/14" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression/15" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/0" value_param="(&quot;shared/pic5.png&quot;, 1, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/1" value_param="(&quot;shared/pic5.png&quot;, 1, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/2" value_param="(&quot;shared/pic5.png&quot;, 1, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/3" value_param="(&quot;shared/pic5.png&quot;, 1, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/4" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/5" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/6" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/7" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/8" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/9" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/10" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/11" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/12" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/13" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/14" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec2f/15" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/0" value_param="(&quot;shared/pic5.png&quot;, 1, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/1" value_param="(&quot;shared/pic5.png&quot;, 1, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/2" value_param="(&quot;shared/pic5.png&quot;, 1, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/3" value_param="(&quot;shared/pic5.png&quot;, 1, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/4" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/5" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/6" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/7" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/8" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/9" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/10" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/11" value_param="(&quot;../stitching/a1.png&quot;, 1, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/12" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.05, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/13" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.05, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/14" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.1, 80)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+    <testcase name="regression_Vec3f/15" value_param="(&quot;../stitching/a1.png&quot;, 10, 0.1, 150)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="277" />
+  </testsuite>
+  <testsuite name="ImgProc/ProbabilisticHoughLinesTest" tests="64">
+    <testcase name="regression/0" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/1" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/2" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/3" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/4" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/5" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/6" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/7" value_param="(&quot;shared/pic5.png&quot;, 5, 0.05, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/8" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/9" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/10" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/11" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/12" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/13" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/14" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/15" value_param="(&quot;shared/pic5.png&quot;, 5, 0.1, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/16" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/17" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/18" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/19" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/20" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/21" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/22" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/23" value_param="(&quot;shared/pic5.png&quot;, 10, 0.05, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/24" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/25" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/26" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/27" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/28" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/29" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/30" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/31" value_param="(&quot;shared/pic5.png&quot;, 10, 0.1, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/32" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/33" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/34" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/35" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/36" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/37" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/38" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/39" value_param="(&quot;shared/pic1.png&quot;, 5, 0.05, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/40" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/41" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/42" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/43" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/44" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/45" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/46" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/47" value_param="(&quot;shared/pic1.png&quot;, 5, 0.1, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/48" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/49" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/50" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/51" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/52" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/53" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/54" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/55" value_param="(&quot;shared/pic1.png&quot;, 10, 0.05, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/56" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 75, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/57" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 75, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/58" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 75, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/59" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 75, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/60" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 150, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/61" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 150, 0, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/62" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 150, 10, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+    <testcase name="regression/63" value_param="(&quot;shared/pic1.png&quot;, 10, 0.1, 150, 10, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="282" />
+  </testsuite>
+  <testsuite name="Imgproc/HoughLinesPointSetTest" tests="16">
+    <testcase name="regression/0" value_param="(0, 360, 0, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/1" value_param="(0, 360, 0, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/2" value_param="(0, 360, 0.174533, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/3" value_param="(0, 360, 0.174533, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/4" value_param="(0, 480, 0, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/5" value_param="(0, 480, 0, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/6" value_param="(0, 480, 0.174533, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/7" value_param="(0, 480, 0.174533, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/8" value_param="(120, 360, 0, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/9" value_param="(120, 360, 0, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/10" value_param="(120, 360, 0.174533, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/11" value_param="(120, 360, 0.174533, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/12" value_param="(120, 480, 0, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/13" value_param="(120, 480, 0, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/14" value_param="(120, 480, 0.174533, 1.5708)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+    <testcase name="regression/15" value_param="(120, 480, 0.174533, 1.309)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_houghlines.cpp" line="297" />
+  </testsuite>
+  <testsuite name="DISABLED_Imgproc/Resize_Bitexact" tests="4">
+    <testcase name="Nearest8U_vsNonExact/0" value_param="(0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_resize_bitexact.cpp" line="174" />
+    <testcase name="Nearest8U_vsNonExact/1" value_param="(2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_resize_bitexact.cpp" line="174" />
+    <testcase name="Nearest8U_vsNonExact/2" value_param="(5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_resize_bitexact.cpp" line="174" />
+    <testcase name="Nearest8U_vsNonExact/3" value_param="(6)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_resize_bitexact.cpp" line="174" />
+  </testsuite>
+  <testsuite name="Imgproc/StackBlur" tests="48">
+    <testcase name="regression/0" value_param="(1, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/1" value_param="(1, 0, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/2" value_param="(1, 0, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/3" value_param="(1, 0, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/4" value_param="(1, 1, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/5" value_param="(1, 1, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/6" value_param="(1, 1, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/7" value_param="(1, 1, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/8" value_param="(1, 2, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/9" value_param="(1, 2, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/10" value_param="(1, 2, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/11" value_param="(1, 2, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/12" value_param="(1, 3, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/13" value_param="(1, 3, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/14" value_param="(1, 3, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/15" value_param="(1, 3, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/16" value_param="(3, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/17" value_param="(3, 0, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/18" value_param="(3, 0, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/19" value_param="(3, 0, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/20" value_param="(3, 1, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/21" value_param="(3, 1, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/22" value_param="(3, 1, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/23" value_param="(3, 1, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/24" value_param="(3, 2, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/25" value_param="(3, 2, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/26" value_param="(3, 2, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/27" value_param="(3, 2, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/28" value_param="(3, 3, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/29" value_param="(3, 3, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/30" value_param="(3, 3, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/31" value_param="(3, 3, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/32" value_param="(4, 0, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/33" value_param="(4, 0, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/34" value_param="(4, 0, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/35" value_param="(4, 0, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/36" value_param="(4, 1, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/37" value_param="(4, 1, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/38" value_param="(4, 1, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/39" value_param="(4, 1, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/40" value_param="(4, 2, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/41" value_param="(4, 2, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/42" value_param="(4, 2, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/43" value_param="(4, 2, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/44" value_param="(4, 3, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/45" value_param="(4, 3, 3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/46" value_param="(4, 3, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+    <testcase name="regression/47" value_param="(4, 3, 5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="258" />
+  </testsuite>
+  <testsuite name="Imgproc/StackBlur_GaussianBlur" tests="4">
+    <testcase name="compare/0" value_param="(0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="298" />
+    <testcase name="compare/1" value_param="(3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="298" />
+    <testcase name="compare/2" value_param="(2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="298" />
+    <testcase name="compare/3" value_param="(5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_stackblur.cpp" line="298" />
+  </testsuite>
+  <testsuite name="SingleChannelMask/Imgproc_MatchTemplateWithMask" tests="48">
+    <testcase name="CompareNaiveImplSQDIFF/0" value_param="(32FC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/1" value_param="(32FC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/2" value_param="(32FC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/3" value_param="(32FC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/4" value_param="(8UC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/5" value_param="(8UC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/6" value_param="(8UC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/7" value_param="(8UC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/0" value_param="(32FC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/1" value_param="(32FC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/2" value_param="(32FC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/3" value_param="(32FC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/4" value_param="(8UC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/5" value_param="(8UC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/6" value_param="(8UC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/7" value_param="(8UC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/0" value_param="(32FC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/1" value_param="(32FC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/2" value_param="(32FC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/3" value_param="(32FC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/4" value_param="(8UC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/5" value_param="(8UC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/6" value_param="(8UC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/7" value_param="(8UC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/0" value_param="(32FC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/1" value_param="(32FC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/2" value_param="(32FC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/3" value_param="(32FC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/4" value_param="(8UC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/5" value_param="(8UC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/6" value_param="(8UC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/7" value_param="(8UC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/0" value_param="(32FC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/1" value_param="(32FC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/2" value_param="(32FC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/3" value_param="(32FC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/4" value_param="(8UC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/5" value_param="(8UC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/6" value_param="(8UC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/7" value_param="(8UC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/0" value_param="(32FC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/1" value_param="(32FC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/2" value_param="(32FC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/3" value_param="(32FC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/4" value_param="(8UC1, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/5" value_param="(8UC1, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/6" value_param="(8UC3, 32FC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/7" value_param="(8UC3, 8UC1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+  </testsuite>
+  <testsuite name="MultiChannelMask/Imgproc_MatchTemplateWithMask" tests="24">
+    <testcase name="CompareNaiveImplSQDIFF/0" value_param="(32FC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/1" value_param="(32FC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/2" value_param="(8UC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF/3" value_param="(8UC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/0" value_param="(32FC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/1" value_param="(32FC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/2" value_param="(8UC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplSQDIFF_NORMED/3" value_param="(8UC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/0" value_param="(32FC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/1" value_param="(32FC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/2" value_param="(8UC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR/3" value_param="(8UC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/0" value_param="(32FC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/1" value_param="(32FC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/2" value_param="(8UC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCORR_NORMED/3" value_param="(8UC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/0" value_param="(32FC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/1" value_param="(32FC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/2" value_param="(8UC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF/3" value_param="(8UC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/0" value_param="(32FC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/1" value_param="(32FC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/2" value_param="(8UC3, 32FC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+    <testcase name="CompareNaiveImplCCOEFF_NORMED/3" value_param="(8UC3, 8UC3)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="77" />
+  </testsuite>
+  <testsuite name="SingleChannelMask/Imgproc_MatchTemplateWithMask2" tests="48">
+    <testcase name="CompareWithAndWithoutMask/0" value_param="(32FC1, 32FC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/1" value_param="(32FC1, 32FC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/2" value_param="(32FC1, 32FC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/3" value_param="(32FC1, 32FC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/4" value_param="(32FC1, 32FC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/5" value_param="(32FC1, 32FC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/6" value_param="(32FC1, 8UC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/7" value_param="(32FC1, 8UC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/8" value_param="(32FC1, 8UC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/9" value_param="(32FC1, 8UC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/10" value_param="(32FC1, 8UC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/11" value_param="(32FC1, 8UC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/12" value_param="(32FC3, 32FC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/13" value_param="(32FC3, 32FC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/14" value_param="(32FC3, 32FC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/15" value_param="(32FC3, 32FC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/16" value_param="(32FC3, 32FC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/17" value_param="(32FC3, 32FC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/18" value_param="(32FC3, 8UC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/19" value_param="(32FC3, 8UC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/20" value_param="(32FC3, 8UC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/21" value_param="(32FC3, 8UC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/22" value_param="(32FC3, 8UC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/23" value_param="(32FC3, 8UC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/24" value_param="(8UC1, 32FC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/25" value_param="(8UC1, 32FC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/26" value_param="(8UC1, 32FC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/27" value_param="(8UC1, 32FC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/28" value_param="(8UC1, 32FC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/29" value_param="(8UC1, 32FC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/30" value_param="(8UC1, 8UC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/31" value_param="(8UC1, 8UC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/32" value_param="(8UC1, 8UC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/33" value_param="(8UC1, 8UC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/34" value_param="(8UC1, 8UC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/35" value_param="(8UC1, 8UC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/36" value_param="(8UC3, 32FC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/37" value_param="(8UC3, 32FC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/38" value_param="(8UC3, 32FC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/39" value_param="(8UC3, 32FC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/40" value_param="(8UC3, 32FC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/41" value_param="(8UC3, 32FC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/42" value_param="(8UC3, 8UC1, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/43" value_param="(8UC3, 8UC1, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/44" value_param="(8UC3, 8UC1, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/45" value_param="(8UC3, 8UC1, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/46" value_param="(8UC3, 8UC1, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/47" value_param="(8UC3, 8UC1, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+  </testsuite>
+  <testsuite name="MultiChannelMask/Imgproc_MatchTemplateWithMask2" tests="24">
+    <testcase name="CompareWithAndWithoutMask/0" value_param="(32FC3, 32FC3, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/1" value_param="(32FC3, 32FC3, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/2" value_param="(32FC3, 32FC3, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/3" value_param="(32FC3, 32FC3, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/4" value_param="(32FC3, 32FC3, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/5" value_param="(32FC3, 32FC3, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/6" value_param="(32FC3, 8UC3, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/7" value_param="(32FC3, 8UC3, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/8" value_param="(32FC3, 8UC3, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/9" value_param="(32FC3, 8UC3, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/10" value_param="(32FC3, 8UC3, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/11" value_param="(32FC3, 8UC3, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/12" value_param="(8UC3, 32FC3, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/13" value_param="(8UC3, 32FC3, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/14" value_param="(8UC3, 32FC3, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/15" value_param="(8UC3, 32FC3, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/16" value_param="(8UC3, 32FC3, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/17" value_param="(8UC3, 32FC3, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/18" value_param="(8UC3, 8UC3, cv::TM_SQDIFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/19" value_param="(8UC3, 8UC3, cv::TM_SQDIFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/20" value_param="(8UC3, 8UC3, cv::TM_CCORR)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/21" value_param="(8UC3, 8UC3, cv::TM_CCORR_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/22" value_param="(8UC3, 8UC3, cv::TM_CCOEFF)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+    <testcase name="CompareWithAndWithoutMask/23" value_param="(8UC3, 8UC3, cv::TM_CCOEFF_NORMED)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgproc/test/test_templmatchmask.cpp" line="245" />
+  </testsuite>
+</testsuites>

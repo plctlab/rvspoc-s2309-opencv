@@ -1,0 +1,23 @@
+Thu Jan  1 00:41:10 UTC 1970
+Imgcodecs_Bmp
+0
+Imgcodecs
+0
+Imgcodecs_Image
+0
+ImgCodecs
+0
+Imgcodecs_Params
+0
+All/Imgcodecs_FileMode
+0
+GDAL/Imgcodecs_FileMode
+0
+All/Imgcodecs_ExtSize
+0
+Imgcodecs_Resize
+0
+imgcodecs/Imgcodecs_Image
+0
+Test end @
+Thu Jan  1 00:41:17 UTC 1970

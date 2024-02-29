@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="119" name="AllTests">
+  <testsuite name="Undistort" tests="3">
+    <testcase name="InitUndistortMap" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_undistort.cpp" line="8" />
+    <testcase name="DISABLED_InitInverseRectificationMap" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_undistort.cpp" line="19" />
+    <testcase name="fisheye_undistortPoints_100k_10iter" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_undistort.cpp" line="30" />
+  </testsuite>
+  <testsuite name="EstimateAffine_EstimateAffine2D" tests="36">
+    <testcase name="EstimateAffine2D/0" value_param="(100000, 0.99, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/1" value_param="(100000, 0.99, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/2" value_param="(100000, 0.99, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/3" value_param="(100000, 0.99, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/4" value_param="(100000, 0.95, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/5" value_param="(100000, 0.95, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/6" value_param="(100000, 0.95, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/7" value_param="(100000, 0.95, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/8" value_param="(100000, 0.9, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/9" value_param="(100000, 0.9, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/10" value_param="(100000, 0.9, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/11" value_param="(100000, 0.9, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/12" value_param="(5000, 0.99, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/13" value_param="(5000, 0.99, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/14" value_param="(5000, 0.99, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/15" value_param="(5000, 0.99, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/16" value_param="(5000, 0.95, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/17" value_param="(5000, 0.95, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/18" value_param="(5000, 0.95, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/19" value_param="(5000, 0.95, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/20" value_param="(5000, 0.9, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/21" value_param="(5000, 0.9, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/22" value_param="(5000, 0.9, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/23" value_param="(5000, 0.9, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/24" value_param="(100, 0.99, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/25" value_param="(100, 0.99, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/26" value_param="(100, 0.99, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/27" value_param="(100, 0.99, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/28" value_param="(100, 0.95, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/29" value_param="(100, 0.95, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/30" value_param="(100, 0.95, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/31" value_param="(100, 0.95, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/32" value_param="(100, 0.9, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/33" value_param="(100, 0.9, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/34" value_param="(100, 0.9, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+    <testcase name="EstimateAffine2D/35" value_param="(100, 0.9, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="67" />
+  </testsuite>
+  <testsuite name="EstimateAffine_EstimateAffinePartial2D" tests="36">
+    <testcase name="EstimateAffinePartial2D/0" value_param="(100000, 0.99, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/1" value_param="(100000, 0.99, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/2" value_param="(100000, 0.99, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/3" value_param="(100000, 0.99, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/4" value_param="(100000, 0.95, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/5" value_param="(100000, 0.95, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/6" value_param="(100000, 0.95, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/7" value_param="(100000, 0.95, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/8" value_param="(100000, 0.9, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/9" value_param="(100000, 0.9, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/10" value_param="(100000, 0.9, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/11" value_param="(100000, 0.9, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/12" value_param="(5000, 0.99, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/13" value_param="(5000, 0.99, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/14" value_param="(5000, 0.99, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/15" value_param="(5000, 0.99, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/16" value_param="(5000, 0.95, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/17" value_param="(5000, 0.95, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/18" value_param="(5000, 0.95, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/19" value_param="(5000, 0.95, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/20" value_param="(5000, 0.9, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/21" value_param="(5000, 0.9, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/22" value_param="(5000, 0.9, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/23" value_param="(5000, 0.9, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/24" value_param="(100, 0.99, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/25" value_param="(100, 0.99, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/26" value_param="(100, 0.99, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/27" value_param="(100, 0.99, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/28" value_param="(100, 0.95, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/29" value_param="(100, 0.95, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/30" value_param="(100, 0.95, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/31" value_param="(100, 0.95, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/32" value_param="(100, 0.9, RANSAC, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/33" value_param="(100, 0.9, RANSAC, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/34" value_param="(100, 0.9, LMEDS, 10)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+    <testcase name="EstimateAffinePartial2D/35" value_param="(100, 0.9, LMEDS, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_affine2d.cpp" line="117" />
+  </testsuite>
+  <testsuite name="String_Size_asymm_circles_grid" tests="9">
+    <testcase name="asymm_circles_grid/0" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles1.png&quot;, 7x13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/1" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles2.png&quot;, 7x13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/2" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles3.png&quot;, 7x13)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/3" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles4.png&quot;, 5x5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/4" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles5.png&quot;, 5x5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/5" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles6.png&quot;, 5x5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/6" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles7.png&quot;, 3x9)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/7" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles8.png&quot;, 3x9)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+    <testcase name="asymm_circles_grid/8" value_param="(&quot;cv/cameracalibration/asymmetric_circles/acircles9.png&quot;, 3x9)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_cicrlesGrid.cpp" line="10" />
+  </testsuite>
+  <testsuite name="PointsNum_Algo_solvePnP" tests="12">
+    <testcase name="solvePnP/0" value_param="(6, SOLVEPNP_ITERATIVE)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/1" value_param="(6, SOLVEPNP_EPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/2" value_param="(6, SOLVEPNP_UPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/3" value_param="(6, SOLVEPNP_DLS)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/4" value_param="(27, SOLVEPNP_ITERATIVE)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/5" value_param="(27, SOLVEPNP_EPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/6" value_param="(27, SOLVEPNP_UPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/7" value_param="(27, SOLVEPNP_DLS)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/8" value_param="(91, SOLVEPNP_ITERATIVE)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/9" value_param="(91, SOLVEPNP_EPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/10" value_param="(91, SOLVEPNP_UPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+    <testcase name="solvePnP/11" value_param="(91, SOLVEPNP_DLS)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="14" />
+  </testsuite>
+  <testsuite name="PointsNum_Algo_solvePnPSmallPoints" tests="4">
+    <testcase name="solvePnPSmallPoints/0" value_param="(5, SOLVEPNP_P3P)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="59" />
+    <testcase name="solvePnPSmallPoints/1" value_param="(5, SOLVEPNP_EPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="59" />
+    <testcase name="solvePnPSmallPoints/2" value_param="(5, SOLVEPNP_DLS)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="59" />
+    <testcase name="solvePnPSmallPoints/3" value_param="(5, SOLVEPNP_UPNP)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="59" />
+  </testsuite>
+  <testsuite name="PointsNum_DISABLED_SolvePnPRansac" tests="3">
+    <testcase name="DISABLED_SolvePnPRansac/0" value_param="5" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="111" />
+    <testcase name="DISABLED_SolvePnPRansac/1" value_param="27" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="111" />
+    <testcase name="DISABLED_SolvePnPRansac/2" value_param="91" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_pnp.cpp" line="111" />
+  </testsuite>
+  <testsuite name="TestStereoCorrespSGBM_SGBM" tests="12">
+    <testcase name="SGBM/0" value_param="(1280x720, 256, StereoSGBM::MODE_SGBM)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/1" value_param="(1280x720, 256, StereoSGBM::MODE_SGBM_3WAY)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/2" value_param="(1280x720, 256, StereoSGBM::MODE_HH4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/3" value_param="(1280x720, 128, StereoSGBM::MODE_SGBM)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/4" value_param="(1280x720, 128, StereoSGBM::MODE_SGBM_3WAY)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/5" value_param="(1280x720, 128, StereoSGBM::MODE_HH4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/6" value_param="(640x480, 256, StereoSGBM::MODE_SGBM)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/7" value_param="(640x480, 256, StereoSGBM::MODE_SGBM_3WAY)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/8" value_param="(640x480, 256, StereoSGBM::MODE_HH4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/9" value_param="(640x480, 128, StereoSGBM::MODE_SGBM)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/10" value_param="(640x480, 128, StereoSGBM::MODE_SGBM_3WAY)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+    <testcase name="SGBM/11" value_param="(640x480, 128, StereoSGBM::MODE_HH4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="51" />
+  </testsuite>
+  <testsuite name="TestStereoCorrespBM_BM" tests="4">
+    <testcase name="BM/0" value_param="(1280x720, 256)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="82" />
+    <testcase name="BM/1" value_param="(1280x720, 128)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="82" />
+    <testcase name="BM/2" value_param="(640x480, 256)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="82" />
+    <testcase name="BM/3" value_param="(640x480, 128)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/perf/perf_stereosgbm.cpp" line="82" />
+  </testsuite>
+</testsuites>

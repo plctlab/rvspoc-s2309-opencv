@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="122" name="AllTests">
+  <testsuite name="Norm_Destination_CrossCheck_batchDistance_8U" tests="8">
+    <testcase name="batchDistance_8U/0" value_param="(NORM_L1, 32SC1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+    <testcase name="batchDistance_8U/1" value_param="(NORM_L1, 32SC1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+    <testcase name="batchDistance_8U/2" value_param="(NORM_L1, 32FC1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+    <testcase name="batchDistance_8U/3" value_param="(NORM_L1, 32FC1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+    <testcase name="batchDistance_8U/4" value_param="(NORM_L2SQR, 32SC1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+    <testcase name="batchDistance_8U/5" value_param="(NORM_L2SQR, 32SC1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+    <testcase name="batchDistance_8U/6" value_param="(NORM_L2SQR, 32FC1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+    <testcase name="batchDistance_8U/7" value_param="(NORM_L2SQR, 32FC1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="20" />
+  </testsuite>
+  <testsuite name="Norm_CrossCheck_batchDistance_Dest_32S" tests="4">
+    <testcase name="batchDistance_Dest_32S/0" value_param="(NORM_HAMMING, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="49" />
+    <testcase name="batchDistance_Dest_32S/1" value_param="(NORM_HAMMING, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="49" />
+    <testcase name="batchDistance_Dest_32S/2" value_param="(NORM_HAMMING2, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="49" />
+    <testcase name="batchDistance_Dest_32S/3" value_param="(NORM_HAMMING2, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="49" />
+  </testsuite>
+  <testsuite name="Source_CrossCheck_batchDistance_L2" tests="4">
+    <testcase name="batchDistance_L2/0" value_param="(8UC1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="76" />
+    <testcase name="batchDistance_L2/1" value_param="(8UC1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="76" />
+    <testcase name="batchDistance_L2/2" value_param="(32FC1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="76" />
+    <testcase name="batchDistance_L2/3" value_param="(32FC1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="76" />
+  </testsuite>
+  <testsuite name="Norm_CrossCheck_batchDistance_32F" tests="4">
+    <testcase name="batchDistance_32F/0" value_param="(NORM_L1, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="104" />
+    <testcase name="batchDistance_32F/1" value_param="(NORM_L1, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="104" />
+    <testcase name="batchDistance_32F/2" value_param="(NORM_L2SQR, false)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="104" />
+    <testcase name="batchDistance_32F/3" value_param="(NORM_L2SQR, true)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_batchDistance.cpp" line="104" />
+  </testsuite>
+  <testsuite name="feature2d_detect" tests="60">
+    <testcase name="detect/0" value_param="(FAST_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/1" value_param="(FAST_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/2" value_param="(FAST_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/3" value_param="(FAST_20_TRUE_TYPE5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/4" value_param="(FAST_20_TRUE_TYPE5_8, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/5" value_param="(FAST_20_TRUE_TYPE5_8, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/6" value_param="(FAST_20_TRUE_TYPE7_12, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/7" value_param="(FAST_20_TRUE_TYPE7_12, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/8" value_param="(FAST_20_TRUE_TYPE7_12, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/9" value_param="(FAST_20_TRUE_TYPE9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/10" value_param="(FAST_20_TRUE_TYPE9_16, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/11" value_param="(FAST_20_TRUE_TYPE9_16, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/12" value_param="(FAST_20_FALSE_TYPE5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/13" value_param="(FAST_20_FALSE_TYPE5_8, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/14" value_param="(FAST_20_FALSE_TYPE5_8, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/15" value_param="(FAST_20_FALSE_TYPE7_12, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/16" value_param="(FAST_20_FALSE_TYPE7_12, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/17" value_param="(FAST_20_FALSE_TYPE7_12, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/18" value_param="(FAST_20_FALSE_TYPE9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/19" value_param="(FAST_20_FALSE_TYPE9_16, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/20" value_param="(FAST_20_FALSE_TYPE9_16, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/21" value_param="(AGAST_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/22" value_param="(AGAST_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/23" value_param="(AGAST_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/24" value_param="(AGAST_5_8, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/25" value_param="(AGAST_5_8, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/26" value_param="(AGAST_5_8, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/27" value_param="(AGAST_7_12d, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/28" value_param="(AGAST_7_12d, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/29" value_param="(AGAST_7_12d, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/30" value_param="(AGAST_7_12s, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/31" value_param="(AGAST_7_12s, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/32" value_param="(AGAST_7_12s, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/33" value_param="(AGAST_OAST_9_16, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/34" value_param="(AGAST_OAST_9_16, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/35" value_param="(AGAST_OAST_9_16, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/36" value_param="(MSER_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/37" value_param="(MSER_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/38" value_param="(MSER_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/39" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/40" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/41" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/42" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/43" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/44" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/45" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/46" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/47" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/48" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/49" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/50" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/51" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/52" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/53" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/54" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/55" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/56" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/57" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/58" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+    <testcase name="detect/59" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="7" />
+  </testsuite>
+  <testsuite name="feature2d_extract" tests="21">
+    <testcase name="extract/0" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/1" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/2" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/3" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/4" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/5" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/6" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/7" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/8" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/9" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/10" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/11" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/12" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/13" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/14" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/15" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/16" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/17" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/18" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/19" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+    <testcase name="extract/20" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="26" />
+  </testsuite>
+  <testsuite name="feature2d_detectAndExtract" tests="21">
+    <testcase name="detectAndExtract/0" value_param="(ORB_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/1" value_param="(ORB_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/2" value_param="(ORB_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/3" value_param="(ORB_1500_13_1, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/4" value_param="(ORB_1500_13_1, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/5" value_param="(ORB_1500_13_1, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/6" value_param="(AKAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/7" value_param="(AKAZE_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/8" value_param="(AKAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/9" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/10" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/11" value_param="(AKAZE_DESCRIPTOR_KAZE, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/12" value_param="(BRISK_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/13" value_param="(BRISK_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/14" value_param="(BRISK_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/15" value_param="(KAZE_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/16" value_param="(KAZE_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/17" value_param="(KAZE_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/18" value_param="(SIFT_DEFAULT, &quot;cv/detectors_descriptors_evaluation/images_datasets/leuven/img1.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/19" value_param="(SIFT_DEFAULT, &quot;stitching/a3.png&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+    <testcase name="detectAndExtract/20" value_param="(SIFT_DEFAULT, &quot;stitching/s2.jpg&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/features2d/perf/perf_feature2d.cpp" line="51" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,7 @@
+MultiBandBlender
+ExposureCompensate
+ParallelFeaturesFinder
+RangeMatcher
+ReprojectionTest
+ImageStitcher
+WaveCorrection

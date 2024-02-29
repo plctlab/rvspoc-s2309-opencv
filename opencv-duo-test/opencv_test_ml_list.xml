@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="82" name="AllTests">
+  <testsuite name="ML_NBAYES" tests="1">
+    <testcase name="regression_5911" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_bayes.cpp" line="9" />
+  </testsuite>
+  <testsuite name="ML_EM" tests="2">
+    <testcase name="save_load" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="77" />
+    <testcase name="classification" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="117" />
+  </testsuite>
+  <testsuite name="ML_KMeans" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_kmeans.cpp" line="9" />
+  </testsuite>
+  <testsuite name="ML_KNearest" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_knearest.cpp" line="13" />
+    <testcase name="regression_12347" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_knearest.cpp" line="68" />
+    <testcase name="bug_11877" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_knearest.cpp" line="90" />
+  </testsuite>
+  <testsuite name="ML_LR" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_lr.cpp" line="17" />
+    <testcase name="save_load" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_lr.cpp" line="41" />
+  </testsuite>
+  <testsuite name="TrainDataGet" tests="2">
+    <testcase name="layout_ROW_SAMPLE" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="314" />
+    <testcase name="layout_COL_SAMPLE" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="343" />
+  </testsuite>
+  <testsuite name="ML_RTrees" tests="4">
+    <testcase name="getVotes" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_rtrees.cpp" line="9" />
+    <testcase name="11142_sample_weights_regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_rtrees.cpp" line="54" />
+    <testcase name="11142_sample_weights_classification" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_rtrees.cpp" line="75" />
+    <testcase name="bug_12974_throw_exception_when_predict_different_feature_count" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_rtrees.cpp" line="98" />
+  </testsuite>
+  <testsuite name="ML_SVMSGD" tests="1">
+    <testcase name="twoPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmsgd.cpp" line="118" />
+  </testsuite>
+  <testsuite name="ML_SVM" tests="4">
+    <testcase name="trainauto" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmtrainauto.cpp" line="69" />
+    <testcase name="trainauto_sigmoid" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmtrainauto.cpp" line="89" />
+    <testcase name="trainAuto_regression_5369" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmtrainauto.cpp" line="113" />
+    <testcase name="getSupportVectors" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmtrainauto.cpp" line="131" />
+  </testsuite>
+  <testsuite name="ML_ANN_Params" tests="5">
+    <testcase name="ActivationFunction/0" value_param="identity" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_ann.cpp" line="29" />
+    <testcase name="ActivationFunction/1" value_param="sigmoid_sym" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_ann.cpp" line="29" />
+    <testcase name="ActivationFunction/2" value_param="gaussian" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_ann.cpp" line="29" />
+    <testcase name="ActivationFunction/3" value_param="relu" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_ann.cpp" line="29" />
+    <testcase name="ActivationFunction/4" value_param="leakyrelu" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_ann.cpp" line="29" />
+  </testsuite>
+  <testsuite name="ML_ANN_METHOD" tests="2">
+    <testcase name="Test/0" value_param="(ANN_MLP::RPROP, &quot;rprop&quot;, 5000)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_ann.cpp" line="86" />
+    <testcase name="Test/1" value_param="(ANN_MLP::ANNEAL, &quot;anneal&quot;, 1000)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_ann.cpp" line="86" />
+  </testsuite>
+  <testsuite name="ML_EM_Params" tests="9">
+    <testcase name="accuracy/0" value_param="(EM::START_AUTO_STEP, EM::COV_MAT_GENERIC)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/1" value_param="(EM::START_AUTO_STEP, EM::COV_MAT_DIAGONAL)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/2" value_param="(EM::START_AUTO_STEP, EM::COV_MAT_SPHERICAL)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/3" value_param="(EM::START_M_STEP, EM::COV_MAT_GENERIC)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/4" value_param="(EM::START_M_STEP, EM::COV_MAT_DIAGONAL)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/5" value_param="(EM::START_M_STEP, EM::COV_MAT_SPHERICAL)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/6" value_param="(EM::START_E_STEP, EM::COV_MAT_GENERIC)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/7" value_param="(EM::START_E_STEP, EM::COV_MAT_DIAGONAL)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+    <testcase name="accuracy/8" value_param="(EM::START_E_STEP, EM::COV_MAT_SPHERICAL)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_em.cpp" line="14" />
+  </testsuite>
+  <testsuite name="ML_Params" tests="17">
+    <testcase name="accuracy/0" value_param="DTrees_mushroom" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/1" value_param="DTrees_adult" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/2" value_param="DTrees_vehicle" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/3" value_param="DTrees_abalone" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/4" value_param="Boost_adult" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/5" value_param="Boost_mushroom" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/6" value_param="Boost_ringnorm" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/7" value_param="Boost_spambase" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/8" value_param="RTrees_waveform" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/9" value_param="RTrees_mushroom" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/10" value_param="RTrees_adult" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/11" value_param="RTrees_abalone" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/12" value_param="RTrees_vehicle" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/13" value_param="RTrees_letter" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/14" value_param="RTrees_ringnorm" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/15" value_param="RTrees_twonorm" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+    <testcase name="accuracy/16" value_param="RTrees_spambase" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="214" />
+  </testsuite>
+  <testsuite name="ML_SL_Params" tests="11">
+    <testcase name="save_load/0" value_param="NormalBayesClassifier_waveform" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/1" value_param="KNearest_waveform" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/2" value_param="KNearest_abalone" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/3" value_param="SVM_waveform" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/4" value_param="SVM_poletelecomm" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/5" value_param="DTrees_mushroom" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/6" value_param="DTrees_abalone" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/7" value_param="Boost_adult" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/8" value_param="RTrees_waveform" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/9" value_param="RTrees_abalone" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+    <testcase name="save_load/10" value_param="SVMSGD_waveform" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_mltests.cpp" line="262" />
+  </testsuite>
+  <testsuite name="ML_Legacy_Params" tests="12">
+    <testcase name="legacy_load/0" value_param="(&quot;ann&quot;, &quot;waveform&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/1" value_param="(&quot;boost&quot;, &quot;adult&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/2" value_param="(&quot;boost&quot;, &quot;1&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/3" value_param="(&quot;boost&quot;, &quot;2&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/4" value_param="(&quot;boost&quot;, &quot;3&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/5" value_param="(&quot;dtree&quot;, &quot;abalone&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/6" value_param="(&quot;dtree&quot;, &quot;mushroom&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/7" value_param="(&quot;nbayes&quot;, &quot;waveform&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/8" value_param="(&quot;svm&quot;, &quot;poletelecomm&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/9" value_param="(&quot;svm&quot;, &quot;waveform&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/10" value_param="(&quot;rtrees&quot;, &quot;waveform&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+    <testcase name="legacy_load/11" value_param="(&quot;svmsgd&quot;, &quot;waveform&quot;)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_save_load.cpp" line="47" />
+  </testsuite>
+  <testsuite name="ML_SVMSGD_Params" tests="6">
+    <testcase name="scale_and_features/0" value_param="(UNIFORM_SAME_SCALE, 2, 0.01)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmsgd.cpp" line="39" />
+    <testcase name="scale_and_features/1" value_param="(UNIFORM_SAME_SCALE, 5, 0.01)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmsgd.cpp" line="39" />
+    <testcase name="scale_and_features/2" value_param="(UNIFORM_SAME_SCALE, 100, 0.02)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmsgd.cpp" line="39" />
+    <testcase name="scale_and_features/3" value_param="(UNIFORM_DIFFERENT_SCALES, 2, 0.01)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmsgd.cpp" line="39" />
+    <testcase name="scale_and_features/4" value_param="(UNIFORM_DIFFERENT_SCALES, 5, 0.01)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmsgd.cpp" line="39" />
+    <testcase name="scale_and_features/5" value_param="(UNIFORM_DIFFERENT_SCALES, 100, 0.01)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/ml/test/test_svmsgd.cpp" line="39" />
+  </testsuite>
+</testsuites>

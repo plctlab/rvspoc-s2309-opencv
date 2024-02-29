@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3" name="AllTests">
+  <testsuite name="Highgui_GUI" tests="3">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/highgui/test/test_gui.cpp" line="65" />
+    <testcase name="trackbar_unsafe" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/highgui/test/test_gui.cpp" line="144" />
+    <testcase name="trackbar" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/highgui/test/test_gui.cpp" line="184" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" name="AllTests">
+  <testsuite name="JPEG" tests="2">
+    <testcase name="Decode" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/perf/perf_jpeg.cpp" line="10" />
+    <testcase name="Encode" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/perf/perf_jpeg.cpp" line="27" />
+  </testsuite>
+  <testsuite name="PNG" tests="2">
+    <testcase name="decode" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/perf/perf_png.cpp" line="13" />
+    <testcase name="encode" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/perf/perf_png.cpp" line="30" />
+  </testsuite>
+</testsuites>

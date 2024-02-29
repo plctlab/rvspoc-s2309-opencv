@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="68" name="AllTests">
+  <testsuite name="Imgcodecs_Bmp" tests="5">
+    <testcase name="read_rle8" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="287" />
+    <testcase name="read_32bit_rgb" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="298" />
+    <testcase name="rgba_bit_mask" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="308" />
+    <testcase name="read_32bit_xrgb" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="321" />
+    <testcase name="rgba_scale" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="334" />
+  </testsuite>
+  <testsuite name="Imgcodecs" tests="1">
+    <testcase name="write_parameter_type" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="471" />
+  </testsuite>
+  <testsuite name="Imgcodecs_Image" tests="8">
+    <testcase name="read_write_bmp" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="99" />
+    <testcase name="regression_9376" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="276" />
+    <testcase name="write_umat" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="287" />
+    <testcase name="multipage_collection_size" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="306" />
+    <testcase name="multipage_collection_read_pages_iterator" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="315" />
+    <testcase name="multipage_collection_two_iterator" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="338" />
+    <testcase name="multipage_collection_operator_plusplus" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="367" />
+    <testcase name="multipage_collection_backward_decoding" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="382" />
+  </testsuite>
+  <testsuite name="ImgCodecs" tests="2">
+    <testcase name="multipage_collection_decoding_range_based_for_loop_test" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="416" />
+    <testcase name="multipage_collection_two_iterator_operatorpp" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="454" />
+  </testsuite>
+  <testsuite name="Imgcodecs_Params" tests="2">
+    <testcase name="imwrite_regression_22752" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="484" />
+    <testcase name="imencode_regression_22752" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="493" />
+  </testsuite>
+  <testsuite name="All/Imgcodecs_FileMode" tests="25">
+    <testcase name="regression/0" value_param="(&quot;readwrite/color_palette_alpha.png&quot;, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/1" value_param="(&quot;readwrite/color_palette_alpha.png&quot;, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/2" value_param="(&quot;readwrite/color_palette_alpha.png&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/3" value_param="(&quot;readwrite/color_palette_alpha.png&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/4" value_param="(&quot;readwrite/color_palette_alpha.png&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/5" value_param="(&quot;readwrite/multipage.tif&quot;, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/6" value_param="(&quot;readwrite/multipage.tif&quot;, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/7" value_param="(&quot;readwrite/multipage.tif&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/8" value_param="(&quot;readwrite/multipage.tif&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/9" value_param="(&quot;readwrite/multipage.tif&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/10" value_param="(&quot;readwrite/ordinary.bmp&quot;, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/11" value_param="(&quot;readwrite/ordinary.bmp&quot;, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/12" value_param="(&quot;readwrite/ordinary.bmp&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/13" value_param="(&quot;readwrite/ordinary.bmp&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/14" value_param="(&quot;readwrite/ordinary.bmp&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/15" value_param="(&quot;readwrite/rle8.bmp&quot;, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/16" value_param="(&quot;readwrite/rle8.bmp&quot;, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/17" value_param="(&quot;readwrite/rle8.bmp&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/18" value_param="(&quot;readwrite/rle8.bmp&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/19" value_param="(&quot;readwrite/rle8.bmp&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/20" value_param="(&quot;readwrite/test_1_c1.jpg&quot;, -1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/21" value_param="(&quot;readwrite/test_1_c1.jpg&quot;, 0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/22" value_param="(&quot;readwrite/test_1_c1.jpg&quot;, 1)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/23" value_param="(&quot;readwrite/test_1_c1.jpg&quot;, 2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/24" value_param="(&quot;readwrite/test_1_c1.jpg&quot;, 4)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+  </testsuite>
+  <testsuite name="GDAL/Imgcodecs_FileMode" tests="4">
+    <testcase name="regression/0" value_param="(&quot;readwrite/color_palette_alpha.png&quot;, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/1" value_param="(&quot;readwrite/multipage.tif&quot;, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/2" value_param="(&quot;readwrite/ordinary.bmp&quot;, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+    <testcase name="regression/3" value_param="(&quot;readwrite/test_1_c1.jpg&quot;, 8)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="50" />
+  </testsuite>
+  <testsuite name="All/Imgcodecs_ExtSize" tests="5">
+    <testcase name="write_imageseq/0" value_param="(&quot;.bmp&quot;, 640x480)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="141" />
+    <testcase name="write_imageseq/1" value_param="(&quot;.bmp&quot;, 1280x960)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="141" />
+    <testcase name="write_imageseq/2" value_param="(&quot;.bmp&quot;, 1920x1440)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="141" />
+    <testcase name="write_imageseq/3" value_param="(&quot;.bmp&quot;, 2560x1920)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="141" />
+    <testcase name="write_imageseq/4" value_param="(&quot;.bmp&quot;, 3200x2400)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_grfmt.cpp" line="141" />
+  </testsuite>
+  <testsuite name="Imgcodecs_Resize" tests="14">
+    <testcase name="imread_reduce_flags/0" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_UNCHANGED, 1))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imread_reduce_flags/1" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_GRAYSCALE | REDUCED_2, 2))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imread_reduce_flags/2" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_GRAYSCALE | REDUCED_4, 4))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imread_reduce_flags/3" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_GRAYSCALE | REDUCED_8, 8))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imread_reduce_flags/4" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_COLOR | REDUCED_2, 2))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imread_reduce_flags/5" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_COLOR | REDUCED_4, 4))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imread_reduce_flags/6" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_COLOR | REDUCED_8, 8))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imdecode_reduce_flags/0" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_UNCHANGED, 1))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imdecode_reduce_flags/1" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_GRAYSCALE | REDUCED_2, 2))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imdecode_reduce_flags/2" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_GRAYSCALE | REDUCED_4, 4))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imdecode_reduce_flags/3" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_GRAYSCALE | REDUCED_8, 8))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imdecode_reduce_flags/4" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_COLOR | REDUCED_2, 2))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imdecode_reduce_flags/5" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_COLOR | REDUCED_4, 4))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+    <testcase name="imdecode_reduce_flags/6" value_param="((&quot;../highgui/readwrite/ordinary.bmp&quot;, 480x272), (IMREAD_COLOR | REDUCED_8, 8))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="37" />
+  </testsuite>
+  <testsuite name="imgcodecs/Imgcodecs_Image" tests="2">
+    <testcase name="read_write_BGR/0" value_param="&quot;bmp&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="223" />
+    <testcase name="read_write_GRAYSCALE/0" value_param="&quot;bmp&quot;" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/imgcodecs/test/test_read_write.cpp" line="223" />
+  </testsuite>
+</testsuites>

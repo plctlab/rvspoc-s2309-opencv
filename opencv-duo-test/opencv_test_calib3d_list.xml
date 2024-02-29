@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="151" name="AllTests">
+  <testsuite name="EstimateAffine2D" tests="1">
+    <testcase name="issue_14259_dont_change_inputs" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine2d_estimator.cpp" line="157" />
+  </testsuite>
+  <testsuite name="Calib3d_Affine3f" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine3.cpp" line="48" />
+    <testcase name="accuracy_rvec" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine3.cpp" line="82" />
+  </testsuite>
+  <testsuite name="Calib3d_EstimateAffine3D" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine3d_estimator.cpp" line="188" />
+    <testcase name="regression_16007" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine3d_estimator.cpp" line="190" />
+    <testcase name="umeyama_3_pt" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine3d_estimator.cpp" line="204" />
+  </testsuite>
+  <testsuite name="EstimateAffinePartial2D" tests="1">
+    <testcase name="issue_14259_dont_change_inputs" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp" line="166" />
+  </testsuite>
+  <testsuite name="Calib3d_CalibrateHandEye" tests="3">
+    <testcase name="regression_eye_in_hand" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_calibration_hand_eye.cpp" line="651" />
+    <testcase name="regression_eye_to_hand" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_calibration_hand_eye.cpp" line="659" />
+    <testcase name="regression_17986" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_calibration_hand_eye.cpp" line="667" />
+  </testsuite>
+  <testsuite name="Calib3d_CalibrateRobotWorldHandEye" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_calibration_hand_eye.cpp" line="692" />
+  </testsuite>
+  <testsuite name="Calib3d_CalibrateCamera_CPP" tests="3">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="1852" />
+    <testcase name="DISABLED_accuracy_on_artificial_data" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp" line="424" />
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp" line="395" />
+  </testsuite>
+  <testsuite name="Calib3d_CalibrationMatrixValues_CPP" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="1853" />
+  </testsuite>
+  <testsuite name="Calib3d_ProjectPoints_CPP" tests="4">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="1854" />
+    <testcase name="inputShape" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="1856" />
+    <testcase name="outputShape" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="1945" />
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp" line="397" />
+  </testsuite>
+  <testsuite name="Calib3d_StereoCalibrate_CPP" tests="2">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="2032" />
+    <testcase name="extended" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="2035" />
+  </testsuite>
+  <testsuite name="Calib3d_StereoCalibrate" tests="3">
+    <testcase name="regression_10791" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="2077" />
+    <testcase name="regression_11131" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="2115" />
+    <testcase name="regression_23305" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="2153" />
+  </testsuite>
+  <testsuite name="Calib3d_Triangulate" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="2201" />
+  </testsuite>
+  <testsuite name="CV_RecoverPoseTest" tests="1">
+    <testcase name="regression_15341" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration.cpp" line="2272" />
+  </testsuite>
+  <testsuite name="Calib3d_Rodrigues_CPP" tests="1">
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp" line="396" />
+  </testsuite>
+  <testsuite name="cameraCalibrationTiltTest" tests="3">
+    <testcase name="projectPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp" line="402" />
+    <testcase name="undistortPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp" line="484" />
+    <testcase name="calibrateCamera" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cameracalibration_tilt.cpp" line="560" />
+  </testsuite>
+  <testsuite name="Calib3d_ChessboardDetector" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="673" />
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners_badarg.cpp" line="113" />
+    <testcase name="timing" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners_timing.cpp" line="158" />
+  </testsuite>
+  <testsuite name="Calib3d_ChessboardDetector2" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="674" />
+  </testsuite>
+  <testsuite name="Calib3d_ChessboardDetector3" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="675" />
+  </testsuite>
+  <testsuite name="Calib3d_CirclesPatternDetector" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="676" />
+  </testsuite>
+  <testsuite name="Calib3d_AsymmetricCirclesPatternDetector" tests="3">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="677" />
+    <testcase name="regression_18713" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="701" />
+    <testcase name="regression_19498" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="755" />
+  </testsuite>
+  <testsuite name="Calib3d_AsymmetricCirclesPatternDetectorWithClustering" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="679" />
+  </testsuite>
+  <testsuite name="Calib3d_CirclesPatternDetectorWithClustering" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_chesscorners.cpp" line="682" />
+  </testsuite>
+  <testsuite name="Calib3d_ComposeRT" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_compose_rt.cpp" line="213" />
+  </testsuite>
+  <testsuite name="Calib3d_ChessboardSubPixDetector" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cornerssubpix.cpp" line="242" />
+  </testsuite>
+  <testsuite name="Calib3d_CornerSubPix" tests="1">
+    <testcase name="regression_7204" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_cornerssubpix.cpp" line="244" />
+  </testsuite>
+  <testsuite name="Calib3d_DecomposeProjectionMatrix" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_decompose_projection.cpp" line="138" />
+  </testsuite>
+  <testsuite name="Calib3d_FilterDecomposeHomography" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_filter_homography_decomp.cpp" line="573" />
+  </testsuite>
+  <testsuite name="fisheyeTest" tests="15">
+    <testcase name="projectPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="72" />
+    <testcase name="distortUndistortPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="104" />
+    <testcase name="undistortImage" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="153" />
+    <testcase name="undistortAndDistortImage" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="211" />
+    <testcase name="jacobians" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="314" />
+    <testcase name="Calibration" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="409" />
+    <testcase name="CalibrationWithFixedFocalLength" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="444" />
+    <testcase name="Homography" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="491" />
+    <testcase name="EstimateUncertainties" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="552" />
+    <testcase name="stereoRectify" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="608" />
+    <testcase name="stereoCalibrate" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="715" />
+    <testcase name="stereoCalibrateFixIntrinsic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="782" />
+    <testcase name="CalibrationWithDifferentPointsNumber" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="844" />
+    <testcase name="stereoCalibrateWithPerViewTransformations" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="886" />
+    <testcase name="estimateNewCameraMatrixForUndistortRectify" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fisheye.cpp" line="993" />
+  </testsuite>
+  <testsuite name="Calib3d_Rodrigues" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fundam.cpp" line="1653" />
+  </testsuite>
+  <testsuite name="Calib3d_FindFundamentalMat" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fundam.cpp" line="1654" />
+    <testcase name="correctMatches" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fundam.cpp" line="1659" />
+  </testsuite>
+  <testsuite name="Calib3d_ConvertHomogeneoous" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fundam.cpp" line="1655" />
+  </testsuite>
+  <testsuite name="Calib3d_ComputeEpilines" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fundam.cpp" line="1656" />
+  </testsuite>
+  <testsuite name="Calib3d_FindEssentialMat" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_fundam.cpp" line="1657" />
+  </testsuite>
+  <testsuite name="Calib3d_Homography" tests="4">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_homography.cpp" line="221" />
+    <testcase name="EKcase" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_homography.cpp" line="547" />
+    <testcase name="fromImages" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_homography.cpp" line="612" />
+    <testcase name="minPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_homography.cpp" line="684" />
+  </testsuite>
+  <testsuite name="Calib3d_DecomposeHomography" tests="2">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_homography_decomp.cpp" line="135" />
+    <testcase name="issue_4978" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_homography_decomp.cpp" line="138" />
+  </testsuite>
+  <testsuite name="Calib3d_ReprojectImageTo3D" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp" line="171" />
+  </testsuite>
+  <testsuite name="Calib3d_SolveP3P" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="704" />
+  </testsuite>
+  <testsuite name="Calib3d_SolvePnPRansac" tests="7">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="705" />
+    <testcase name="concurrency" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="710" />
+    <testcase name="input_type" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="773" />
+    <testcase name="double_support" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="812" />
+    <testcase name="bad_input_points_19253" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="841" />
+    <testcase name="minPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1891" />
+    <testcase name="inputShape" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1962" />
+  </testsuite>
+  <testsuite name="Calib3d_SolvePnP" tests="11">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="706" />
+    <testcase name="accuracy_planar" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="707" />
+    <testcase name="accuracy_planar_tag" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="708" />
+    <testcase name="input_type" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="878" />
+    <testcase name="translation" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1239" />
+    <testcase name="iterativeInitialGuess3pts" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1280" />
+    <testcase name="iterativeInitialGuess" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1351" />
+    <testcase name="generic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1426" />
+    <testcase name="refine3pts" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1565" />
+    <testcase name="refine" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="1666" />
+    <testcase name="inputShape" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="2084" />
+  </testsuite>
+  <testsuite name="AP3P" tests="1">
+    <testcase name="ctheta1p_nan_23607" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_solvepnp_ransac.cpp" line="2284" />
+  </testsuite>
+  <testsuite name="Calib3d_StereoBM" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_stereomatching.cpp" line="812" />
+  </testsuite>
+  <testsuite name="Calib3d_StereoSGBM" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_stereomatching.cpp" line="921" />
+  </testsuite>
+  <testsuite name="Calib3d_StereoSGBM_HH4" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_stereomatching.cpp" line="923" />
+  </testsuite>
+  <testsuite name="Calib3d_EstimateTranslation3D" tests="2">
+    <testcase name="test4Points" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_translation3d_estimator.cpp" line="10" />
+    <testcase name="testNPoints" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_translation3d_estimator.cpp" line="47" />
+  </testsuite>
+  <testsuite name="Calib3d_DefaultNewCameraMatrix" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1091" />
+  </testsuite>
+  <testsuite name="Calib3d_GetOptimalNewCameraMatrixNoDistortion" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1092" />
+  </testsuite>
+  <testsuite name="Calib3d_UndistortPoints" tests="4">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1093" />
+    <testcase name="inputShape" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1665" />
+    <testcase name="outputShape" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1761" />
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort_badarg.cpp" line="265" />
+  </testsuite>
+  <testsuite name="Calib3d_InitUndistortRectifyMap" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1094" />
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort_badarg.cpp" line="266" />
+  </testsuite>
+  <testsuite name="DISABLED_Calib3d_InitInverseRectificationMap" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1095" />
+  </testsuite>
+  <testsuite name="Calib3d_UndistortImgproc" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1662" />
+  </testsuite>
+  <testsuite name="Calib3d_InitUndistortMap" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1663" />
+  </testsuite>
+  <testsuite name="Imgproc_undistort" tests="1">
+    <testcase name="regression_15286" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1841" />
+  </testsuite>
+  <testsuite name="Calib3d_initUndistortRectifyMap" tests="1">
+    <testcase name="regression_14467" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1879" />
+  </testsuite>
+  <testsuite name="Calib3d_initInverseRectificationMap" tests="1">
+    <testcase name="regression_20165" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort.cpp" line="1909" />
+  </testsuite>
+  <testsuite name="Calib3d_Undistort" tests="1">
+    <testcase name="badarg" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort_badarg.cpp" line="267" />
+  </testsuite>
+  <testsuite name="UndistortPointsTest" tests="4">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort_points.cpp" line="63" />
+    <testcase name="undistortImagePointsAccuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort_points.cpp" line="101" />
+    <testcase name="stop_criteria" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort_points.cpp" line="138" />
+    <testcase name="regression_14583" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_undistort_points.cpp" line="173" />
+  </testsuite>
+  <testsuite name="usac_Homography" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="224" />
+  </testsuite>
+  <testsuite name="usac_Fundamental" tests="2">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="245" />
+    <testcase name="regression_19639" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="268" />
+  </testsuite>
+  <testsuite name="usac_P3P" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="367" />
+  </testsuite>
+  <testsuite name="usac_Affine2D" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="395" />
+  </testsuite>
+  <testsuite name="usac_testUsacParams" tests="1">
+    <testcase name="accuracy" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="414" />
+  </testsuite>
+  <testsuite name="usac_solvePnPRansac" tests="1">
+    <testcase name="regression_21105" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="487" />
+  </testsuite>
+  <testsuite name="Calib3d/EstimateAffine2D" tests="6">
+    <testcase name="test3Points/0" value_param="RANSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine2d_estimator.cpp" line="51" />
+    <testcase name="test3Points/1" value_param="LMEDS" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine2d_estimator.cpp" line="51" />
+    <testcase name="testNPoints/0" value_param="RANSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine2d_estimator.cpp" line="51" />
+    <testcase name="testNPoints/1" value_param="LMEDS" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine2d_estimator.cpp" line="51" />
+    <testcase name="testConversion/0" value_param="RANSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine2d_estimator.cpp" line="51" />
+    <testcase name="testConversion/1" value_param="LMEDS" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine2d_estimator.cpp" line="51" />
+  </testsuite>
+  <testsuite name="Calib3d/EstimateAffinePartial2D" tests="6">
+    <testcase name="test2Points/0" value_param="RANSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp" line="63" />
+    <testcase name="test2Points/1" value_param="LMEDS" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp" line="63" />
+    <testcase name="testNPoints/0" value_param="RANSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp" line="63" />
+    <testcase name="testNPoints/1" value_param="LMEDS" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp" line="63" />
+    <testcase name="testConversion/0" value_param="RANSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp" line="63" />
+    <testcase name="testConversion/1" value_param="LMEDS" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_affine_partial2d_estimator.cpp" line="63" />
+  </testsuite>
+  <testsuite name="Calib3d_StereoBM_BufferBM" tests="4">
+    <testcase name="memAllocsTest/0" value_param="(0, (30, 19))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_stereomatching.cpp" line="831" />
+    <testcase name="memAllocsTest/1" value_param="(0, (32, 23))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_stereomatching.cpp" line="831" />
+    <testcase name="memAllocsTest/2" value_param="(1, (30, 19))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_stereomatching.cpp" line="831" />
+    <testcase name="memAllocsTest/3" value_param="(1, (32, 23))" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_stereomatching.cpp" line="831" />
+  </testsuite>
+  <testsuite name="Calib3d/usac_Essential" tests="10">
+    <testcase name="accuracy/0" value_param="USAC_DEFAULT" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="accuracy/1" value_param="USAC_ACCURATE" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="accuracy/2" value_param="USAC_PROSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="accuracy/3" value_param="USAC_FAST" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="accuracy/4" value_param="USAC_MAGSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="maxiters/0" value_param="USAC_DEFAULT" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="maxiters/1" value_param="USAC_ACCURATE" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="maxiters/2" value_param="USAC_PROSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="maxiters/3" value_param="USAC_FAST" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+    <testcase name="maxiters/4" value_param="USAC_MAGSAC" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/calib3d/test/test_usac.cpp" line="302" />
+  </testsuite>
+</testsuites>

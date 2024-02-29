@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="32" name="AllTests">
+  <testsuite name="Photo_SeamlessClone_normal" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_cloning.cpp" line="58" />
+  </testsuite>
+  <testsuite name="Photo_SeamlessClone_mixed" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_cloning.cpp" line="100" />
+  </testsuite>
+  <testsuite name="Photo_SeamlessClone_featureExchange" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_cloning.cpp" line="133" />
+  </testsuite>
+  <testsuite name="Photo_SeamlessClone_colorChange" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_cloning.cpp" line="166" />
+  </testsuite>
+  <testsuite name="Photo_SeamlessClone_illuminationChange" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_cloning.cpp" line="193" />
+  </testsuite>
+  <testsuite name="Photo_SeamlessClone_textureFlattening" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_cloning.cpp" line="220" />
+  </testsuite>
+  <testsuite name="Photo_Decolor" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_decolor.cpp" line="46" />
+  </testsuite>
+  <testsuite name="Optim_denoise_tvl1" tests="1">
+    <testcase name="regression_basic" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_denoise_tvl1.cpp" line="81" />
+  </testsuite>
+  <testsuite name="Photo_DenoisingGrayscale" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_denoising.cpp" line="56" />
+  </testsuite>
+  <testsuite name="Photo_DenoisingColored" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_denoising.cpp" line="76" />
+  </testsuite>
+  <testsuite name="Photo_DenoisingGrayscaleMulti" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_denoising.cpp" line="96" />
+  </testsuite>
+  <testsuite name="Photo_DenoisingColoredMulti" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_denoising.cpp" line="121" />
+  </testsuite>
+  <testsuite name="Photo_White" tests="1">
+    <testcase name="issue_2646" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_denoising.cpp" line="146" />
+  </testsuite>
+  <testsuite name="Photo_Denoising" tests="1">
+    <testcase name="speed" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_denoising.cpp" line="157" />
+  </testsuite>
+  <testsuite name="Photo_Tonemap" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="88" />
+  </testsuite>
+  <testsuite name="Photo_AlignMTB" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="121" />
+  </testsuite>
+  <testsuite name="Photo_MergeMertens" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="149" />
+  </testsuite>
+  <testsuite name="Photo_MergeDebevec" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="175" />
+  </testsuite>
+  <testsuite name="Photo_MergeRobertson" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="198" />
+  </testsuite>
+  <testsuite name="Photo_CalibrateDebevec" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="214" />
+  </testsuite>
+  <testsuite name="Photo_CalibrateRobertson" tests="2">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="237" />
+    <testcase name="bug_18180" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_hdr.cpp" line="252" />
+  </testsuite>
+  <testsuite name="Photo_Inpaint" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_inpaint.cpp" line="117" />
+  </testsuite>
+  <testsuite name="Photo_InpaintBorders" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_inpaint.cpp" line="142" />
+  </testsuite>
+  <testsuite name="Photo_NPR_EdgePreserveSmoothing_RecursiveFilter" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_npr.cpp" line="48" />
+  </testsuite>
+  <testsuite name="Photo_NPR_EdgePreserveSmoothing_NormConvFilter" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_npr.cpp" line="66" />
+  </testsuite>
+  <testsuite name="Photo_NPR_DetailEnhance" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_npr.cpp" line="84" />
+  </testsuite>
+  <testsuite name="Photo_NPR_PencilSketch" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_npr.cpp" line="101" />
+  </testsuite>
+  <testsuite name="Photo_NPR_Stylization" tests="1">
+    <testcase name="regression" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_npr.cpp" line="122" />
+  </testsuite>
+  <testsuite name="Photo_Inpaint/formats" tests="3">
+    <testcase name="1c/0" value_param="(5)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_inpaint.cpp" line="121" />
+    <testcase name="1c/1" value_param="(2)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_inpaint.cpp" line="121" />
+    <testcase name="1c/2" value_param="(0)" file="/home/nihui/dev/rvspoc-s2309-opencv/modules/photo/test/test_inpaint.cpp" line="121" />
+  </testsuite>
+</testsuites>
