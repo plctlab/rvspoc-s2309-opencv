@@ -1,4 +1,13 @@
 # 参赛队名：银河护卫队
+# 系统镜像配置
+* 修改duo-buildroot-sdk/device/milkv-duo
+/genimage.cfg中的size
+```
+partition empty {
+		partition-type-uuid = 0657fd6d-a4ab-43c4-84e5-0933c84b4f4f
+		size = 1024M 
+	}
+```
 # 运行环境配置
 * 上传lib.tar并解压
 ```
