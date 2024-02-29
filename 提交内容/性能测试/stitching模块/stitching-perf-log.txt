@@ -1,0 +1,1832 @@
+[ERROR:0@0.703] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *OCL_stitch_a123*
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from OCL_stitch_a123
+[ RUN      ] OCL_stitch_a123.a123/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_a123.a123/0, where GetParam() = "orb" (15 ms)
+[ RUN      ] OCL_stitch_a123.a123/1, where GetParam() = "akaze"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =     "akaze"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_a123.a123/1, where GetParam() = "akaze" (2 ms)
+[----------] 2 tests from OCL_stitch_a123 (19 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (20 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] OCL_stitch_a123.a123/0, where GetParam() = "orb"
+[  FAILED  ] OCL_stitch_a123.a123/1, where GetParam() = "akaze"
+
+ 2 FAILED TESTS
+[ERROR:0@0.043] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *OCL_stitch_b12*
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from OCL_stitch_b12
+[ RUN      ] OCL_stitch_b12.b12/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/b1.png" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_b12.b12/0, where GetParam() = "orb" (2 ms)
+[ RUN      ] OCL_stitch_b12.b12/1, where GetParam() = "akaze"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/b1.png" does not exist.
+params    =     "akaze"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_b12.b12/1, where GetParam() = "akaze" (2 ms)
+[----------] 2 tests from OCL_stitch_b12 (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (7 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] OCL_stitch_b12.b12/0, where GetParam() = "orb"
+[  FAILED  ] OCL_stitch_b12.b12/1, where GetParam() = "akaze"
+
+ 2 FAILED TESTS
+[ERROR:0@0.033] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *OCL_stitch_boat*
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from OCL_stitch_boat
+[ RUN      ] OCL_stitch_boat.boat/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/boat1.jpg" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_boat.boat/0, where GetParam() = "orb" (2 ms)
+[ RUN      ] OCL_stitch_boat.boat/1, where GetParam() = "akaze"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/boat1.jpg" does not exist.
+params    =     "akaze"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_boat.boat/1, where GetParam() = "akaze" (2 ms)
+[----------] 2 tests from OCL_stitch_boat (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (7 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] OCL_stitch_boat.boat/0, where GetParam() = "orb"
+[  FAILED  ] OCL_stitch_boat.boat/1, where GetParam() = "akaze"
+
+ 2 FAILED TESTS
+[ERROR:0@0.032] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps*
+[==========] Running 16 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/0, where GetParam() = (640x480, SphericalWarperType)
+[ PERFSTAT ]    (samples=25   mean=293.44   median=293.70   min=291.18   stddev=1.19 (0.4%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/0 (7656 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/1, where GetParam() = (640x480, CylindricalWarperType)
+[ PERFSTAT ]    (samples=13   mean=212.87   median=212.24   min=211.32   stddev=1.24 (0.6%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/1 (2812 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/2, where GetParam() = (640x480, PlaneWarperType)
+[ PERFSTAT ]    (samples=10   mean=165.41   median=164.24   min=162.85   stddev=2.45 (1.5%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/2 (1657 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/3, where GetParam() = (640x480, AffineWarperType)
+[ PERFSTAT ]    (samples=10   mean=165.15   median=164.61   min=163.09   stddev=1.98 (1.2%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/3 (1655 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/4, where GetParam() = (1280x720, SphericalWarperType)
+.
+[ PERFSTAT ]    (samples=13   mean=1182.43   median=1171.18   min=1166.94   stddev=19.85 (1.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/4 (15515 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/5, where GetParam() = (1280x720, CylindricalWarperType)
+[ PERFSTAT ]    (samples=10   mean=856.39   median=851.52   min=848.49   stddev=14.58 (1.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/5 (8573 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/6, where GetParam() = (1280x720, PlaneWarperType)
+[ PERFSTAT ]    (samples=12   mean=670.53   median=660.91   min=656.72   stddev=19.80 (3.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/6 (8056 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/7, where GetParam() = (1280x720, AffineWarperType)
+[ PERFSTAT ]    (samples=10   mean=665.27   median=660.15   min=656.43   stddev=12.67 (1.9%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/7 (6663 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/8, where GetParam() = (1920x1080, SphericalWarperType)
+.
+.
+[ PERFSTAT ]    (samples=10   mean=2685.86   median=2670.30   min=2640.57   stddev=73.23 (2.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/8 (26886 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/9, where GetParam() = (1920x1080, CylindricalWarperType)
+.
+[ PERFSTAT ]    (samples=10   mean=1937.05   median=1927.50   min=1914.76   stddev=21.71 (1.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/9 (19389 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/10, where GetParam() = (1920x1080, PlaneWarperType)
+.
+[ PERFSTAT ]    (samples=10   mean=1513.73   median=1497.73   min=1494.38   stddev=29.62 (2.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/10 (15156 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/11, where GetParam() = (1920x1080, AffineWarperType)
+.
+[ PERFSTAT ]    (samples=10   mean=1512.13   median=1497.60   min=1494.96   stddev=28.08 (1.9%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/11 (15140 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/12, where GetParam() = (3840x2160, SphericalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=100   mean=26022.39   median=26171.97   min=12381.59   stddev=1458.44 (5.6%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/12 (2631114 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/13, where GetParam() = (3840x2160, CylindricalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=100   mean=24446.87   median=24656.38   min=10685.77   stddev=1488.45 (6.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/13 (2466824 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/14, where GetParam() = (3840x2160, PlaneWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=100   mean=24116.77   median=24358.56   min=9256.22   stddev=1608.58 (6.7%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/14 (2433419 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/15, where GetParam() = (3840x2160, AffineWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=100   mean=24093.83   median=24352.53   min=10141.14   stddev=1547.83 (6.4%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps.StitchingWarpers_BuildMaps/15 (2432769 ms)
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_BuildMaps (10093334 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test case ran. (10093344 ms total)
+[  PASSED  ] 16 tests.
+[ERROR:0@0.210] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *OCL_StitchingWarpersFixture_StitchingWarpers_Warp*
+[==========] Running 16 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_Warp
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/0, where GetParam() = (640x480, SphericalWarperType)
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=4970.44   median=4961.08   min=4955.37   stddev=21.52 (0.4%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/0 (49748 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/1, where GetParam() = (640x480, CylindricalWarperType)
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=5243.24   median=5244.33   min=5239.03   stddev=2.44 (0.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/1 (52442 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/2, where GetParam() = (640x480, PlaneWarperType)
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=5675.94   median=5671.34   min=5668.91   stddev=12.53 (0.2%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/2 (56769 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/3, where GetParam() = (640x480, AffineWarperType)
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=5675.10   median=5670.13   min=5666.01   stddev=12.56 (0.2%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/3 (56760 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/4, where GetParam() = (1280x720, SphericalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=19859.46   median=19856.83   min=19851.47   stddev=6.76 (0.0%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/4 (198611 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/5, where GetParam() = (1280x720, CylindricalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=21008.47   median=21003.52   min=20996.21   stddev=13.12 (0.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/5 (210101 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/6, where GetParam() = (1280x720, PlaneWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=22824.74   median=22824.50   min=22797.26   stddev=25.88 (0.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/6 (228263 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/7, where GetParam() = (1280x720, AffineWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=22821.81   median=22818.49   min=22792.88   stddev=25.29 (0.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/7 (228234 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/8, where GetParam() = (1920x1080, SphericalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=44718.17   median=44699.14   min=44668.89   stddev=71.69 (0.2%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/8 (447213 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/9, where GetParam() = (1920x1080, CylindricalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=47259.01   median=47249.17   min=47232.00   stddev=26.12 (0.1%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/9 (472622 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/10, where GetParam() = (1920x1080, PlaneWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=52738.58   median=52660.57   min=52403.24   stddev=305.40 (0.6%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/10 (527907 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/11, where GetParam() = (1920x1080, AffineWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=52726.85   median=52581.28   min=52320.01   stddev=400.58 (0.8%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/11 (528008 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/12, where GetParam() = (3840x2160, SphericalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=202180.15   median=202258.89   min=201354.01   stddev=370.57 (0.2%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/12 (2022464 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/13, where GetParam() = (3840x2160, CylindricalWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=213734.15   median=213749.08   min=212373.31   stddev=619.98 (0.3%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/13 (2138012 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/14, where GetParam() = (3840x2160, PlaneWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=231913.86   median=231989.35   min=230366.18   stddev=723.05 (0.3%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/14 (2319777 ms)
+[ RUN      ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/15, where GetParam() = (3840x2160, AffineWarperType)
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+[ PERFSTAT ]    (samples=10   mean=231902.58   median=232018.06   min=230452.49   stddev=652.13 (0.3%))
+[       OK ] OCL_StitchingWarpersFixture_StitchingWarpers_Warp.StitchingWarpers_Warp/15 (2319684 ms)
+[----------] 16 tests from OCL_StitchingWarpersFixture_StitchingWarpers_Warp (11856674 ms total)
+
+[----------] Global test environment tear-down
+[==========] 16 tests from 1 test case ran. (11856681 ms total)
+[  PASSED  ] 16 tests.
+[ERROR:0@0.191] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *bundleAdjuster_affine*
+[==========] Running 2 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 2 tests from bundleAdjuster_affine
+[ RUN      ] bundleAdjuster_affine.affine/0, where GetParam() = ("orb", "affinePartial")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    = ("orb", "affinePartial")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] bundleAdjuster_affine.affine/0, where GetParam() = ("orb", "affinePartial") (3 ms)
+[ RUN      ] bundleAdjuster_affine.affine/1, where GetParam() = ("orb", "affine")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    = ("orb", "affine")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] bundleAdjuster_affine.affine/1, where GetParam() = ("orb", "affine") (3 ms)
+[----------] 2 tests from bundleAdjuster_affine (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test case ran. (7 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] bundleAdjuster_affine.affine/0, where GetParam() = ("orb", "affinePartial")
+[  FAILED  ] bundleAdjuster_affine.affine/1, where GetParam() = ("orb", "affine")
+
+ 2 FAILED TESTS
+[ERROR:0@0.034] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *FeaturesFinderVec_ParallelFeaturesFinder*
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from FeaturesFinderVec_ParallelFeaturesFinder
+[ RUN      ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/0, where GetParam() = 1
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =           1
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/0, where GetParam() = 1 (2 ms)
+[ RUN      ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/1, where GetParam() = 5
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =           5
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/1, where GetParam() = 5 (2 ms)
+[ RUN      ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/2, where GetParam() = 20
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =          20
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/2, where GetParam() = 20 (2 ms)
+[----------] 3 tests from FeaturesFinderVec_ParallelFeaturesFinder (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (10 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/0, where GetParam() = 1
+[  FAILED  ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/1, where GetParam() = 5
+[  FAILED  ] FeaturesFinderVec_ParallelFeaturesFinder.ParallelFeaturesFinder/2, where GetParam() = 20
+
+ 3 FAILED TESTS
+[ERROR:0@0.032] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *FeaturesFinderVec_SerialFeaturesFinder*
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from FeaturesFinderVec_SerialFeaturesFinder
+[ RUN      ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/0, where GetParam() = 1
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =           1
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/0, where GetParam() = 1 (3 ms)
+[ RUN      ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/1, where GetParam() = 5
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =           5
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/1, where GetParam() = 5 (3 ms)
+[ RUN      ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/2, where GetParam() = 20
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =          20
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/2, where GetParam() = 20 (3 ms)
+[----------] 3 tests from FeaturesFinderVec_SerialFeaturesFinder (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (10 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/0, where GetParam() = 1
+[  FAILED  ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/1, where GetParam() = 5
+[  FAILED  ] FeaturesFinderVec_SerialFeaturesFinder.SerialFeaturesFinder/2, where GetParam() = 20
+
+ 3 FAILED TESTS
+[ERROR:0@0.033] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *match_bestOf2Nearest*
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from match_bestOf2Nearest
+[ RUN      ] match_bestOf2Nearest.bestOf2Nearest/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/boat1.jpg" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] match_bestOf2Nearest.bestOf2Nearest/0, where GetParam() = "orb" (3 ms)
+[----------] 1 test from match_bestOf2Nearest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (4 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] match_bestOf2Nearest.bestOf2Nearest/0, where GetParam() = "orb"
+
+ 1 FAILED TEST
+[ERROR:0@0.033] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *matchVector_bestOf2NearestVectorFeatures*
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from matchVector_bestOf2NearestVectorFeatures
+[ RUN      ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/boat1.jpg" does not exist.
+params    =  ("orb", 2)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2) (3 ms)
+[ RUN      ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/boat1.jpg" does not exist.
+params    =  ("orb", 4)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4) (3 ms)
+[ RUN      ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/boat1.jpg" does not exist.
+params    =  ("orb", 8)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8) (3 ms)
+[----------] 3 tests from matchVector_bestOf2NearestVectorFeatures (9 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (10 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2)
+[  FAILED  ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4)
+[  FAILED  ] matchVector_bestOf2NearestVectorFeatures.bestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8)
+
+ 3 FAILED TESTS
+[ERROR:0@0.033] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *match_affineBestOf2Nearest*
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from match_affineBestOf2Nearest
+[ RUN      ] match_affineBestOf2Nearest.affineBestOf2Nearest/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] match_affineBestOf2Nearest.affineBestOf2Nearest/0, where GetParam() = "orb" (3 ms)
+[----------] 1 test from match_affineBestOf2Nearest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (5 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] match_affineBestOf2Nearest.affineBestOf2Nearest/0, where GetParam() = "orb"
+
+ 1 FAILED TEST
+[ERROR:0@0.033] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *matchVector_affineBestOf2NearestVectorFeatures*
+[==========] Running 3 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 3 tests from matchVector_affineBestOf2NearestVectorFeatures
+[ RUN      ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    =  ("orb", 2)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2) (3 ms)
+[ RUN      ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    =  ("orb", 4)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4) (3 ms)
+[ RUN      ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    =  ("orb", 8)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8) (2 ms)
+[----------] 3 tests from matchVector_affineBestOf2NearestVectorFeatures (8 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test case ran. (10 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/0, where GetParam() = ("orb", 2)
+[  FAILED  ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/1, where GetParam() = ("orb", 4)
+[  FAILED  ] matchVector_affineBestOf2NearestVectorFeatures.affineBestOf2NearestVectorFeatures/2, where GetParam() = ("orb", 8)
+
+ 3 FAILED TESTS
+[ERROR:0@0.036] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *stitch_a123*
+[==========] Running 4 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from OCL_stitch_a123
+[ RUN      ] OCL_stitch_a123.a123/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_a123.a123/0, where GetParam() = "orb" (3 ms)
+[ RUN      ] OCL_stitch_a123.a123/1, where GetParam() = "akaze"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =     "akaze"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_a123.a123/1, where GetParam() = "akaze" (2 ms)
+[----------] 2 tests from OCL_stitch_a123 (6 ms total)
+
+[----------] 2 tests from stitch_a123
+[ RUN      ] stitch_a123.a123/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitch_a123.a123/0, where GetParam() = "orb" (2 ms)
+[ RUN      ] stitch_a123.a123/1, where GetParam() = "akaze"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =     "akaze"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitch_a123.a123/1, where GetParam() = "akaze" (2 ms)
+[----------] 2 tests from stitch_a123 (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 2 test cases ran. (13 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] OCL_stitch_a123.a123/0, where GetParam() = "orb"
+[  FAILED  ] OCL_stitch_a123.a123/1, where GetParam() = "akaze"
+[  FAILED  ] stitch_a123.a123/0, where GetParam() = "orb"
+[  FAILED  ] stitch_a123.a123/1, where GetParam() = "akaze"
+
+ 4 FAILED TESTS
+[ERROR:0@0.033] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *stitchExposureCompensation_a123*
+[==========] Running 5 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 5 tests from stitchExposureCompensation_a123
+[ RUN      ] stitchExposureCompensation_a123.a123/0, where GetParam() = 32
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =          32
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompensation_a123.a123/0, where GetParam() = 32 (2 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/1, where GetParam() = 16
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =          16
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompensation_a123.a123/1, where GetParam() = 16 (2 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/2, where GetParam() = 12
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =          12
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompensation_a123.a123/2, where GetParam() = 12 (2 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/3, where GetParam() = 10
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =          10
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompensation_a123.a123/3, where GetParam() = 10 (2 ms)
+[ RUN      ] stitchExposureCompensation_a123.a123/4, where GetParam() = 8
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    =           8
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompensation_a123.a123/4, where GetParam() = 8 (2 ms)
+[----------] 5 tests from stitchExposureCompensation_a123 (14 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test case ran. (15 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 5 tests, listed below:
+[  FAILED  ] stitchExposureCompensation_a123.a123/0, where GetParam() = 32
+[  FAILED  ] stitchExposureCompensation_a123.a123/1, where GetParam() = 16
+[  FAILED  ] stitchExposureCompensation_a123.a123/2, where GetParam() = 12
+[  FAILED  ] stitchExposureCompensation_a123.a123/3, where GetParam() = 10
+[  FAILED  ] stitchExposureCompensation_a123.a123/4, where GetParam() = 8
+
+ 5 FAILED TESTS
+[ERROR:0@0.032] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *stitchExposureCompMultiFeed_a123*
+[==========] Running 20 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 20 tests from stitchExposureCompMultiFeed_a123
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/0, where GetParam() = ("gain", 1)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("gain", 1)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/0, where GetParam() = ("gain", 1) (3 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/1, where GetParam() = ("gain", 2)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("gain", 2)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/1, where GetParam() = ("gain", 2) (3 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/2, where GetParam() = ("gain", 3)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("gain", 3)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/2, where GetParam() = ("gain", 3) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/3, where GetParam() = ("gain", 4)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("gain", 4)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/3, where GetParam() = ("gain", 4) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/4, where GetParam() = ("gain", 5)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("gain", 5)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/4, where GetParam() = ("gain", 5) (3 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/5, where GetParam() = ("channels", 1)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("channels", 1)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/5, where GetParam() = ("channels", 1) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/6, where GetParam() = ("channels", 2)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("channels", 2)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/6, where GetParam() = ("channels", 2) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/7, where GetParam() = ("channels", 3)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("channels", 3)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/7, where GetParam() = ("channels", 3) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/8, where GetParam() = ("channels", 4)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("channels", 4)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/8, where GetParam() = ("channels", 4) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/9, where GetParam() = ("channels", 5)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("channels", 5)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/9, where GetParam() = ("channels", 5) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/10, where GetParam() = ("blocks_gain", 1)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_gain", 1)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/10, where GetParam() = ("blocks_gain", 1) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/11, where GetParam() = ("blocks_gain", 2)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_gain", 2)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/11, where GetParam() = ("blocks_gain", 2) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/12, where GetParam() = ("blocks_gain", 3)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_gain", 3)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/12, where GetParam() = ("blocks_gain", 3) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/13, where GetParam() = ("blocks_gain", 4)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_gain", 4)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/13, where GetParam() = ("blocks_gain", 4) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/14, where GetParam() = ("blocks_gain", 5)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_gain", 5)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/14, where GetParam() = ("blocks_gain", 5) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/15, where GetParam() = ("blocks_channels", 1)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_channels", 1)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/15, where GetParam() = ("blocks_channels", 1) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/16, where GetParam() = ("blocks_channels", 2)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_channels", 2)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/16, where GetParam() = ("blocks_channels", 2) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/17, where GetParam() = ("blocks_channels", 3)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_channels", 3)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/17, where GetParam() = ("blocks_channels", 3) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/18, where GetParam() = ("blocks_channels", 4)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_channels", 4)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/18, where GetParam() = ("blocks_channels", 4) (2 ms)
+[ RUN      ] stitchExposureCompMultiFeed_a123.a123/19, where GetParam() = ("blocks_channels", 5)
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/a1.png" does not exist.
+params    = ("blocks_channels", 5)
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/19, where GetParam() = ("blocks_channels", 5) (2 ms)
+[----------] 20 tests from stitchExposureCompMultiFeed_a123 (53 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 1 test case ran. (54 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 20 tests, listed below:
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/0, where GetParam() = ("gain", 1)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/1, where GetParam() = ("gain", 2)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/2, where GetParam() = ("gain", 3)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/3, where GetParam() = ("gain", 4)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/4, where GetParam() = ("gain", 5)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/5, where GetParam() = ("channels", 1)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/6, where GetParam() = ("channels", 2)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/7, where GetParam() = ("channels", 3)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/8, where GetParam() = ("channels", 4)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/9, where GetParam() = ("channels", 5)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/10, where GetParam() = ("blocks_gain", 1)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/11, where GetParam() = ("blocks_gain", 2)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/12, where GetParam() = ("blocks_gain", 3)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/13, where GetParam() = ("blocks_gain", 4)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/14, where GetParam() = ("blocks_gain", 5)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/15, where GetParam() = ("blocks_channels", 1)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/16, where GetParam() = ("blocks_channels", 2)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/17, where GetParam() = ("blocks_channels", 3)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/18, where GetParam() = ("blocks_channels", 4)
+[  FAILED  ] stitchExposureCompMultiFeed_a123.a123/19, where GetParam() = ("blocks_channels", 5)
+
+20 FAILED TESTS
+[ERROR:0@0.033] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *stitch_b12*
+[==========] Running 4 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 2 tests from OCL_stitch_b12
+[ RUN      ] OCL_stitch_b12.b12/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/b1.png" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_b12.b12/0, where GetParam() = "orb" (3 ms)
+[ RUN      ] OCL_stitch_b12.b12/1, where GetParam() = "akaze"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/b1.png" does not exist.
+params    =     "akaze"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] OCL_stitch_b12.b12/1, where GetParam() = "akaze" (3 ms)
+[----------] 2 tests from OCL_stitch_b12 (6 ms total)
+
+[----------] 2 tests from stitch_b12
+[ RUN      ] stitch_b12.b12/0, where GetParam() = "orb"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/b1.png" does not exist.
+params    =       "orb"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitch_b12.b12/0, where GetParam() = "orb" (2 ms)
+[ RUN      ] stitch_b12.b12/1, where GetParam() = "akaze"
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/b1.png" does not exist.
+params    =     "akaze"
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitch_b12.b12/1, where GetParam() = "akaze" (2 ms)
+[----------] 2 tests from stitch_b12 (6 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 2 test cases ran. (13 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] OCL_stitch_b12.b12/0, where GetParam() = "orb"
+[  FAILED  ] OCL_stitch_b12.b12/1, where GetParam() = "akaze"
+[  FAILED  ] stitch_b12.b12/0, where GetParam() = "orb"
+[  FAILED  ] stitch_b12.b12/1, where GetParam() = "akaze"
+
+ 4 FAILED TESTS
+[ERROR:0@0.032] global persistence.cpp:512 open Can't open file: 'stitching.xml' in read mode
+TEST: Skip tests with tags: 'mem_6gb', 'verylong'
+CTEST_FULL_OUTPUT
+OpenCV version: 4.8.1
+OpenCV VCS version: unknown
+Build type: Release
+Compiler: /home/honda/duo/duo-sdk/riscv64-linux-musl-x86_64/bin/riscv64-unknown-linux-musl-g++  (ver 10.2.0)
+Parallel framework: pthreads (nthreads=1)
+CPU features: RVV
+OpenCL is disabled
+Note: Google Test filter = *stitchDatasets_affine*
+[==========] Running 8 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 8 tests from stitchDatasets_affine
+[ RUN      ] stitchDatasets_affine.affine/0, where GetParam() = ("s", "orb")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    = ("s", "orb")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/0, where GetParam() = ("s", "orb") (12 ms)
+[ RUN      ] stitchDatasets_affine.affine/1, where GetParam() = ("s", "akaze")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/s1.jpg" does not exist.
+params    = ("s", "akaze")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/1, where GetParam() = ("s", "akaze") (3 ms)
+[ RUN      ] stitchDatasets_affine.affine/2, where GetParam() = ("budapest", "orb")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/budapest1.jpg" does not exist.
+params    = ("budapest", "orb")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/2, where GetParam() = ("budapest", "orb") (3 ms)
+[ RUN      ] stitchDatasets_affine.affine/3, where GetParam() = ("budapest", "akaze")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/budapest1.jpg" does not exist.
+params    = ("budapest", "akaze")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/3, where GetParam() = ("budapest", "akaze") (2 ms)
+[ RUN      ] stitchDatasets_affine.affine/4, where GetParam() = ("newspaper", "orb")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/newspaper1.jpg" does not exist.
+params    = ("newspaper", "orb")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/4, where GetParam() = ("newspaper", "orb") (2 ms)
+[ RUN      ] stitchDatasets_affine.affine/5, where GetParam() = ("newspaper", "akaze")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/newspaper1.jpg" does not exist.
+params    = ("newspaper", "akaze")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/5, where GetParam() = ("newspaper", "akaze") (2 ms)
+[ RUN      ] stitchDatasets_affine.affine/6, where GetParam() = ("prague", "orb")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/prague1.jpg" does not exist.
+params    = ("prague", "orb")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/6, where GetParam() = ("prague", "orb") (3 ms)
+[ RUN      ] stitchDatasets_affine.affine/7, where GetParam() = ("prague", "akaze")
+/home/honda/duo/opencv-4.8.1/modules/ts/src/ts_perf.cpp:1922: Failure
+Failed
+  Requested file "./stitching/prague1.jpg" does not exist.
+params    = ("prague", "akaze")
+termination reason:  aborted by the performance testing framework
+bytesIn   =          0
+bytesOut  =          0
+samples   =          0 of 100
+outliers  =          0
+frequency =          0
+[  FAILED  ] stitchDatasets_affine.affine/7, where GetParam() = ("prague", "akaze") (2 ms)
+[----------] 8 tests from stitchDatasets_affine (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test case ran. (33 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 8 tests, listed below:
+[  FAILED  ] stitchDatasets_affine.affine/0, where GetParam() = ("s", "orb")
+[  FAILED  ] stitchDatasets_affine.affine/1, where GetParam() = ("s", "akaze")
+[  FAILED  ] stitchDatasets_affine.affine/2, where GetParam() = ("budapest", "orb")
+[  FAILED  ] stitchDatasets_affine.affine/3, where GetParam() = ("budapest", "akaze")
+[  FAILED  ] stitchDatasets_affine.affine/4, where GetParam() = ("newspaper", "orb")
+[  FAILED  ] stitchDatasets_affine.affine/5, where GetParam() = ("newspaper", "akaze")
+[  FAILED  ] stitchDatasets_affine.affine/6, where GetParam() = ("prague", "orb")
+[  FAILED  ] stitchDatasets_affine.affine/7, where GetParam() = ("prague", "akaze")
+
+ 8 FAILED TESTS

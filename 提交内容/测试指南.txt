@@ -1,0 +1,9 @@
+1.开启swap
+mkswap /dev/mmcblk0p3
+swapon /dev/mmcblk0p3
+2.上传运行库并配置环境变量
+scp -r lib.tar root@192.168.42.1:/root/
+tar -xvf lib.tar
+export RISCV_ROOT_PATH=$DUO_HOME/duo-sdk
+3.运行脚本及其所需文件到开发板
+4.从开发板下载运行结果到本地

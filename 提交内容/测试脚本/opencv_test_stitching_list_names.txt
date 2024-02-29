@@ -1,0 +1,11 @@
+OCL_SphericalWarperTest
+OCL_CylindricalWarperTest
+OCL_PlaneWarperTest
+OCL_AffineWarperTest
+MultiBandBlender
+ExposureCompensate
+ParallelFeaturesFinder
+RangeMatcher
+ReprojectionTest
+ImageStitcher
+WaveCorrection

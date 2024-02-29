@@ -1,0 +1,11 @@
+Conv
+Conv1D
+Conv3D
+Layer_NaryEltwise
+Layer_Slice
+Layer_Scatter
+Layer_ScatterND
+Layer_LayerNorm
+Layer_LayerNormExpanded
+DNNTestNetwork
+Layer_LSTM

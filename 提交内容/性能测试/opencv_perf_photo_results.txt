@@ -1,0 +1,15 @@
+Thu Jan  1 00:23:41 UTC 1970
+OCL_Photo_DenoisingGrayscale
+0
+OCL_Photo_DenoisingColored
+0
+OCL_Photo_DISABLED_DenoisingGrayscaleMulti
+0
+OCL_Photo_DISABLED_DenoisingColoredMulti
+0
+HDR
+0
+InpaintArea_InpaintingMethod_inpaint
+0
+Test end @
+Thu Jan  1 00:23:45 UTC 1970
