@@ -513,6 +513,7 @@ void parallel_for_(const cv::Range& range, const cv::ParallelLoopBody& body, dou
     if (range.empty())
         return;
 
+#ifndef OPENCV_DISABLE_THREAD_SUPPORT
     static std::atomic<bool> flagNestedParallelFor(false);
     bool isNotNestedRegion = !flagNestedParallelFor.load();
     if (isNotNestedRegion)
@@ -531,6 +532,7 @@ void parallel_for_(const cv::Range& range, const cv::ParallelLoopBody& body, dou
         }
     }
     else // nested parallel_for_() calls are not parallelized
+#endif
     {
         CV_UNUSED(nstripes);
         body(range);

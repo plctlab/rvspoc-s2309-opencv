@@ -2140,8 +2140,13 @@ const double* getExpTab64f()
 const float* getExpTab32f()
 {
     static float CV_DECL_ALIGNED(64) expTab_f[EXPTAB_MASK+1];
+#ifndef OPENCV_DISABLE_THREAD_SUPPORT
     static std::atomic<bool> expTab_f_initialized(false);
     if (!expTab_f_initialized.load())
+#else
+    static bool expTab_f_initialized = false;
+    if (!expTab_f_initialized)
+#endif
     {
         for( int j = 0; j <= EXPTAB_MASK; j++ )
             expTab_f[j] = (float)expTab[j];
